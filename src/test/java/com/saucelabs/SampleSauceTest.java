@@ -110,7 +110,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         LinkedList browsers = new LinkedList();
         browsers.add(new String[]{"Windows 8.1", "11", "internet explorer"});
         browsers.add(new String[]{"OSX 10.8", "6", "safari"});
-       /* browsers.add(new String[]{"Linux", "4.4", "Android Emulator"});  */   
+        browsers.add(new String[]{"Linux", "4.4", "Android"}); 
+        browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone"}); 
         return browsers;
     }
 
@@ -131,7 +132,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
             capabilities.setCapability(CapabilityType.VERSION, version);
         }
         capabilities.setCapability(CapabilityType.PLATFORM, os);
-        capabilities.setCapability("name", "TravisCI Test 2");
+        capabilities.setCapability("name", "Simple Brower Tests 2");
         this.driver = new RemoteWebDriver(
                 new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() + "@ondemand.saucelabs.com:80/wd/hub"),
                 capabilities);
