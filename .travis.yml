@@ -1,8 +1,8 @@
 language: java
 jdk:
 - openjdk7
-- oraclejdk7
-- oraclejdk8
+#- oraclejdk7
+#- oraclejdk8
 env:
   global:
   - secure: U4T6MOzC8a2hz36I7rAVOIUmoQbJ7c9sHF8W3Epf9tMLUcstG7RN3Kr2LAuGsSD9Nlgr0AY60SMSqOHNXedyT43n3fW0LVDF2+/HMl5ZWWCiTreaq11PgYKEuLHmAq5RAagiLiPFfT5JOiSs5FnOTM0n6795jkwM4UvU1Ob7DKU=
