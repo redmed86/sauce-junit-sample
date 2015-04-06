@@ -1,4 +1,4 @@
-SauceOnDemandSessionID=ee86a52d85f74fc0b52ff135042b5a5b job-name=com.saucelabs.SampleSauceTest.amazon[1]
-SauceOnDemandSessionID=d298f0a9db244005a1ef95c15c209f8f job-name=com.saucelabs.SampleSauceTest.amazon[0]
-SauceOnDemandSessionID=316ef3f88a7c4c34968f4183ad50d34a job-name=com.saucelabs.SampleSauceTest.amazon[2]
-SauceOnDemandSessionID=228fed15764a417d9a846ee9839e4f58 job-name=com.saucelabs.SampleSauceTest.amazon[3]
+SauceOnDemandSessionID=fde597ea79ee45d59f49c09dc01c2c95 job-name=com.saucelabs.SampleSauceTest.amazon[0]
+SauceOnDemandSessionID=4a238da903bc4c059e46bb7eb31d5e21 job-name=com.saucelabs.SampleSauceTest.amazon[1]
+SauceOnDemandSessionID=a2173aa555ae41e6959c0c4090dd1504 job-name=com.saucelabs.SampleSauceTest.amazon[2]
+SauceOnDemandSessionID=41a07c20e9fa49f480d482d8d82da43b job-name=com.saucelabs.SampleSauceTest.amazon[3]
