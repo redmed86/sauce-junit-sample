@@ -132,9 +132,10 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
             capabilities.setCapability(CapabilityType.VERSION, version);
         }
         capabilities.setCapability(CapabilityType.PLATFORM, os);
-        capabilities.setCapability("name", "Current Build Test 3");
-        capabilities.setCapability("prerun-executable", "https://s3-us-west-1.amazonaws.com/kristianmeier/sc.exe");
-        capabilities.setCapability("prerun-args", "--silent, -a, -q");
+        capabilities.setCapability("name", "Current Build Seperating Tunnel test");
+        capabilities.setCapability("tunnelIdentifier", "TunnelA");
+       /* capabilities.setCapability("prerun-executable", "https://s3-us-west-1.amazonaws.com/kristianmeier/sc.exe");
+        capabilities.setCapability("prerun-args", "--silent, -a, -q"); */
        
         this.driver = new RemoteWebDriver(
                 new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() + "@ondemand.saucelabs.com:80/wd/hub"),
