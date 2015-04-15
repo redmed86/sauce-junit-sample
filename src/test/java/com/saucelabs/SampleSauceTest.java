@@ -132,7 +132,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
             capabilities.setCapability(CapabilityType.VERSION, version);
         }
         capabilities.setCapability(CapabilityType.PLATFORM, os);
-        capabilities.setCapability("name", "Current Build Seperating Tunnel test");
+        capabilities.setCapability("name", "Current Build Seperating Tunnel Test");
         capabilities.setCapability("tunnelIdentifier", "TunnelA");
        /* capabilities.setCapability("prerun-executable", "https://s3-us-west-1.amazonaws.com/kristianmeier/sc.exe");
         capabilities.setCapability("prerun-args", "--silent, -a, -q"); */
