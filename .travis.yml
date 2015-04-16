@@ -9,3 +9,4 @@ env:
   - secure: OxWIPXLv+52nEBL4+sYyba8kPpihu2EPvitZ54g4SrJV0o29VDhFegJdx9FAAXAfh8NGJ1YozkMm2P+J2crylZYplHrF4Dvi7Gf9DDGLAKlc5Mf3Xb+toWwrYXFnoEr6LGGqwCCo1TJ15wfMUrRaUJucWkDi4ZhFt/TN/MAry74=
 addons:
   sauce_connect: true
+  
