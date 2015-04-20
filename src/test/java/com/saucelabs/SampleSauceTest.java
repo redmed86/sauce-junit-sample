@@ -159,7 +159,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         if (!driver.findElement(By.xpath("//div[@class='app-title']/select//option[3]")).isSelected()) {
             driver.findElement(By.xpath("//div[@class='app-title']/select//option[3]")).click();
         }
-        driver.findElement(By.linkText("Log Out")).click();
+       /* driver.findElement(By.linkText("Log Out")).click(); */
     }
 
     /**
