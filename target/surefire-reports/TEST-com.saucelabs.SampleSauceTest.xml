@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.saucelabs.SampleSauceTest" time="183.199" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.saucelabs.SampleSauceTest" time="312.685" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib"/>
@@ -62,8 +62,61 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="amazon[1]" time="8.641"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="amazon[0]" time="17.194"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="amazon[2]" time="69.748"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="amazon[3]" time="87.616"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="amazon[1]" time="11.263"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="amazon[0]" time="30.064"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="amazon[2]" time="71.911"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="amazon[3]" time="199.447">
+    <error message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 113 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.43.0&apos;, revision: &apos;accb3003b9fb8f7cae30f9669b4c594a065396a6&apos;, time: &apos;2014-09-09 22:22:51&apos;
+System info: host: &apos;kristians-MacBook-Air.local&apos;, ip: &apos;10.10.4.212&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.2&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, safari=true, warnings={}, webdriver.remote.quietExceptions=true, hasMetadata=true, databaseEnabled=false, deviceName=iPhone Simulator, platform=MAC, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, desired={proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, platformVersion=8.2, webdriver.remote.quietExceptions=true, browserName=safari, platformName=iOS, deviceName=iPhone Simulator}, webdriver.remote.sessionid=6348d5dd45914d5cbfe26a35e2c46057, platformVersion=8.2, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: 6348d5dd45914d5cbfe26a35e2c46057" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 113 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.43.0&apos;, revision: &apos;accb3003b9fb8f7cae30f9669b4c594a065396a6&apos;, time: &apos;2014-09-09 22:22:51&apos;
+System info: host: &apos;kristians-MacBook-Air.local&apos;, ip: &apos;10.10.4.212&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.2&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, safari=true, warnings={}, webdriver.remote.quietExceptions=true, hasMetadata=true, databaseEnabled=false, deviceName=iPhone Simulator, platform=MAC, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, desired={proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, platformVersion=8.2, webdriver.remote.quietExceptions=true, browserName=safari, platformName=iOS, deviceName=iPhone Simulator}, webdriver.remote.sessionid=6348d5dd45914d5cbfe26a35e2c46057, platformVersion=8.2, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: 6348d5dd45914d5cbfe26a35e2c46057
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.saucelabs.SampleSauceTest.amazon(SampleSauceTest.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+    <system-out>SauceOnDemandSessionID=6348d5dd45914d5cbfe26a35e2c46057 job-name=com.saucelabs.SampleSauceTest.amazon[3]
+Job link: https://saucelabs.com/jobs/6348d5dd45914d5cbfe26a35e2c46057?auth=d02b12aa2827066c937b535a2b12641f
+</system-out>
+  </testcase>
 </testsuite>
