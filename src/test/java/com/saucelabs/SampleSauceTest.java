@@ -156,8 +156,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.id("login-pass")).clear();
         driver.findElement(By.id("login-pass")).sendKeys("somepass");
         driver.findElement(By.linkText("login")).click();
-        if (!driver.findElement(By.xpath("//div[@class='app-title']/select//option[3]")).isSelected()) {
-            driver.findElement(By.xpath("//div[@class='app-title']/select//option[3]")).click();
+        /*if (!driver.findElement(By.xpath("//div[@class='app-title']/select//option[3]")).isSelected()) {
+            driver.findElement(By.xpath("//div[@class='app-title']/select//option[3]")).click(); */
         }
        /* driver.findElement(By.linkText("Log Out")).click(); */
     }
