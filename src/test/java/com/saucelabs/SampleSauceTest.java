@@ -1,17 +1,18 @@
-package com.saucelabs;
+package com.yourcompany;
 
 import com.saucelabs.common.SauceOnDemandAuthentication;
+
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
-import org.openqa.selenium.Platform;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import com.saucelabs.junit.Parallelized;
+
 import com.saucelabs.junit.ConcurrentParameterized;
 import com.saucelabs.junit.SauceOnDemandTestWatcher;
 
@@ -20,26 +21,11 @@ import java.util.LinkedList;
 
 import static org.junit.Assert.assertEquals;
 
-import com.saucelabs.common.SauceOnDemandAuthentication;
 import com.saucelabs.common.SauceOnDemandSessionIdProvider;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Rule;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.*;
 
-import java.net.URL;
-import java.util.LinkedList;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static org.junit.Assert.assertEquals;
 
 /**
  * Demonstrates how to write a JUnit test that runs tests against Sauce Labs using multiple browsers in parallel.
@@ -47,7 +33,7 @@ import static org.junit.Assert.assertEquals;
  * The test also includes the {@link SauceOnDemandTestWatcher} which will invoke the Sauce REST API to mark
  * the test as passed or failed.
  *
- * @author Ross Rowe
+ * @author Neil Manvar
  */
 @RunWith(ConcurrentParameterized.class)
 public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
@@ -77,6 +63,15 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      */
     private String version;
     /**
+     * Represents the deviceName of mobile device
+     */
+    private String deviceName;
+    /**
+     * Represents the device-orientation of mobile device
+     */
+
+    private String name;
+    /**
      * Instance variable which contains the Sauce Job Id.
      */
     private String sessionId;
@@ -93,12 +88,17 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      * @param os
      * @param version
      * @param browser
+     * @param deviceName
+     * @param deviceOrientation
      */
-    public SampleSauceTest(String os, String version, String browser) {
+
+    public SampleSauceTest(String os, String version, String browser, String name) {
         super();
         this.os = os;
         this.version = version;
         this.browser = browser;
+        this.deviceName = deviceName;
+        this.name = name;
     }
 
     /**
@@ -108,10 +108,11 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @ConcurrentParameterized.Parameters
     public static LinkedList browsersStrings() {
         LinkedList browsers = new LinkedList();
-        browsers.add(new String[]{"Windows 8.1", "11", "internet explorer"});
-        browsers.add(new String[]{"OSX 10.8", "6", "safari"});
-        browsers.add(new String[]{"Linux", "4.4", "Android"}); 
-        browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone"});
+        browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"});
+        browsers.add(new String[]{"OSX 10.8", "6", "safari", "Mac 10.8 Safari 6"});
+        browsers.add(new String[]{"Linux", "4.4", "Android", "Android Emulator 4.4"}); 
+        browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone", "iPhone Emulator 8.2    "});    
+
         return browsers;
     }
 
@@ -125,45 +126,51 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      */
     @Before
     public void setUp() throws Exception {
-
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability(CapabilityType.BROWSER_NAME, browser);
-        if (version != null) {
-            capabilities.setCapability(CapabilityType.VERSION, version);
-        }
+
+        if (browser != null) capabilities.setCapability(CapabilityType.BROWSER_NAME, browser);
+        if (version != null) capabilities.setCapability(CapabilityType.VERSION, version);
+        if (deviceName != null) capabilities.setCapability("deviceName", deviceName);
+
         capabilities.setCapability(CapabilityType.PLATFORM, os);
-        capabilities.setCapability("name", "Sauce Connect -behind firewall");
-       /* capabilities.setCapability("tunnelIdentifier", "TunnelA");*/
-       
+        capabilities.setCapability("name", name);
+
         this.driver = new RemoteWebDriver(
-                new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() + "@ondemand.saucelabs.com:80/wd/hub"),
+                new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
+                        "@ondemand.saucelabs.com:80/wd/hub"),
                 capabilities);
         this.sessionId = (((RemoteWebDriver) driver).getSessionId()).toString();
-
     }
 
     /**
-     * Runs a simple test
+     * Runs a simple test verifying the title of the americanexpress.com home page.
+     * @throws Exception
+     */
+    /*
+    @Test
+    public void verifyTitleTest() throws Exception {
+        driver.get("http://www.americanexpress.com/");
+        assertEquals("American Express Credit Cards, Rewards, Travel and Business Services", driver.getTitle());
+    }
+*/
+    /**
+     * Go to americanexpress.com, fill out username and password field, and click login
      * @throws Exception
      */
     @Test
-    public void amazon() throws Exception {
+    public void loginTest() throws Exception {
         driver.get("http://localhost/");
-        driver.findElement(By.id("login-name")).click();
-        driver.findElement(By.id("login-name")).clear();
-        driver.findElement(By.id("login-name")).sendKeys("someusr");
-        driver.findElement(By.id("login-pass")).click();
-        driver.findElement(By.id("login-pass")).clear();
-        driver.findElement(By.id("login-pass")).sendKeys("somepass");
-        driver.findElement(By.linkText("login")).click();
-        /*if (!driver.findElement(By.xpath("//div[@class='app-title']/select//option[3]")).isSelected()) {
-            driver.findElement(By.xpath("//div[@class='app-title']/select//option[3]")).click(); */
-        }
-       /* driver.findElement(By.linkText("Log Out")).click(); */
+
+        WebDriverWait wait = new WebDriverWait(driver, 5); // wait for a maximum of 5 seconds
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#login-name")));
+        driver.findElement(By.cssSelector("#login-name")).sendKeys("sampleUsername");
+        driver.findElement(By.cssSelector("#login-pass")).sendKeys("samplePassword");
+       /* driver.findElement(By.cssSelector("#btn btn-primary btn-large btn-block")).click(); */
+
     }
 
     /**
-     * Closes the {@link WebDriver} session.    
+     * Closes the {@link WebDriver} session.
      *
      * @throws Exception
      */
@@ -181,7 +188,3 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         return sessionId;
     }
 }
-
-
-
-
