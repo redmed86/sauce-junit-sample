@@ -108,17 +108,17 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @ConcurrentParameterized.Parameters
     public static LinkedList browsersStrings() {
         LinkedList browsers = new LinkedList();
-        browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
-        browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
-        browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
-        browsers.add(new String[]{"Windows 8", "36", "firefox", "Windows 8 Firefox 36"});      
-        browsers.add(new String[]{"OSX 10.8", "6", "safari", "Mac 10.8 Safari 6"});
-        browsers.add(new String[]{"Linux", "4.4", "Android", "Android Emulator 4.4"}); 
-        browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone", "iPhone Emulator 8.2"});
-        browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
-        browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
-        browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
-        browsers.add(new String[]{"Windows 8", "36", "firefox", "Windows 8 Firefox 36"});
+       browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
+       // browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
+      //  browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
+      //  browsers.add(new String[]{"Windows 8", "36", "firefox", "Windows 8 Firefox 36"});      
+      //  browsers.add(new String[]{"OSX 10.8", "6", "safari", "Mac 10.8 Safari 6"});
+      //  browsers.add(new String[]{"Linux", "4.4", "Android", "Android Emulator 4.4"}); 
+      //  browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone", "iPhone Emulator 8.2"});
+      //  browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
+      //  browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
+      //  browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
+      //  browsers.add(new String[]{"Windows 8", "36", "firefox", "Windows 8 Firefox 36"});
 
         return browsers;
     }
@@ -166,14 +166,27 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      */
     @Test
     public void loginTest() throws Exception {
-        driver.get("http://localhost/");
+        driver.get("www.stubhub.com/");
 
-        WebDriverWait wait = new WebDriverWait(driver, 5); // wait for a maximum of 5 seconds
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#login-name")));
-        driver.findElement(By.cssSelector("#login-name")).sendKeys("sampleUsername");
-        driver.findElement(By.cssSelector("#login-pass")).sendKeys("samplePassword");
-       /* driver.findElement(By.cssSelector("#btn btn-primary btn-large btn-block")).click(); */
+     WebDriverWait wait = new WebDriverWait(driver, 5); // wait for a maximum of 5 seconds
+     wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#searchStr")));
 
+      //  Thread.sleep(5000);
+
+
+    //    driver.findElement(By.linkText("Sign in")).click();
+
+   // WebDriverWait wait2 = new WebDriverWait(driver, 5); // wait for a maximum of 5 seconds
+   // wait2.until(ExpectedConditions.presenceOfElementLocated(By.id("loginEmail")));  
+
+     //   driver.findElement(By.cssSelector("#loginEmail")).sendKeys("nocturnegroup@gmail.com");
+     //   driver.findElement(By.cssSelector("#loginPassword")).sendKeys("SauceLabs2015");
+
+     //   Thread.sleep(5000);
+     //   driver.findElement(By.cssSelector("#btn-sprite btn-sprite-medium")).click();
+        driver.findElement(By.id("searchStr")).sendKeys("San Francisco Giants");
+        driver.findElement(By.id("srchbtn")).click();
+        Thread.sleep(5000);
     }
 
     /**
