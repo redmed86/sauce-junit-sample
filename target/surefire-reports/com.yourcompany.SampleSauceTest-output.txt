@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 SauceOnDemandSessionID=da5e50dee48540ddb6a467f7166c7cff job-name=com.yourcompany.SampleSauceTest.loginTest[8]
 SauceOnDemandSessionID=36168ce7f0a94b42b174eb6d0f5f65f0 job-name=com.yourcompany.SampleSauceTest.loginTest[1]
 SauceOnDemandSessionID=d07f2705221347aa8f6c47d90133acd9 job-name=com.yourcompany.SampleSauceTest.loginTest[0]
@@ -9,3 +10,6 @@ SauceOnDemandSessionID=65222965a3e140eb9d876424a08a03f1 job-name=com.yourcompany
 SauceOnDemandSessionID=99097ebcf5e746e99d6981e2a9ce5e45 job-name=com.yourcompany.SampleSauceTest.loginTest[3]
 SauceOnDemandSessionID=18cb46eadc194ad2b5abb5331892e65a job-name=com.yourcompany.SampleSauceTest.loginTest[4]
 SauceOnDemandSessionID=de113814e5a1400ba278e4bb16b077f4 job-name=com.yourcompany.SampleSauceTest.loginTest[5]
+=======
+SauceOnDemandSessionID=e13a69e615974dc7a00395441d7981b5 job-name=com.yourcompany.SampleSauceTest.loginTest[0]
+>>>>>>> origin/master

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< HEAD
 <testsuite tests="11" failures="0" name="com.yourcompany.SampleSauceTest" time="283.888" errors="0" skipped="0">
+=======
+<testsuite tests="1" failures="0" name="com.yourcompany.SampleSauceTest" time="25.674" errors="0" skipped="0">
+>>>>>>> origin/master
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.40-b25"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/kristianmeier/Desktop/dev/travisci_localhost_demo"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/kristianmeier/Desktop/Dev/stubhub"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +20,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/kristianmeier/Desktop/dev/travisci_localhost_demo"/>
+    <property name="user.dir" value="/Users/kristianmeier/Desktop/dev/stubhub"/>
     <property name="java.runtime.version" value="1.8.0_40-b26"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -62,6 +66,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
+<<<<<<< HEAD
   <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="12.085"/>
   <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="16.746"/>
   <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="14.328"/>
@@ -73,4 +78,7 @@
   <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="11.516"/>
   <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="9.454"/>
   <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="57.125"/>
+=======
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="25.674"/>
+>>>>>>> origin/master
 </testsuite>
