@@ -26,7 +26,7 @@ import com.saucelabs.common.SauceOnDemandSessionIdProvider;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-
+//Garmin
 /**
  * Demonstrates how to write a JUnit test that runs tests against Sauce Labs using multiple browsers in parallel.
  * <p/>
@@ -108,31 +108,17 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @ConcurrentParameterized.Parameters
     public static LinkedList browsersStrings() {
         LinkedList browsers = new LinkedList();
-<<<<<<< HEAD
         browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
         browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
         browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
         browsers.add(new String[]{"Windows XP", "36", "firefox", "Windows 8 Firefox 36"});      
         browsers.add(new String[]{"OSX 10.8", "6", "safari", "Mac 10.8 Safari 6"});
-        browsers.add(new String[]{"Linux", "4.4", "Android", "Android Emulator 4.4"}); 
-        browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone", "iPhone Emulator 8.2"});
+        //browsers.add(new String[]{"Linux", "4.4", "Android", "Android Emulator 4.4"}); 
+        //browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone", "iPhone Emulator 8.2"});
         browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
         browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
         browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
         browsers.add(new String[]{"Windows 8", "36", "firefox", "Windows 8 Firefox 36"});
-=======
-       browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
-       // browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
-      //  browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
-      //  browsers.add(new String[]{"Windows 8", "36", "firefox", "Windows 8 Firefox 36"});      
-      //  browsers.add(new String[]{"OSX 10.8", "6", "safari", "Mac 10.8 Safari 6"});
-      //  browsers.add(new String[]{"Linux", "4.4", "Android", "Android Emulator 4.4"}); 
-      //  browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone", "iPhone Emulator 8.2"});
-      //  browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
-      //  browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
-      //  browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
-      //  browsers.add(new String[]{"Windows 8", "36", "firefox", "Windows 8 Firefox 36"});
->>>>>>> origin/master
 
         return browsers;
     }
@@ -180,27 +166,16 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      */
     @Test
     public void loginTest() throws Exception {
-        driver.get("www.stubhub.com/");
-
-     WebDriverWait wait = new WebDriverWait(driver, 5); // wait for a maximum of 5 seconds
-     wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#searchStr")));
-
-      //  Thread.sleep(5000);
-
-
-    //    driver.findElement(By.linkText("Sign in")).click();
-
-   // WebDriverWait wait2 = new WebDriverWait(driver, 5); // wait for a maximum of 5 seconds
-   // wait2.until(ExpectedConditions.presenceOfElementLocated(By.id("loginEmail")));  
-
-     //   driver.findElement(By.cssSelector("#loginEmail")).sendKeys("nocturnegroup@gmail.com");
-     //   driver.findElement(By.cssSelector("#loginPassword")).sendKeys("SauceLabs2015");
-
-     //   Thread.sleep(5000);
-     //   driver.findElement(By.cssSelector("#btn-sprite btn-sprite-medium")).click();
-        driver.findElement(By.id("searchStr")).sendKeys("San Francisco Giants");
-        driver.findElement(By.id("srchbtn")).click();
+        driver.get("http://localhost/");
         Thread.sleep(5000);
+
+     //   WebDriverWait wait = new WebDriverWait(driver, 5); // wait for a maximum of 5 seconds
+      //  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("rounded defaultify placeholder")));
+        driver.findElement(By.id("login-name")).sendKeys("someuser");
+        driver.findElement(By.id("login-pass")).sendKeys("somepasas");
+        driver.findElement(By.id("login-button")).click();
+     
+
     }
 
     /**
