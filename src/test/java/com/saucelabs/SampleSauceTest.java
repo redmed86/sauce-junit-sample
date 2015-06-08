@@ -171,7 +171,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
 
      //   WebDriverWait wait = new WebDriverWait(driver, 5); // wait for a maximum of 5 seconds
       //  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("rounded defaultify placeholder")));
-        driver.findElement(By.id("login-name")).sendKeys("someuser");
+        driver.findElement(By.id("login-name")).sendKeys("someuser"); 
         driver.findElement(By.id("login-pass")).sendKeys("somepasas");
         driver.findElement(By.id("login-button")).click(); 
      
