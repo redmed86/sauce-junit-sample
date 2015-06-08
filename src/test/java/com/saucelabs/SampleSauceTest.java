@@ -173,7 +173,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
       //  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("rounded defaultify placeholder")));
         driver.findElement(By.id("login-name")).sendKeys("someuser");
         driver.findElement(By.id("login-pass")).sendKeys("somepasas");
-        driver.findElement(By.id("login-button")).click();
+        driver.findElement(By.id("login-button")).click(); 
      
 
     }
