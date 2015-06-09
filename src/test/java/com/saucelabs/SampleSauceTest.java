@@ -20,7 +20,7 @@ import java.net.URL;
 import java.util.LinkedList;
 
 import static org.junit.Assert.assertEquals;
-
+ 
 import com.saucelabs.common.SauceOnDemandSessionIdProvider;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
