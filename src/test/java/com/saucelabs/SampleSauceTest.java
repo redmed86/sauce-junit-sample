@@ -124,7 +124,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     }
 
 
-    /**
+    /** 
      * Constructs a new {@link RemoteWebDriver} instance which is configured to use the capabilities defined by the {@link #browser},
      * {@link #version} and {@link #os} instance variables, and which is configured to run against ondemand.saucelabs.com, using
      * the username and access key populated by the {@link #authentication} instance.
