@@ -26,7 +26,6 @@ import com.saucelabs.common.SauceOnDemandSessionIdProvider;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-//Garmin
 /**
  * Demonstrates how to write a JUnit test that runs tests against Sauce Labs using multiple browsers in parallel.
  * <p/>
@@ -122,7 +121,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
 
         return browsers;
     }
-  
+
 
     /** 
      * Constructs a new {@link RemoteWebDriver} instance which is configured to use the capabilities defined by the {@link #browser},
