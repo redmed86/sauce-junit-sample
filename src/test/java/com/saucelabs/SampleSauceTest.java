@@ -122,7 +122,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         return browsers;
     }
 
-  
+    
     /** 
      * Constructs a new {@link RemoteWebDriver} instance which is configured to use the capabilities defined by the {@link #browser},
      * {@link #version} and {@link #os} instance variables, and which is configured to run against ondemand.saucelabs.com, using
@@ -174,7 +174,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.id("login-pass")).sendKeys("somepasas");
         driver.findElement(By.id("login-button")).click(); 
       
-     
+      
     }
 
     /**
