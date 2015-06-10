@@ -158,7 +158,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.get("http://www.americanexpress.com/");
         assertEquals("American Express Credit Cards, Rewards, Travel and Business Services", driver.getTitle());
     }
-*/ 
+*/
     /**
      * Go to americanexpress.com, fill out username and password field, and click login
      * @throws Exception
