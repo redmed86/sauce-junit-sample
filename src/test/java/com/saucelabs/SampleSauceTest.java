@@ -118,7 +118,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
         browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
         browsers.add(new String[]{"Windows 8", "36", "firefox", "Windows 8 Firefox 36"});
-
+ 
         return browsers;
     }
 
