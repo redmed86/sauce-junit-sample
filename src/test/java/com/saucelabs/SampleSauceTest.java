@@ -147,7 +147,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
                 capabilities);
         this.sessionId = (((RemoteWebDriver) driver).getSessionId()).toString();
     } 
-
+ 
     /**
      * Runs a simple test verifying the title of the americanexpress.com home page.
      * @throws Exception
@@ -175,7 +175,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.id("login-button")).click(); 
     
    
-    }
+    } 
 
     /**
      * Closes the {@link WebDriver} session.
