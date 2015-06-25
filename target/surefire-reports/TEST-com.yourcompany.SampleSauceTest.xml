@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="com.yourcompany.SampleSauceTest" time="320.735" errors="0" skipped="0">
+<testsuite tests="11" failures="0" name="com.yourcompany.SampleSauceTest" time="364.161" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib"/>
@@ -62,15 +62,15 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="15.495"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="60.539"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[10]" time="19.873"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="122.224"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="14.089"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="17.808"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="14.228"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="13.716"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="13.052"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="15.115"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="14.596"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="16.604"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="136.432"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="63.164"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="15.912"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="15.278"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="18.73"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="15.983"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="18.115"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="21.387"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="18.906"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[10]" time="23.65"/>
 </testsuite>
