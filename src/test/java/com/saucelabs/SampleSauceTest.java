@@ -155,8 +155,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     
     @Test
     public void verifyTitleTest() throws Exception {
-        driver.get("http://www.americanexpress.com/");
-        assertEquals("American Express Credit Cards, Rewards, Travel and Business Services", driver.getTitle());
+        driver.get("http://www.saucelabs.com/");
+        assertEquals("Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More", driver.getTitle());
     }
 
     /**
