@@ -155,8 +155,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     
     @Test
     public void verifyTitleTest() throws Exception {
-        driver.get("http://www.saucelabs.com/");
-        assertEquals("Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More", driver.getTitle());
+        driver.get("http://localhost/");
+        assertEquals("Localhost Selenium Authentication Test", driver.getTitle());
     }
 
     /**
@@ -172,7 +172,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
       //  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("rounded defaultify placeholder")));
         driver.findElement(By.id("login-name")).sendKeys("someuser");
         driver.findElement(By.id("login-pass")).sendKeys("somepasas");
-        driver.findElement(By.id("login-button")).click(); 
+        driver.findElement(By.id("login-button")).click();
+        Thread.sleep(5000);
      
      
     } 
