@@ -175,7 +175,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.id("login-button")).click();
         Thread.sleep(5000);
      
-    
+
     } 
 
     /**
