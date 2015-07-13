@@ -165,10 +165,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @Test
     public void loginTest() throws Exception {
         driver.get("http://localhost/");
-        Thread.sleep(5000);
-
-      //  WebDriverWait wait = new WebDriverWait(driver, 5); // wait for a maximum of 5 seconds
-      //  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("rounded defaultify placeholder")));
+        WebDriverWait wait = new WebDriverWait(driver, 5); // wait for a maximum of 5 seconds
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("login-name")));
         driver.findElement(By.id("login-name")).sendKeys("someuser");
         driver.findElement(By.id("login-pass")).sendKeys("somepasas");
         driver.findElement(By.id("login-button")).click();
