@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.yourcompany.SampleSauceTest
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 305.823 sec
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 290.76 sec
