@@ -156,7 +156,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     public void verifyTitleTest() throws Exception {
         driver.get("http://localhost/");
         assertEquals("Localhost Selenium Authentication Test", driver.getTitle());
-    }
+    } 
  
     /**
      * Go to 
