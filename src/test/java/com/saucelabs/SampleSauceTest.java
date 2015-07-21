@@ -159,7 +159,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.get("http://localhost/");
         assertEquals("Localhost Selenium Authentication Test", driver.getTitle());
     }   
- 
+  
     /**
      * Go to 
      * @throws Exception
@@ -167,7 +167,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @Test
     public void loginTest() throws Exception {
         driver.get("http://localhost/");
-        WebDriverWait wait = new WebDriverWait(driver, 5); // wait for a maximum of 5 seconds
+        WebDriverWait wait = new WebDriverWait(driver, 10); // wait for a maximum of 10 seconds
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("login-name")));
         driver.findElement(By.id("login-name")).sendKeys("someuser");
         driver.findElement(By.id("login-pass")).sendKeys("somepasas");
