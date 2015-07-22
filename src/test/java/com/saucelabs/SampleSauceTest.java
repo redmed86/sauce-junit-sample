@@ -159,7 +159,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.get("http://localhost/");
         assertEquals("Localhost Selenium Authentication Test", driver.getTitle());
     }   
-   
+
     /**
      * Go to 
      * @throws Exception
