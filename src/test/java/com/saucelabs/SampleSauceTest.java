@@ -113,12 +113,15 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows XP", "36", "firefox", "Windows 8 Firefox 36"});      
         browsers.add(new String[]{"OSX 10.8", "6", "safari", "Mac 10.8 Safari 6"});
         browsers.add(new String[]{"OSX 10.10", "8", "safari", "Mac 10.10 Safari 8"});
-      // browsers.add(new String[]{"Linux", "4.4", "Android", "Android Emulator 4.4"}); 
-      // browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone", "iPhone Emulator 8.2"});
+        browsers.add(new String[]{"Linux", "4.4", "Android", "Android Emulator 4.4"}); 
+        browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone", "iPhone Emulator 8.2"});
         browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
         browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
         browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
         browsers.add(new String[]{"Windows 8", "36", "firefox", "Windows 8 Firefox 36"});
+        browsers.add(new String[]{"Windows 10", "11", "internet explorer", "Windows 10 IE 11"});
+        browsers.add(new String[]{"Windows 10", "43", "Chrome", "Windows 10 Chrome 43"}); 
+
  
         return browsers;
     } 
@@ -150,7 +153,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     } 
     
     /**
-     * Runs a simple test verifying the title of the americanexpress.com home page.
+     * Runs a simple test verifying the title of the home page.
      * @throws Exception
      */
     
@@ -161,7 +164,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     }   
 
     /**
-     * Go to 
+     * Runs a simple Authentication test 
      * @throws Exception
      */
     @Test
@@ -173,7 +176,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.id("login-pass")).sendKeys("somepasas");
         driver.findElement(By.id("login-button")).click();
         Thread.sleep(5000);
-      
+       
  
     } 
 
