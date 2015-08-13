@@ -122,7 +122,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 10", "11", "internet explorer", "Windows 10 IE 11"});
         browsers.add(new String[]{"Windows 10", "43", "Chrome", "Windows 10 Chrome 43"}); 
 
- 
+  
         return browsers;
     } 
    
@@ -176,7 +176,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.id("login-pass")).sendKeys("somepasas");
         driver.findElement(By.id("login-button")).click();
         Thread.sleep(5000);
-        
+         
  
     } 
 
