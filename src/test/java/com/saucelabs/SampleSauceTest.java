@@ -178,7 +178,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         Thread.sleep(5000);
          
   
-    } 
+    }
 
     /**
      * Closes the {@link WebDriver} session.
