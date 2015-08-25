@@ -151,7 +151,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
                 capabilities);
         this.sessionId = (((RemoteWebDriver) driver).getSessionId()).toString();
     } 
-    
+     
     /**
      * Runs a simple test verifying the title of the home page.
      * @throws Exception

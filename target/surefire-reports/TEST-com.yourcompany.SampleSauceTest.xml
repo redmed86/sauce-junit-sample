@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="28" failures="0" name="com.yourcompany.SampleSauceTest" time="755.747" errors="0" skipped="0">
+<testsuite tests="28" failures="0" name="com.yourcompany.SampleSauceTest" time="750.98" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
@@ -62,32 +62,32 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[1]" time="19.076"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="21.007"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[12]" time="10.049"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="24.917"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[3]" time="10.431"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[12]" time="23.056"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="25.106"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[10]" time="27.693"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[11]" time="22.441"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[13]" time="14.828"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[4]" time="17.712"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[13]" time="9.065"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[2]" time="8.131"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[0]" time="10.211"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="25.615"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[7]" time="107.664"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="66.009"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[10]" time="9.887"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="24.754"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[11]" time="19.04"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[5]" time="18.784"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="19.153"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[8]" time="10.165"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="21.091"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="16.81"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="114.784"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[9]" time="10.736"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[6]" time="47.532"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="68.042"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[9]" time="13.048"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[10]" time="18.841"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="23.229"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="26.063"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[0]" time="9.964"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[13]" time="18.358"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[10]" time="9.947"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[12]" time="13.565"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="25.486"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="108.369"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[5]" time="14.902"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[3]" time="13.093"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[13]" time="9.973"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="23.185"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[11]" time="21.327"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="19.907"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[12]" time="22.667"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[2]" time="10.02"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="16.914"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="26.55"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[8]" time="12.664"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[4]" time="21.608"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[1]" time="13.358"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[6]" time="48.242"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="21.069"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[11]" time="17.939"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[7]" time="102.65"/>
 </testsuite>
