@@ -108,19 +108,19 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     public static LinkedList browsersStrings() {
         LinkedList browsers = new LinkedList();
         browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
-      //  browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
-      //  browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
-      //  browsers.add(new String[]{"Windows XP", "36", "firefox", "Windows 8 Firefox 36"});      
-      //  browsers.add(new String[]{"OSX 10.8", "6", "safari", "Mac 10.8 Safari 6"});
-      //  browsers.add(new String[]{"OSX 10.10", "8", "safari", "Mac 10.10 Safari 8"});
-      //  browsers.add(new String[]{"Linux", "4.4", "Android", "Android Emulator 4.4"}); 
-      //  browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone", "iPhone Emulator 8.2"});
-      //  browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
-      //  browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
-      //  browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
-      //  browsers.add(new String[]{"Windows 8", "36", "firefox", "Windows 8 Firefox 36"});
-      //  browsers.add(new String[]{"Windows 10", "11", "internet explorer", "Windows 10 IE 11"});
-      //  browsers.add(new String[]{"Windows 10", "43", "Chrome", "Windows 10 Chrome 43"}); 
+        browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
+        browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
+        browsers.add(new String[]{"Windows XP", "36", "firefox", "Windows 8 Firefox 36"});      
+        browsers.add(new String[]{"OSX 10.8", "6", "safari", "Mac 10.8 Safari 6"});
+        browsers.add(new String[]{"OSX 10.10", "8", "safari", "Mac 10.10 Safari 8"});
+        browsers.add(new String[]{"Linux", "4.4", "Android", "Android Emulator 4.4"}); 
+        browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone", "iPhone Emulator 8.2"});
+        browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
+        browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
+        browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
+        browsers.add(new String[]{"Windows 8", "36", "firefox", "Windows 8 Firefox 36"});
+        browsers.add(new String[]{"Windows 10", "11", "internet explorer", "Windows 10 IE 11"});
+        browsers.add(new String[]{"Windows 10", "43", "Chrome", "Windows 10 Chrome 43"}); 
 
   
         return browsers;
