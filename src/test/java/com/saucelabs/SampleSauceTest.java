@@ -6,6 +6,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule; 
 import org.junit.Test;
+import org.junit.rules.TestName;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -49,6 +50,11 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @Rule
     public SauceOnDemandTestWatcher resultReportingTestWatcher = new SauceOnDemandTestWatcher(this, authentication);
 
+    @Rule public TestName name = new TestName() {
+        public String getMethodName() {
+                return String.format("%s : (%s %s %s)", super.getMethodName(), os, browser, version);
+        };
+    };
     /**
      * Represents the browser to be used as part of the test run.
      */
@@ -69,7 +75,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      * Represents the device-orientation of mobile device
      */
 
-    private String name;
+    //private String name;
     /**
      * Instance variable which contains the Sauce Job Id.
      */
@@ -91,13 +97,13 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      * @param deviceOrientation
      */
 
-    public SampleSauceTest(String os, String version, String browser, String name) {
+    public SampleSauceTest(String os, String version, String browser) {
         super();
         this.os = os;
         this.version = version;
         this.browser = browser;
         this.deviceName = deviceName;
-        this.name = name;
+       // this.name = name;
     }
 
     /**
@@ -107,20 +113,20 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @ConcurrentParameterized.Parameters
     public static LinkedList browsersStrings() {
         LinkedList browsers = new LinkedList();
-        browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
-        browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
-        browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
-        browsers.add(new String[]{"Windows XP", "36", "firefox", "Windows 8 Firefox 36"});      
-        browsers.add(new String[]{"OSX 10.8", "6", "safari", "Mac 10.8 Safari 6"});
-        browsers.add(new String[]{"OSX 10.10", "8", "safari", "Mac 10.10 Safari 8"});
-        browsers.add(new String[]{"Linux", "4.4", "Android", "Android Emulator 4.4"}); 
-        browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone", "iPhone Emulator 8.2"});
-        browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "Windows 8.1 IE 11"}); 
-        browsers.add(new String[]{"Windows 7", "10", "internet explorer", "Windows 7 IE 10"});   
-        browsers.add(new String[]{"Windows XP", "42", "chrome", "Windows XP Chrome 42"});   
-        browsers.add(new String[]{"Windows 8", "36", "firefox", "Windows 8 Firefox 36"});
-        browsers.add(new String[]{"Windows 10", "11", "internet explorer", "Windows 10 IE 11"});
-        browsers.add(new String[]{"Windows 10", "43", "Chrome", "Windows 10 Chrome 43"}); 
+        browsers.add(new String[]{"Windows 8.1", "11", "internet explorer"}); 
+        browsers.add(new String[]{"Windows 7", "10", "internet explorer", });   
+        browsers.add(new String[]{"Windows XP", "42", "chrome"});   
+        browsers.add(new String[]{"Windows XP", "36", "firefox"});      
+        browsers.add(new String[]{"OSX 10.8", "6", "safari"});
+        browsers.add(new String[]{"OSX 10.10", "8", "safari"});
+        browsers.add(new String[]{"Linux", "4.4", "Android"}); 
+        browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone"});
+        browsers.add(new String[]{"Windows 8.1", "11", "internet explorer"}); 
+        browsers.add(new String[]{"Windows 7", "10", "internet explorer"});   
+        browsers.add(new String[]{"Windows XP", "42", "chrome"});   
+        browsers.add(new String[]{"Windows 8", "36", "firefox"});
+        browsers.add(new String[]{"Windows 10", "11", "internet explorer"});
+        browsers.add(new String[]{"Windows 10", "43", "Chrome"}); 
 
   
         return browsers;
@@ -143,13 +149,16 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         if (deviceName != null) capabilities.setCapability("deviceName", deviceName);
 
         capabilities.setCapability(CapabilityType.PLATFORM, os);
-        capabilities.setCapability("name", name);
+        String methodName = name.getMethodName();
+        capabilities.setCapability("name", methodName);
 
         this.driver = new RemoteWebDriver(
                 new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
                         "@ondemand.saucelabs.com:80/wd/hub"),
                 capabilities);
         this.sessionId = (((RemoteWebDriver) driver).getSessionId()).toString();
+
+        String message = String.format("SauceOnDemandSessionID=%1$s job-name=%2$s", this.sessionId, methodName);
     } 
      
     /**
