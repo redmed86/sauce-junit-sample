@@ -171,7 +171,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.get("http://localhost/");
         assertEquals("Localhost Selenium Authentication Test", driver.getTitle());
     }   
-   
+    
     /**
      * Runs a simple Authentication test 
      * @throws Exception
@@ -187,7 +187,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         Thread.sleep(5000);
         
     } 
- 
+  
    
 
     /**
