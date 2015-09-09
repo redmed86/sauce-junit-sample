@@ -168,8 +168,11 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     
     @Test
     public void verifyTitleTest() throws Exception {
-        driver.get("http://localhost/");
-        assertEquals("Localhost Selenium Authentication Test", driver.getTitle());
+       // driver.get("http://localhost/");
+       // assertEquals("Localhost Selenium Authentication Test", driver.getTitle());
+   
+    driver.get("http://saucelabs.com/");
+    assertEquals("Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More", driver.getTitle());
     }   
     
     /**
@@ -178,14 +181,27 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      */
     @Test
     public void loginTest() throws Exception {
-        driver.get("http://localhost/");
-        WebDriverWait wait = new WebDriverWait(driver, 1000); // wait for a maximum of 10 seconds
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("login-name")));
-        driver.findElement(By.id("login-name")).sendKeys("someuser");
-        driver.findElement(By.id("login-pass")).sendKeys("somepasas");
-        driver.findElement(By.id("login-button")).click();
+      //  driver.get("http://localhost/");
+      //  WebDriverWait wait = new WebDriverWait(driver, 1000); // wait for a maximum of 10 seconds
+      //  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("login-name")));
+      //  driver.findElement(By.id("login-name")).sendKeys("someuser");
+      //  driver.findElement(By.id("login-pass")).sendKeys("somepasas");
+      //  driver.findElement(By.id("login-button")).click();
+      //  Thread.sleep(5000);
+
+        driver.get("http://saucelabs.com/");
+        WebDriverWait wait = new WebDriverWait(driver, 10); // wait for a maximum of 10 seconds
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".hamburger")));
+        driver.findElement(By.cssSelector(".hamburger")).click();
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("//a[@title = 'Log in']")).click();
+        Thread.sleep(5000);
+        driver.findElement(By.id("username")).sendKeys("kmeier2");
+        driver.findElement(By.id("password")).sendKeys("saucelabs");
+        driver.findElement(By.id("submit")).click();
         Thread.sleep(5000);
         
+         
     } 
   
    
