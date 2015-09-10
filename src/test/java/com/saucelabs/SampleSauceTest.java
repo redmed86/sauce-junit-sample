@@ -104,7 +104,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         this.browser = browser;
         this.deviceName = deviceName;
        // this.name = name;
-    }
+    } 
 
     /**
      * @return a LinkedList containing String arrays representing the browser combinations the test should be run against. The values
