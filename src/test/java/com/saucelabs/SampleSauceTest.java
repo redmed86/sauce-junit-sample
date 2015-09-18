@@ -153,8 +153,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         capabilities.setCapability("name", methodName);
 
         this.driver = new RemoteWebDriver(
-                new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
-                        "@ondemand.saucelabs.com:80/wd/hub"),
+                    new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
+                    "@ondemand.saucelabs.com:80/wd/hub"),
                 capabilities);
         this.sessionId = (((RemoteWebDriver) driver).getSessionId()).toString();
 
@@ -168,8 +168,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     
     @Test
     public void verifyTitleTest() throws Exception {
-       // driver.get("http://localhost/");
-       // assertEquals("Localhost Selenium Authentication Test", driver.getTitle());
+     //  driver.get("http://localhost/");
+     //  assertEquals("Localhost Selenium Authentication Test", driver.getTitle());
    
     driver.get("http://saucelabs.com/");
     assertEquals("Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More", driver.getTitle());
@@ -181,13 +181,13 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      */
     @Test
     public void loginTest() throws Exception {
-      //  driver.get("http://localhost/");
-      //  WebDriverWait wait = new WebDriverWait(driver, 1000); // wait for a maximum of 10 seconds
-      //  wait.until(ExpectedConditions.presenceOfElementLocated(By.id("login-name")));
-      //  driver.findElement(By.id("login-name")).sendKeys("someuser");
-      //  driver.findElement(By.id("login-pass")).sendKeys("somepasas");
-      //  driver.findElement(By.id("login-button")).click();
-      //  Thread.sleep(5000);
+    //    driver.get("http://localhost/");
+    //    WebDriverWait wait = new WebDriverWait(driver, 1000); // wait for a maximum of 10 seconds
+    //    wait.until(ExpectedConditions.presenceOfElementLocated(By.id("login-name")));
+    //    driver.findElement(By.id("login-name")).sendKeys("someuser");
+    //    driver.findElement(By.id("login-pass")).sendKeys("somepasas");
+    //    driver.findElement(By.id("login-button")).click();
+    //    Thread.sleep(5000);
 
         driver.get("http://saucelabs.com/");
         WebDriverWait wait = new WebDriverWait(driver, 10); // wait for a maximum of 10 seconds
@@ -202,7 +202,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         Thread.sleep(5000);
          
          
-    } 
+    }
   
    
 
