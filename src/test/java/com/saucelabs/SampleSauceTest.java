@@ -190,7 +190,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     //    Thread.sleep(5000);
 
         driver.get("http://saucelabs.com/");
-        WebDriverWait wait = new WebDriverWait(driver, 10); // wait for a maximum of 10 seconds
+        WebDriverWait wait = new WebDriverWait(driver, 20); // wait for a maximum of 20 seconds
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".hamburger")));
         driver.findElement(By.cssSelector(".hamburger")).click();
         Thread.sleep(5000);
