@@ -1,7 +1,7 @@
 package com.yourcompany;
 
 import com.saucelabs.common.SauceOnDemandAuthentication;
-
+ 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule; 
