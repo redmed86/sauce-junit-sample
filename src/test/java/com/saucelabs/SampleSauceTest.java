@@ -85,6 +85,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      * The {@link WebDriver} instance which is used to perform browser interactions with.
      */
     private WebDriver driver;
+    private String tunnelIdentifier; 
 
     /**
      * Constructs a new instance of the test.  The constructor requires three string parameters, which represent the operating
@@ -97,12 +98,15 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      * @param deviceOrientation
      */
 
+    //public SampleSauceTest(String os, String version, String browser, String tunnelIdentifier) {
     public SampleSauceTest(String os, String version, String browser) {
+
         super();
         this.os = os;
         this.version = version;
         this.browser = browser;
         this.deviceName = deviceName;
+       // this.tunnelIdentifier = tunnelIdentifier;
        // this.name = name;
     } 
 
@@ -113,7 +117,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @ConcurrentParameterized.Parameters
     public static LinkedList browsersStrings() {
         LinkedList browsers = new LinkedList();
-        browsers.add(new String[]{"Windows 8.1", "11", "internet explorer"}); 
+     //   browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "kristianTest2"});
+        browsers.add(new String[]{"Windows 8.1", "11", "internet explorer"});
         browsers.add(new String[]{"Windows 7", "10", "internet explorer", });   
         browsers.add(new String[]{"Windows XP", "42", "chrome"});   
         browsers.add(new String[]{"Windows XP", "36", "firefox"});      
@@ -151,6 +156,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         capabilities.setCapability(CapabilityType.PLATFORM, os);
         String methodName = name.getMethodName();
         capabilities.setCapability("name", methodName);
+       // capabilities.setCapability("tunnel-identifier", tunnelIdentifier);
 
         this.driver = new RemoteWebDriver(
                     new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
