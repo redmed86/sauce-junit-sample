@@ -166,7 +166,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
 
         String message = String.format("SauceOnDemandSessionID=%1$s job-name=%2$s", this.sessionId, methodName);
     } 
-     
+      
     /**
      * Runs a simple test verifying the title of the home page.
      * @throws Exception
@@ -207,7 +207,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.id("submit")).click();
         Thread.sleep(5000);
           
- 
+  
     }
   
    
