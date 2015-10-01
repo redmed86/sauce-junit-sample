@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="28" failures="0" name="com.yourcompany.SampleSauceTest" time="1,345.042" errors="0" skipped="0">
+<testsuite tests="28" failures="0" name="com.yourcompany.SampleSauceTest" time="997.427" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
@@ -62,32 +62,133 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="67.912"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[12]" time="21.423"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="46.68"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[9]" time="25.654"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[10]" time="41.872"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[13]" time="41.608"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[10]" time="20.037"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="106.301"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[11]" time="44.59"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="42.295"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[13]" time="15.773"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[6]" time="57.526"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="49.927"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[1]" time="28.093"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[8]" time="17.883"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[5]" time="30.449"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[0]" time="19.38"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[7]" time="142.615"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="46.525"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[11]" time="23.299"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="48.332"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[4]" time="30.765"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[3]" time="20.021"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[12]" time="49.519"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[2]" time="14.432"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="51.909"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="93.271"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="146.951"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[9]" time="20.454"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[0]" time="13.343"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[13]" time="9.075"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[8]" time="17.019"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="35.352"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[13]" time="33.701"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[3]" time="11.822"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[12]" time="39.054"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[6]" time="47.031"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="38.465"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[12]" time="12.453"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="81.01"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[11]" time="39.255"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[11]" time="13.84"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[1]" time="21.116"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="33.088"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[5]" time="20.485"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[2]" time="8.233"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="36.283"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[7]" time="120.099"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[4]" time="15.748"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="129.422"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[10]" time="8.658"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[10]" time="35.782"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="0.009">
+    <error message="Cannot click on element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;WIN-R1JBAO1CNPS&apos;, ip: &apos;172.20.44.116&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_60&apos;
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX84062520
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=10, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=about:blank, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+Command duration or timeout: 405 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-2.local&apos;, ip: &apos;172.20.10.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, webdriver.remote.sessionid=2f6c57eb72aa495cbbe62a765fa58100, ie.browserCommandLineSwitches=, requireWindowFocus=false, takesScreenshot=true, initialBrowserUrl=about:blank, browserName=internet explorer, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 2f6c57eb72aa495cbbe62a765fa58100" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: Cannot click on element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;WIN-R1JBAO1CNPS&apos;, ip: &apos;172.20.44.116&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_60&apos;
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX84062520
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=10, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=about:blank, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+Command duration or timeout: 405 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-2.local&apos;, ip: &apos;172.20.10.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, webdriver.remote.sessionid=2f6c57eb72aa495cbbe62a765fa58100, ie.browserCommandLineSwitches=, requireWindowFocus=false, takesScreenshot=true, initialBrowserUrl=about:blank, browserName=internet explorer, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 2f6c57eb72aa495cbbe62a765fa58100
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Cannot click on element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;WIN-R1JBAO1CNPS&apos;, ip: &apos;172.20.44.116&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_60&apos;
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX84062520
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=10, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=about:blank, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-2.local&apos;, ip: &apos;172.20.10.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:344)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:63)
+	at com.sun.proxy.$Proxy4.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:29)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</error>
+    <system-out>SauceOnDemandSessionID=2f6c57eb72aa495cbbe62a765fa58100 job-name=com.yourcompany.SampleSauceTest.loginTest[1]
+Job link: https://saucelabs.com/jobs/2f6c57eb72aa495cbbe62a765fa58100?auth=bc3f73efd49cf14049d8c6f587ba821e
+</system-out>
+  </testcase>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="78.549"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="40.239"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="37.842"/>
 </testsuite>
