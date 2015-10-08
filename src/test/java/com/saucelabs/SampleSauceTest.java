@@ -210,7 +210,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
   
     }
   
-   
+ 
 
     /**
      * Closes the {@link WebDriver} session.
