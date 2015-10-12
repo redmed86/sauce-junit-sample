@@ -33,7 +33,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  * The test also includes the {@link SauceOnDemandTestWatcher} which will invoke the Sauce REST API to mark
  * the test as passed or failed.
  *
- * @author Neil Manvar
+ * @author Kristian Meier
  */
 @RunWith(ConcurrentParameterized.class)
 public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
