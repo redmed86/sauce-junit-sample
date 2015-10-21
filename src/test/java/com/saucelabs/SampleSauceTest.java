@@ -42,7 +42,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      * Constructs a {@link SauceOnDemandAuthentication} instance using the supplied user name/access key.  To use the authentication
      * supplied by environment variables or from an external file, use the no-arg {@link SauceOnDemandAuthentication} constructor.
      */
-    public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication("YOUR_SAUCE_USERNAME", "YOUR_SAUCE_APIKEY");
+    public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication("kristianmeiersl", "69c9ea29-59c8-4b3a-9909-18b1b05343f6");
 
     /**
      * JUnit Rule which will mark the Sauce Job as passed/failed when the test succeeds or fails.
@@ -132,7 +132,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 8", "36", "firefox"});
         browsers.add(new String[]{"Windows 10", "11", "internet explorer"});
         browsers.add(new String[]{"Windows 10", "43", "Chrome"}); 
- 
+
   
         return browsers;
     } 
@@ -179,7 +179,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
    
     driver.get("http://saucelabs.com/");
     assertEquals("Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More", driver.getTitle());
-    }
+    } 
         
     /**
      * Runs a simple Authentication test 
@@ -206,7 +206,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.id("password")).sendKeys("saucelabs");
         driver.findElement(By.id("submit")).click();
         Thread.sleep(5000);
-              
+                
   
     }
   
