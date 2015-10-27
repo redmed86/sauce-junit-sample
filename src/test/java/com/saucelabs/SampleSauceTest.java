@@ -160,7 +160,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
 
         this.driver = new RemoteWebDriver(
                     new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
-                    "@ondemand.saucelabs.com:80/wd/hub"),
+                      "@ondemand.saucelabs.com:80/wd/hub"),
                 capabilities);
         this.sessionId = (((RemoteWebDriver) driver).getSessionId()).toString();
 
