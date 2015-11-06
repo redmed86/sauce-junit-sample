@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="28" failures="0" name="com.yourcompany.SampleSauceTest" time="1,103.992" errors="1" skipped="0">
+<testsuite tests="28" failures="0" name="com.yourcompany.SampleSauceTest" time="368.052" errors="14" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
@@ -62,38 +62,131 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="41.546"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="35.09"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[11]" time="38.457"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[12]" time="39.557"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[3]" time="12.529"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[13]" time="41.169"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="48.189"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[0]" time="12.155"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="102.818"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="34.066"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[10]" time="7.875"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="74.394"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[11]" time="12.089"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[13]" time="7.871"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[8]" time="11.206"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[4]" time="13.524"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[1]" time="17.92"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[12]" time="15.383"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[5]" time="18.941"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[2]" time="8.513"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[9]" time="26.615"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="34.835"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[7]" time="0.001">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.yourcompany.SampleSauceTest.tearDown(SampleSauceTest.java:222)
-	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[2]" time="11.289"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="0.002">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;username&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;chef-win2003&apos;, ip: &apos;172.20.43.74&apos;, os.name: &apos;Windows 2003&apos;, os.arch: &apos;x86&apos;, os.version: &apos;5.2&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 371 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=36.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=17902e90af504c25b0ee12601b5f19f9, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 17902e90af504c25b0ee12601b5f19f9
+*** Element info: {Using=id, value=username}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;username&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;chef-win2003&apos;, ip: &apos;172.20.43.74&apos;, os.name: &apos;Windows 2003&apos;, os.arch: &apos;x86&apos;, os.version: &apos;5.2&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 371 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=36.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=17902e90af504c25b0ee12601b5f19f9, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 17902e90af504c25b0ee12601b5f19f9
+*** Element info: {Using=id, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:497)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;username&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;chef-win2003&apos;, ip: &apos;172.20.43.74&apos;, os.name: &apos;Windows 2003&apos;, os.arch: &apos;x86&apos;, os.version: &apos;5.2&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/anonymous7366404772353989963webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/anonymous7366404772353989963webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/anonymous7366404772353989963webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/anonymous7366404772353989963webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/anonymous7366404772353989963webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+</error>
+    <system-out>SauceOnDemandSessionID=17902e90af504c25b0ee12601b5f19f9 job-name=com.yourcompany.SampleSauceTest.loginTest[3]
+Job link: https://saucelabs.com/jobs/17902e90af504c25b0ee12601b5f19f9?auth=d6ca5e0d67dadc0a21ba1b35e17f3726
+</system-out>
+  </testcase>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[13]" time="11.675"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="0">
+    <error message="no such element
+  (Session info: chrome=42.0.2311.90)
+  (Driver info: chromedriver=2.15.322448 (52179c1b310fec1797c81ea9a20326839860b7d3),platform=Windows NT 5.2 SP2 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 116 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\scoped_dir856_7722}, takesHeapSnapshot=true, hasMetadata=true, databaseEnabled=false, handlesAlerts=true, version=42.0.2311.90, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=248ce734bb4c447d91573a7e1201cb76, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 248ce734bb4c447d91573a7e1201cb76
+*** Element info: {Using=id, value=username}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=42.0.2311.90)
+  (Driver info: chromedriver=2.15.322448 (52179c1b310fec1797c81ea9a20326839860b7d3),platform=Windows NT 5.2 SP2 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 116 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\scoped_dir856_7722}, takesHeapSnapshot=true, hasMetadata=true, databaseEnabled=false, handlesAlerts=true, version=42.0.2311.90, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=248ce734bb4c447d91573a7e1201cb76, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 248ce734bb4c447d91573a7e1201cb76
+*** Element info: {Using=id, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
@@ -107,10 +200,1179 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 </error>
+    <system-out>SauceOnDemandSessionID=248ce734bb4c447d91573a7e1201cb76 job-name=com.yourcompany.SampleSauceTest.loginTest[2]
+Job link: https://saucelabs.com/jobs/248ce734bb4c447d91573a7e1201cb76?auth=b63d6a91d1b8b3032681771acae6ef16
+</system-out>
   </testcase>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="35.203"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="53.729"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="274.866"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[10]" time="33.364"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[6]" time="52.087"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[9]" time="23.545"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[3]" time="15.446"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="0">
+    <error message="Could not find element: {&quot;using&quot;:&quot;id&quot;,&quot;value&quot;:&quot;username&quot;} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;itako48020.prod.miso&apos;, ip: &apos;172.20.48.20&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{browserName=safari, takesScreenshot=true, javascriptEnabled=true, version=8.0.8, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: null
+Command duration or timeout: 435 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{webdriver.remote.sessionid=ba92737ee66440a9926f928071f876fb, takesScreenshot=true, browserName=safari, javascriptEnabled=true, hasMetadata=true, version=8.0.8, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: ba92737ee66440a9926f928071f876fb
+*** Element info: {Using=id, value=username}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Could not find element: {&quot;using&quot;:&quot;id&quot;,&quot;value&quot;:&quot;username&quot;} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;itako48020.prod.miso&apos;, ip: &apos;172.20.48.20&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{browserName=safari, takesScreenshot=true, javascriptEnabled=true, version=8.0.8, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: null
+Command duration or timeout: 435 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{webdriver.remote.sessionid=ba92737ee66440a9926f928071f876fb, takesScreenshot=true, browserName=safari, javascriptEnabled=true, hasMetadata=true, version=8.0.8, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: ba92737ee66440a9926f928071f876fb
+*** Element info: {Using=id, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Could not find element: {&quot;using&quot;:&quot;id&quot;,&quot;value&quot;:&quot;username&quot;} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;itako48020.prod.miso&apos;, ip: &apos;172.20.48.20&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{browserName=safari, takesScreenshot=true, javascriptEnabled=true, version=8.0.8, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: null
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:367)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	... 3 more
+</error>
+    <system-out>SauceOnDemandSessionID=ba92737ee66440a9926f928071f876fb job-name=com.yourcompany.SampleSauceTest.loginTest[5]
+Job link: https://saucelabs.com/jobs/ba92737ee66440a9926f928071f876fb?auth=46e78eeb9244cc675ab2e4ebffc8cb46
+</system-out>
+  </testcase>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[0]" time="11.881"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="0">
+    <error message="Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;WIN-HLEK05V71GA&apos;, ip: &apos;172.20.42.67&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX71240837
+Command duration or timeout: 733 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=c3c2124fd72c4a9ba8c2d1b85175c53e, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: c3c2124fd72c4a9ba8c2d1b85175c53e
+*** Element info: {Using=id, value=username}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;WIN-HLEK05V71GA&apos;, ip: &apos;172.20.42.67&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX71240837
+Command duration or timeout: 733 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=c3c2124fd72c4a9ba8c2d1b85175c53e, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: c3c2124fd72c4a9ba8c2d1b85175c53e
+*** Element info: {Using=id, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;WIN-HLEK05V71GA&apos;, ip: &apos;172.20.42.67&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX71240837
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:367)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy2.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</error>
+    <system-out>SauceOnDemandSessionID=c3c2124fd72c4a9ba8c2d1b85175c53e job-name=com.yourcompany.SampleSauceTest.loginTest[0]
+Job link: https://saucelabs.com/jobs/c3c2124fd72c4a9ba8c2d1b85175c53e?auth=2f7cb07f83a4ed59cab24c8b227014b3
+</system-out>
+  </testcase>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="0">
+    <error message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 319 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, safari=true, warnings={}, webdriver.remote.quietExceptions=true, hasMetadata=true, databaseEnabled=false, deviceName=iPhone Simulator, platform=MAC, desired={platformVersion=8.2, webdriver.remote.quietExceptions=true, browserName=safari, platformName=iOS, deviceName=iPhone Simulator}, webdriver.remote.sessionid=434c837de270415b94c28e2a81cc6934, platformVersion=8.2, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: 434c837de270415b94c28e2a81cc6934
+*** Element info: {Using=id, value=username}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 319 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, safari=true, warnings={}, webdriver.remote.quietExceptions=true, hasMetadata=true, databaseEnabled=false, deviceName=iPhone Simulator, platform=MAC, desired={platformVersion=8.2, webdriver.remote.quietExceptions=true, browserName=safari, platformName=iOS, deviceName=iPhone Simulator}, webdriver.remote.sessionid=434c837de270415b94c28e2a81cc6934, platformVersion=8.2, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: 434c837de270415b94c28e2a81cc6934
+*** Element info: {Using=id, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+    <system-out>SauceOnDemandSessionID=434c837de270415b94c28e2a81cc6934 job-name=com.yourcompany.SampleSauceTest.loginTest[7]
+Job link: https://saucelabs.com/jobs/434c837de270415b94c28e2a81cc6934?auth=66a78c5e5388ff397879e9ef7a04ada6
+</system-out>
+  </testcase>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="0.002">
+    <error message="Element was not found.
+io.selendroid.exceptions.NoSuchElementException: Element was not found.
+	at io.selendroid.server.SafeRequestHandler.getIdOfKnownElement(SafeRequestHandler.java:42)
+	at io.selendroid.server.handler.FindElement.safeHandle(FindElement.java:45)
+	at io.selendroid.server.SafeRequestHandler.handle(SafeRequestHandler.java:83)
+	at io.selendroid.server.AndroidServlet.handleRequest(AndroidServlet.java:319)
+	at io.selendroid.server.BaseServlet.handleHttpRequest(BaseServlet.java:67)
+	at io.selendroid.server.http.ServerHandler.channelRead(ServerHandler.java:53)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.traffic.AbstractTrafficShapingHandler.channelRead(AbstractTrafficShapingHandler.java:223)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:148)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:430)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:384)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:818)
+
+Command duration or timeout: 5.31 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{emulator=true, aut=android, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, webdriver.remote.sessionid=b886a54f2b5045e3aacae57006c68433, platformVersion=22, webdriver.remote.quietExceptions=true, browserName=android, hasMetadata=true, platform=ANY}]
+Session ID: b886a54f2b5045e3aacae57006c68433
+*** Element info: {Using=id, value=username}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Element was not found.
+io.selendroid.exceptions.NoSuchElementException: Element was not found.
+	at io.selendroid.server.SafeRequestHandler.getIdOfKnownElement(SafeRequestHandler.java:42)
+	at io.selendroid.server.handler.FindElement.safeHandle(FindElement.java:45)
+	at io.selendroid.server.SafeRequestHandler.handle(SafeRequestHandler.java:83)
+	at io.selendroid.server.AndroidServlet.handleRequest(AndroidServlet.java:319)
+	at io.selendroid.server.BaseServlet.handleHttpRequest(BaseServlet.java:67)
+	at io.selendroid.server.http.ServerHandler.channelRead(ServerHandler.java:53)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.traffic.AbstractTrafficShapingHandler.channelRead(AbstractTrafficShapingHandler.java:223)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:148)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:430)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:384)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:818)
+
+Command duration or timeout: 5.31 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{emulator=true, aut=android, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, webdriver.remote.sessionid=b886a54f2b5045e3aacae57006c68433, platformVersion=22, webdriver.remote.quietExceptions=true, browserName=android, hasMetadata=true, platform=ANY}]
+Session ID: b886a54f2b5045e3aacae57006c68433
+*** Element info: {Using=id, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Element was not found.
+io.selendroid.exceptions.NoSuchElementException: Element was not found.
+	at io.selendroid.server.SafeRequestHandler.getIdOfKnownElement(SafeRequestHandler.java:42)
+	at io.selendroid.server.handler.FindElement.safeHandle(FindElement.java:45)
+	at io.selendroid.server.SafeRequestHandler.handle(SafeRequestHandler.java:83)
+	at io.selendroid.server.AndroidServlet.handleRequest(AndroidServlet.java:319)
+	at io.selendroid.server.BaseServlet.handleHttpRequest(BaseServlet.java:67)
+	at io.selendroid.server.http.ServerHandler.channelRead(ServerHandler.java:53)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.traffic.AbstractTrafficShapingHandler.channelRead(AbstractTrafficShapingHandler.java:223)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:148)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:430)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:384)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:818)
+
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+</error>
+    <system-out>SauceOnDemandSessionID=b886a54f2b5045e3aacae57006c68433 job-name=com.yourcompany.SampleSauceTest.loginTest[6]
+Job link: https://saucelabs.com/jobs/b886a54f2b5045e3aacae57006c68433?auth=0e58427db7386d58348cadb82ab8f97f
+</system-out>
+  </testcase>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="0.001">
+    <error message="Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 288 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;WIN-HLEK05V71GA&apos;, ip: &apos;172.20.35.25&apos;, os.name: &apos;Windows Server 2012&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX145119b2
+Command duration or timeout: 2.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=ab7482f0d89a48398e256f5c7115df7f, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: ab7482f0d89a48398e256f5c7115df7f
+*** Element info: {Using=id, value=username}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 288 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;WIN-HLEK05V71GA&apos;, ip: &apos;172.20.35.25&apos;, os.name: &apos;Windows Server 2012&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX145119b2
+Command duration or timeout: 2.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=ab7482f0d89a48398e256f5c7115df7f, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: ab7482f0d89a48398e256f5c7115df7f
+*** Element info: {Using=id, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 288 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;WIN-HLEK05V71GA&apos;, ip: &apos;172.20.35.25&apos;, os.name: &apos;Windows Server 2012&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX145119b2
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:367)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy2.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</error>
+    <system-out>SauceOnDemandSessionID=ab7482f0d89a48398e256f5c7115df7f job-name=com.yourcompany.SampleSauceTest.loginTest[8]
+Job link: https://saucelabs.com/jobs/ab7482f0d89a48398e256f5c7115df7f?auth=327e459e5fa07c539570a02b26eadb0e
+</system-out>
+  </testcase>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[4]" time="21.745"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="0.002">
+    <error message="Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 276 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;WIN-R1JBAO1CNPS&apos;, ip: &apos;172.20.38.218&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX754dc283
+Command duration or timeout: 380 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=491a817f0c7b4817bc5a03f9fb2f3d3f, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 491a817f0c7b4817bc5a03f9fb2f3d3f
+*** Element info: {Using=id, value=username}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 276 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;WIN-R1JBAO1CNPS&apos;, ip: &apos;172.20.38.218&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX754dc283
+Command duration or timeout: 380 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=491a817f0c7b4817bc5a03f9fb2f3d3f, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 491a817f0c7b4817bc5a03f9fb2f3d3f
+*** Element info: {Using=id, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 276 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;WIN-R1JBAO1CNPS&apos;, ip: &apos;172.20.38.218&apos;, os.name: &apos;Windows Server 2008 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX754dc283
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:367)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy2.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</error>
+    <system-out>SauceOnDemandSessionID=491a817f0c7b4817bc5a03f9fb2f3d3f job-name=com.yourcompany.SampleSauceTest.loginTest[1]
+Job link: https://saucelabs.com/jobs/491a817f0c7b4817bc5a03f9fb2f3d3f?auth=7c3e5c0d2b4c57f3cf775991382e57bb
+</system-out>
+  </testcase>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[13]" time="0.001">
+    <error message="no such element
+  (Session info: chrome=43.0.2357.65)
+  (Driver info: chromedriver=2.15.322448 (52179c1b310fec1797c81ea9a20326839860b7d3),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir2696_21558}, takesHeapSnapshot=true, hasMetadata=true, databaseEnabled=false, handlesAlerts=true, version=43.0.2357.65, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=5591e96c6e85439da74cb895c73a3a76, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5591e96c6e85439da74cb895c73a3a76
+*** Element info: {Using=id, value=username}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=43.0.2357.65)
+  (Driver info: chromedriver=2.15.322448 (52179c1b310fec1797c81ea9a20326839860b7d3),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir2696_21558}, takesHeapSnapshot=true, hasMetadata=true, databaseEnabled=false, handlesAlerts=true, version=43.0.2357.65, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=5591e96c6e85439da74cb895c73a3a76, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5591e96c6e85439da74cb895c73a3a76
+*** Element info: {Using=id, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+    <system-out>SauceOnDemandSessionID=5591e96c6e85439da74cb895c73a3a76 job-name=com.yourcompany.SampleSauceTest.loginTest[13]
+Job link: https://saucelabs.com/jobs/5591e96c6e85439da74cb895c73a3a76?auth=44a481302de4fdbae02a724559c6bffa
+</system-out>
+  </testcase>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[1]" time="21.098"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[7]" time="104.482"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[11]" time="0.001">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;username&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.47.1&apos;, revision: &apos;411b314&apos;, time: &apos;2015-07-30 03:03:16&apos;
+System info: host: &apos;WIN-HLEK05V71GA&apos;, ip: &apos;172.20.34.26&apos;, os.name: &apos;Windows Server 2012&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 144 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=40.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=b631ac51c837496b8f2ed5a9905cefbd, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b631ac51c837496b8f2ed5a9905cefbd
+*** Element info: {Using=id, value=username}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;username&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.47.1&apos;, revision: &apos;411b314&apos;, time: &apos;2015-07-30 03:03:16&apos;
+System info: host: &apos;WIN-HLEK05V71GA&apos;, ip: &apos;172.20.34.26&apos;, os.name: &apos;Windows Server 2012&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 144 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=40.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=b631ac51c837496b8f2ed5a9905cefbd, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b631ac51c837496b8f2ed5a9905cefbd
+*** Element info: {Using=id, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;username&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.47.1&apos;, revision: &apos;411b314&apos;, time: &apos;2015-07-30 03:03:16&apos;
+System info: host: &apos;WIN-HLEK05V71GA&apos;, ip: &apos;172.20.34.26&apos;, os.name: &apos;Windows Server 2012&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous8337052653666924650webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous8337052653666924650webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10676)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous8337052653666924650webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous8337052653666924650webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12648)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous8337052653666924650webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12590)
+</error>
+    <system-out>SauceOnDemandSessionID=b631ac51c837496b8f2ed5a9905cefbd job-name=com.yourcompany.SampleSauceTest.loginTest[11]
+Job link: https://saucelabs.com/jobs/b631ac51c837496b8f2ed5a9905cefbd?auth=6de38fe9f88ccb11a2ffca931e9ab1e9
+</system-out>
+  </testcase>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[12]" time="24.208"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="0.002">
+    <error message="Could not find element: {&quot;using&quot;:&quot;id&quot;,&quot;value&quot;:&quot;username&quot;} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;itako48072.prod.miso&apos;, ip: &apos;172.20.48.72&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.5&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{browserName=safari, takesScreenshot=true, javascriptEnabled=true, version=6.2.7, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: null
+Command duration or timeout: 346 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{webdriver.remote.sessionid=5abf4232bdb9415da9da5a4adb84ebd0, takesScreenshot=true, browserName=safari, javascriptEnabled=true, hasMetadata=true, version=6.2.7, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: 5abf4232bdb9415da9da5a4adb84ebd0
+*** Element info: {Using=id, value=username}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Could not find element: {&quot;using&quot;:&quot;id&quot;,&quot;value&quot;:&quot;username&quot;} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;itako48072.prod.miso&apos;, ip: &apos;172.20.48.72&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.5&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{browserName=safari, takesScreenshot=true, javascriptEnabled=true, version=6.2.7, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: null
+Command duration or timeout: 346 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{webdriver.remote.sessionid=5abf4232bdb9415da9da5a4adb84ebd0, takesScreenshot=true, browserName=safari, javascriptEnabled=true, hasMetadata=true, version=6.2.7, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: 5abf4232bdb9415da9da5a4adb84ebd0
+*** Element info: {Using=id, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Could not find element: {&quot;using&quot;:&quot;id&quot;,&quot;value&quot;:&quot;username&quot;} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;itako48072.prod.miso&apos;, ip: &apos;172.20.48.72&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.5&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{browserName=safari, takesScreenshot=true, javascriptEnabled=true, version=6.2.7, cssSelectorsEnabled=true, platform=MAC, secureSsl=true}]
+Session ID: null
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:367)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	... 3 more
+</error>
+    <system-out>SauceOnDemandSessionID=5abf4232bdb9415da9da5a4adb84ebd0 job-name=com.yourcompany.SampleSauceTest.loginTest[4]
+Job link: https://saucelabs.com/jobs/5abf4232bdb9415da9da5a4adb84ebd0?auth=23cba070249e003addcd4845981e4bf9
+</system-out>
+  </testcase>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[12]" time="0.002">
+    <error message="Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 313 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;WIN-SB3ER6JQ6ME&apos;, ip: &apos;172.20.32.182&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXb9554a2d
+Command duration or timeout: 426 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=989db6a87329466880b04f0d3c7ed484, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 989db6a87329466880b04f0d3c7ed484
+*** Element info: {Using=id, value=username}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 313 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;WIN-SB3ER6JQ6ME&apos;, ip: &apos;172.20.32.182&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXb9554a2d
+Command duration or timeout: 426 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=989db6a87329466880b04f0d3c7ed484, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=about:blank, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 989db6a87329466880b04f0d3c7ed484
+*** Element info: {Using=id, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 313 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;WIN-SB3ER6JQ6ME&apos;, ip: &apos;172.20.32.182&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=about:blank, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXb9554a2d
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:367)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy2.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</error>
+    <system-out>SauceOnDemandSessionID=989db6a87329466880b04f0d3c7ed484 job-name=com.yourcompany.SampleSauceTest.loginTest[12]
+Job link: https://saucelabs.com/jobs/989db6a87329466880b04f0d3c7ed484?auth=58047552f1501622a6355a1502f5ec4c
+</system-out>
+  </testcase>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[10]" time="0">
+    <error message="no such element
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.11.298604 (75ea2fdb5c87f133a8e1b8da16f6091fb7d5321e),platform=Windows NT 5.2 SP2 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 361 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\scoped_dir1336_3842}, takesHeapSnapshot=true, hasMetadata=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=1acacd47df81495a92feaa87fba7d19a, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1acacd47df81495a92feaa87fba7d19a
+*** Element info: {Using=id, value=username}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=39.0.2171.65)
+  (Driver info: chromedriver=2.11.298604 (75ea2fdb5c87f133a8e1b8da16f6091fb7d5321e),platform=Windows NT 5.2 SP2 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 361 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\scoped_dir1336_3842}, takesHeapSnapshot=true, hasMetadata=true, databaseEnabled=false, handlesAlerts=true, version=39.0.2171.65, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=1acacd47df81495a92feaa87fba7d19a, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1acacd47df81495a92feaa87fba7d19a
+*** Element info: {Using=id, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+    <system-out>SauceOnDemandSessionID=1acacd47df81495a92feaa87fba7d19a job-name=com.yourcompany.SampleSauceTest.loginTest[10]
+Job link: https://saucelabs.com/jobs/1acacd47df81495a92feaa87fba7d19a?auth=843dbe56f3b801752200a38e4b4fbea6
+</system-out>
+  </testcase>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[8]" time="17.421"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[11]" time="17.086"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[6]" time="55.13"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="0.002">
+    <error message="Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 308 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;Sauce-Win7&apos;, ip: &apos;172.20.33.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:30202/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXa681418d
+Command duration or timeout: 448 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=9, platform=WINDOWS, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=cdc3c8ffccb3421c83c6068fa7d82a4e, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=http://localhost:30202/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: cdc3c8ffccb3421c83c6068fa7d82a4e
+*** Element info: {Using=id, value=username}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 308 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;Sauce-Win7&apos;, ip: &apos;172.20.33.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:30202/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXa681418d
+Command duration or timeout: 448 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, hasMetadata=true, handlesAlerts=true, version=9, platform=WINDOWS, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, webdriver.remote.sessionid=cdc3c8ffccb3421c83c6068fa7d82a4e, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, initialBrowserUrl=http://localhost:30202/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: cdc3c8ffccb3421c83c6068fa7d82a4e
+*** Element info: {Using=id, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.yourcompany.SampleSauceTest.loginTest(SampleSauceTest.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 308 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;fbe29a9&apos;, time: &apos;2014-02-19 20:54:28&apos;
+System info: host: &apos;Sauce-Win7&apos;, ip: &apos;172.20.33.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=9, platform=WINDOWS, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:30202/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXa681418d
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.17.181.96&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:367)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy2.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</error>
+    <system-out>SauceOnDemandSessionID=cdc3c8ffccb3421c83c6068fa7d82a4e job-name=com.yourcompany.SampleSauceTest.loginTest[9]
+Job link: https://saucelabs.com/jobs/cdc3c8ffccb3421c83c6068fa7d82a4e?auth=03d8cfa89489b697861b0c322746acbd
+</system-out>
+  </testcase>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[10]" time="12.443"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[5]" time="20.588"/>
 </testsuite>
