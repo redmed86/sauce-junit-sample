@@ -202,8 +202,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         Thread.sleep(5000);
         driver.findElement(By.xpath("//a[@title = 'Log in']")).click();
         Thread.sleep(5000);
-        driver.findElement(By.id("username")).sendKeys("kmeier2");
-        driver.findElement(By.id("password")).sendKeys("saucelabs");
+        driver.findElement(By.name("username")).sendKeys("kmeier2");
+        driver.findElement(By.name("password")).sendKeys("saucelabs");
         driver.findElement(By.id("submit")).click();
         Thread.sleep(5000);
                 
