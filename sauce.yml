@@ -1,0 +1,4 @@
+---
+  language: "java"
+  builder: "maven"
+  mavenVersion: "3.3"
