@@ -123,7 +123,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows XP", "42", "chrome"});   
         browsers.add(new String[]{"Windows XP", "36", "firefox"});      
         browsers.add(new String[]{"OSX 10.8", "6", "safari"});
-        browsers.add(new String[]{"OSX 10.10", "8", "safari"});
+        browsers.add(new String[]{"OSX 10.11", "9", "safari"});
         browsers.add(new String[]{"Linux", "5.1", "Android"}); 
         browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone"});
         browsers.add(new String[]{"Windows 8", "10", "internet explorer"}); 
@@ -132,6 +132,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 8", "40", "firefox"});
         browsers.add(new String[]{"Windows 10", "11", "internet explorer"});
         browsers.add(new String[]{"Windows 10", "43", "Chrome"}); 
+
+
 
    
         return browsers;
@@ -180,7 +182,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     driver.get("http://saucelabs.com/");
     assertEquals("Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More", driver.getTitle());
     } 
-        
+          
     /**
      * Runs a simple Authentication test 
      * @throws Exception
