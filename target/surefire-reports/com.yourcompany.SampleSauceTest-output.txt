@@ -1,28 +1,793 @@
-SauceOnDemandSessionID=18a3926aab78414e8c357c237571f85a job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[8]
-SauceOnDemandSessionID=cd4862660b6d437b9d8aaa2e486c3a67 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[6]
-SauceOnDemandSessionID=a630cb96d8eb458186343289f33fea49 job-name=com.yourcompany.SampleSauceTest.loginTest[7]
-SauceOnDemandSessionID=f094a079352b4d9a9994bfdbe88b55a1 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[2]
-SauceOnDemandSessionID=8e43f4ae7efe4646a39a60cb65c936d7 job-name=com.yourcompany.SampleSauceTest.loginTest[13]
-SauceOnDemandSessionID=402a84d9fb894f078bcbae00b76c50f7 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[3]
-SauceOnDemandSessionID=ebe75ac0c713404f8d75721ec1c0a8fa job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[5]
-SauceOnDemandSessionID=e606fe8461c74dfea08b4a1eb712c3ce job-name=com.yourcompany.SampleSauceTest.loginTest[3]
-SauceOnDemandSessionID=9f37da6a2a874914beb7c27d087b9505 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[7]
-SauceOnDemandSessionID=01dd602ae1bf4da886512fca72fe80cd job-name=com.yourcompany.SampleSauceTest.loginTest[8]
-SauceOnDemandSessionID=98324ed74bc44aed8e0930e72c94d511 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[4]
-SauceOnDemandSessionID=924a4ffffbfa43fea10b92d0820c7eb2 job-name=com.yourcompany.SampleSauceTest.loginTest[11]
-SauceOnDemandSessionID=b5a76beac5484b838a2e3a1f56bbcc4a job-name=com.yourcompany.SampleSauceTest.loginTest[5]
-SauceOnDemandSessionID=a1439115b4db49b09276b4b0ab113fc2 job-name=com.yourcompany.SampleSauceTest.loginTest[0]
-SauceOnDemandSessionID=55401fbbfc4e495d9940d31275cf7443 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[13]
-SauceOnDemandSessionID=f59862d8dfa94303913e0bacf79b7007 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[10]
-SauceOnDemandSessionID=13723cf4b91241e99b8f0d20efb2c9bd job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[0]
-SauceOnDemandSessionID=051230fd53d54e6d8805c7b37975d23f job-name=com.yourcompany.SampleSauceTest.loginTest[4]
-SauceOnDemandSessionID=9f282cca862a4641a5daa7d71b9781a2 job-name=com.yourcompany.SampleSauceTest.loginTest[9]
-SauceOnDemandSessionID=046cf1f6b6054a3b86f220cb23b2cf13 job-name=com.yourcompany.SampleSauceTest.loginTest[12]
-SauceOnDemandSessionID=f60f827d55c942839a5aa33bfa7f2ddc job-name=com.yourcompany.SampleSauceTest.loginTest[10]
-SauceOnDemandSessionID=9a431fa07f494bce8cfe33c5b5be3763 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[12]
-SauceOnDemandSessionID=900dc43b5c0c4a92949823b10d3932f2 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[1]
-SauceOnDemandSessionID=2773ceeef5a54e26a549ce2127bd2056 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[11]
-SauceOnDemandSessionID=3eeb7f9f97d7481ba095af227ea5038d job-name=com.yourcompany.SampleSauceTest.loginTest[6]
-SauceOnDemandSessionID=8205d8eb1f414be5b5b54104bf57aaec job-name=com.yourcompany.SampleSauceTest.loginTest[2]
-SauceOnDemandSessionID=3a33b843a7f44471b780dd70d1731a23 job-name=com.yourcompany.SampleSauceTest.loginTest[1]
-SauceOnDemandSessionID=1a78685742cd4720a7b7e58ceb33697c job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[9]
+SauceOnDemandSessionID=f0ecf811503a48cb8466250d44b167d3 job-name=com.yourcompany.SampleSauceTest.loginTest[1]
+Dec 18, 2015 11:15:07 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/f0ecf811503a48cb8466250d44b167d3
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/f0ecf811503a48cb8466250d44b167d3?auth=fff079fe2d33b3421c5855b52d4c3dc5
+SauceOnDemandSessionID=fd82174f5c7d4f94a8564e0501751c39 job-name=com.yourcompany.SampleSauceTest.loginTest[6]
+Dec 18, 2015 11:15:29 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/fd82174f5c7d4f94a8564e0501751c39
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/fd82174f5c7d4f94a8564e0501751c39?auth=95b8f870351ea3e4adc9816b0273453b
+SauceOnDemandSessionID=d5b5ec5372724f9790a27d8ff5c9fb51 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[0]
+Dec 18, 2015 11:14:48 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/d5b5ec5372724f9790a27d8ff5c9fb51
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.succeeded(SauceOnDemandTestWatcher.java:98)
+	at org.junit.rules.TestWatcher.succeededQuietly(TestWatcher.java:75)
+	at org.junit.rules.TestWatcher.access$100(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:56)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+SauceOnDemandSessionID=12bf0a70b8e44b539097595e03e1d465 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[10]
+Dec 18, 2015 11:14:47 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/12bf0a70b8e44b539097595e03e1d465
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/12bf0a70b8e44b539097595e03e1d465?auth=f13e32e13e7072e515b8bd2556b53025
+SauceOnDemandSessionID=1a954260c67848b3a50c02b9c66c854e job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[4]
+Dec 18, 2015 11:14:59 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:961)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:918)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:704)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1535)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/1a954260c67848b3a50c02b9c66c854e?auth=bf35b50bb994f2b8599f6669787f95dc
+SauceOnDemandSessionID=867cfeced87c445a9b95a6af19477376 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[8]
+Dec 18, 2015 11:14:56 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:961)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:918)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:704)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1535)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/867cfeced87c445a9b95a6af19477376?auth=8a1c8ef2aee47559c61be3cc54e9ed25
+SauceOnDemandSessionID=7b21749dd00c4e8fbb9176029f201592 job-name=com.yourcompany.SampleSauceTest.loginTest[2]
+Dec 18, 2015 11:15:08 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/7b21749dd00c4e8fbb9176029f201592
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/7b21749dd00c4e8fbb9176029f201592?auth=6fb350f912a451097cc75f25be63a5a5
+SauceOnDemandSessionID=6f9226af901844ffab43b419b66e4e32 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[13]
+Dec 18, 2015 11:14:47 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/6f9226af901844ffab43b419b66e4e32
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/6f9226af901844ffab43b419b66e4e32?auth=b1e361d89ca03fa8304ff841d9cc8f3b
+SauceOnDemandSessionID=368b4c0c80274b669ecf19493650375a job-name=com.yourcompany.SampleSauceTest.loginTest[8]
+Dec 18, 2015 11:15:09 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/368b4c0c80274b669ecf19493650375a
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/368b4c0c80274b669ecf19493650375a?auth=418d3fd9108c0c18be65792afef42b2c
+SauceOnDemandSessionID=1e35c372de224aa5a75936c292f57a59 job-name=com.yourcompany.SampleSauceTest.loginTest[7]
+Dec 18, 2015 11:16:17 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/1e35c372de224aa5a75936c292f57a59
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/1e35c372de224aa5a75936c292f57a59?auth=085e3cc57b90bd4cb105c60e4ec6894c
+SauceOnDemandSessionID=62bf30b2cfb54ff0baff7b151c7d9c93 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[6]
+Dec 18, 2015 11:15:10 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/62bf30b2cfb54ff0baff7b151c7d9c93
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/62bf30b2cfb54ff0baff7b151c7d9c93?auth=b3e65819d9015b0258ef87416b598850
+SauceOnDemandSessionID=06035ca345fe432cb6e1cba0c0ea62cb job-name=com.yourcompany.SampleSauceTest.loginTest[12]
+Dec 18, 2015 11:15:04 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/06035ca345fe432cb6e1cba0c0ea62cb
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/06035ca345fe432cb6e1cba0c0ea62cb?auth=29b6d39d8c295e87c78cc168311907ef
+SauceOnDemandSessionID=cf8e54601f5a47edb79cbc0774ab6f06 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[9]
+Dec 18, 2015 11:14:51 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/cf8e54601f5a47edb79cbc0774ab6f06
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/cf8e54601f5a47edb79cbc0774ab6f06?auth=ad96e72e959b16da9c26fef757bd529f
+SauceOnDemandSessionID=29d311f94a71491aaf4cd64ea916d1f5 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[5]
+Dec 18, 2015 11:15:03 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:961)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:918)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:704)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1535)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.succeeded(SauceOnDemandTestWatcher.java:98)
+	at org.junit.rules.TestWatcher.succeededQuietly(TestWatcher.java:75)
+	at org.junit.rules.TestWatcher.access$100(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:56)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+SauceOnDemandSessionID=5b6cbc74bda1452e94b467e3dbe550d5 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[3]
+Dec 18, 2015 11:14:49 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/5b6cbc74bda1452e94b467e3dbe550d5
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.succeeded(SauceOnDemandTestWatcher.java:98)
+	at org.junit.rules.TestWatcher.succeededQuietly(TestWatcher.java:75)
+	at org.junit.rules.TestWatcher.access$100(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:56)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+SauceOnDemandSessionID=d8c142b717524b289b465cec54e1640f job-name=com.yourcompany.SampleSauceTest.loginTest[10]
+Dec 18, 2015 11:15:07 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/d8c142b717524b289b465cec54e1640f
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/d8c142b717524b289b465cec54e1640f?auth=f0df6b1d84cbc418083313fa14ea3c51
+SauceOnDemandSessionID=ff12be36cd424def8894644def6745c0 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[12]
+Dec 18, 2015 11:15:00 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:961)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:918)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:704)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1535)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.succeeded(SauceOnDemandTestWatcher.java:98)
+	at org.junit.rules.TestWatcher.succeededQuietly(TestWatcher.java:75)
+	at org.junit.rules.TestWatcher.access$100(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:56)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+SauceOnDemandSessionID=5fe98a6fde814139a7e6246691eb1545 job-name=com.yourcompany.SampleSauceTest.loginTest[5]
+Dec 18, 2015 11:14:58 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/5fe98a6fde814139a7e6246691eb1545
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/5fe98a6fde814139a7e6246691eb1545?auth=35d81073e6ceba446613c687ab39e10d
+SauceOnDemandSessionID=852099564b0044db9704222070d287ca job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[7]
+Dec 18, 2015 11:16:06 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/852099564b0044db9704222070d287ca
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/852099564b0044db9704222070d287ca?auth=8cdc88dc045c58bb4a1d63fb9af4ff24
+SauceOnDemandSessionID=e5ecc4760b2543bda0bb62d9bf9bab26 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[1]
+Dec 18, 2015 11:14:53 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/e5ecc4760b2543bda0bb62d9bf9bab26
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.succeeded(SauceOnDemandTestWatcher.java:98)
+	at org.junit.rules.TestWatcher.succeededQuietly(TestWatcher.java:75)
+	at org.junit.rules.TestWatcher.access$100(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:56)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+SauceOnDemandSessionID=fb4f4d6a4c1c4b59af2e53b50b56d77a job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[2]
+Dec 18, 2015 11:14:53 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:961)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:918)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:704)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1535)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/fb4f4d6a4c1c4b59af2e53b50b56d77a?auth=809d296c83ac336291579946052f11fd
+SauceOnDemandSessionID=39510fecbd19477a84c72611728f5841 job-name=com.yourcompany.SampleSauceTest.loginTest[0]
+Dec 18, 2015 11:15:03 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/39510fecbd19477a84c72611728f5841
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/39510fecbd19477a84c72611728f5841?auth=356202c9cb5486a6204f899d068614e4
+SauceOnDemandSessionID=196c5926fef7478f9e7fb53a826d2859 job-name=com.yourcompany.SampleSauceTest.loginTest[3]
+Dec 18, 2015 11:14:58 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/196c5926fef7478f9e7fb53a826d2859
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/196c5926fef7478f9e7fb53a826d2859?auth=31ae32c5727c3891ec303c2d915a4ebc
+SauceOnDemandSessionID=bad16a9bd0624e9d824e60d4f83adddf job-name=com.yourcompany.SampleSauceTest.loginTest[13]
+Dec 18, 2015 11:15:15 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:961)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:918)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:704)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1535)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/bad16a9bd0624e9d824e60d4f83adddf?auth=be5db7df5c9b9a1ec8c06381754d0d7c
+SauceOnDemandSessionID=a4eb51b771b340ee9c7f0ea1a8bf5302 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[11]
+Dec 18, 2015 11:14:50 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/a4eb51b771b340ee9c7f0ea1a8bf5302
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/a4eb51b771b340ee9c7f0ea1a8bf5302?auth=ba83a1b5bb4b3ba3d67649b26baf8198
+SauceOnDemandSessionID=b6985ab866054b80b16dc7b38b503e4b job-name=com.yourcompany.SampleSauceTest.loginTest[4]
+Dec 18, 2015 11:15:10 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/b6985ab866054b80b16dc7b38b503e4b
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/b6985ab866054b80b16dc7b38b503e4b?auth=bb2cd25cea190b798da460362e7b66d6
+SauceOnDemandSessionID=aecd63c3dc5b4da5a3ad9b442cf2ccf3 job-name=com.yourcompany.SampleSauceTest.loginTest[9]
+Dec 18, 2015 11:15:10 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://saucelabs.com/rest/v1/kristianmeiersl/jobs/aecd63c3dc5b4da5a3ad9b442cf2ccf3
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/aecd63c3dc5b4da5a3ad9b442cf2ccf3?auth=f33dcc08304e46ccccc515a89a24150c
+SauceOnDemandSessionID=66cc65e3d758405eaba6aaaeb99cdefc job-name=com.yourcompany.SampleSauceTest.loginTest[11]
+Dec 18, 2015 11:15:03 AM com.saucelabs.saucerest.SauceREST updateJobInfo
+WARNING: Error closing result stream
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:961)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:918)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:704)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1535)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.saucelabs.saucerest.SauceREST.updateJobInfo(SauceREST.java:227)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.failed(SauceOnDemandTestWatcher.java:122)
+	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:84)
+	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:46)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:62)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Job link: https://saucelabs.com/jobs/66cc65e3d758405eaba6aaaeb99cdefc?auth=f88b30cf5fe9ee0911125269582872b8

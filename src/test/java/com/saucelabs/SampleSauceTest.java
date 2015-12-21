@@ -159,6 +159,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         capabilities.setCapability(CapabilityType.PLATFORM, os);
         String methodName = name.getMethodName();
         capabilities.setCapability("name", methodName);
+        //capabilities.setCapability("prerun", "Path_to_executable.sh");
        // capabilities.setCapability("tunnel-identifier", tunnelIdentifier);
 
         this.driver = new RemoteWebDriver(
