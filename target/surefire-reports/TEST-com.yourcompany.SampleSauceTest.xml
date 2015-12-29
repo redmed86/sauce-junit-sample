@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="28" failures="0" name="com.yourcompany.SampleSauceTest" time="958.644" errors="0" skipped="0">
+<testsuite tests="28" failures="0" name="com.yourcompany.SampleSauceTest" time="916.153" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
@@ -62,32 +62,55 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[4]" time="23.281"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="32.27"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="39.551"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[3]" time="12.07"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[5]" time="15.79"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[10]" time="8.22"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[12]" time="13.773"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[7]" time="93.832"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="39.927"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[9]" time="21.362"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="132.242"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[2]" time="8.399"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="31.664"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[6]" time="49.159"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="26.644"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[0]" time="10.117"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="80.944"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[11]" time="11.049"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="30.499"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[12]" time="32.71"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[11]" time="30.193"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[13]" time="36.481"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="52.8"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[1]" time="21.506"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[8]" time="9.721"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="39.047"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[10]" time="27.624"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[13]" time="27.769"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[3]" time="11.671"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[8]" time="11.677"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="108.058"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="38.937"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="30.539"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[13]" time="32.489"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[11]" time="11.899"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="42.87"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="35.401"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[12]" time="36.405"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[6]" time="54.334"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[12]" time="21.322"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[5]" time="17.279"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[2]" time="11.634"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[4]" time="16.336"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="37.202"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="27.873"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[11]" time="29.903"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[13]" time="11.713"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="76.72"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="50.991"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[1]" time="16.835"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[9]" time="20.093"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[10]" time="27.74"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[7]" time="93.616"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="30.382"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[10]" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.yourcompany.SampleSauceTest.tearDown(SampleSauceTest.java:224)
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[0]" time="12.234"/>
 </testsuite>
