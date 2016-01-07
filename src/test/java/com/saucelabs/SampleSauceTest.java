@@ -181,7 +181,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      //  assertEquals("Localhost Selenium Authentication Test", driver.getTitle());
    
     driver.get("http://saucelabs.com/");
-    assertEquals("Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More", driver.getTitle());
+    assertEquals("Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing", driver.getTitle());
     } 
           
     /**
