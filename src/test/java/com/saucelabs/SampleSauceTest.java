@@ -183,7 +183,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     driver.get("http://saucelabs.com/");
     assertEquals("Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing", driver.getTitle());
     } 
-          
+        
     /**
      * Runs a simple Authentication test 
      * @throws Exception
