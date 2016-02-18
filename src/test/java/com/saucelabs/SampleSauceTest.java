@@ -44,6 +44,9 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      */
     public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication("kristianmeiersl", "5654145f-77f1-49aa-94d2-428831e575a9");
     //public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication("kristiansl", "2e5392e7-d296-4691-ae89-a379348feb0b");
+ //public String username = System.getenv("SAUCE_USERNAME");
+   // public String accesskey = System.getenv("SAUCE_ACCESS_KEY");
+   // public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication(System.getenv("SAUCE_USERNAME"), System.getenv("SAUCE_ACCESS_KEY"));
 
     /**
      * JUnit Rule which will mark the Sauce Job as passed/failed when the test succeeds or fails.
@@ -169,6 +172,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         this.sessionId = (((RemoteWebDriver) driver).getSessionId()).toString();
 
         String message = String.format("SauceOnDemandSessionID=%1$s job-name=%2$s", this.sessionId, methodName);
+        System.out.println(message);    
     } 
       /**
      * Runs a simple test verifying the title of the home page.
