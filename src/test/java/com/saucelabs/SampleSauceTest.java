@@ -46,6 +46,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     //public String username = System.getenv("SAUCE_USERNAME");
     //public String accesskey = System.getenv("SAUCE_ACCESS_KEY");
     //public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication(username, accesskey);
+  
     /**
      * JUnit Rule which will mark the Sauce Job as passed/failed when the test succeeds or fails.
      */
