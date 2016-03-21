@@ -181,9 +181,6 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     
     @Test
     public void verifyTitleTest() throws Exception {
-     //  driver.get("http://localhost/");
-     //  assertEquals("Localhost Selenium Authentication Test", driver.getTitle());
-   
     driver.get("http://saucelabs.com/");
     assertEquals("Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing", driver.getTitle());
     } 
@@ -194,14 +191,6 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      */
     @Test
     public void loginTest() throws Exception {
-    //    driver.get("http://localhost/");
-    //    WebDriverWait wait = new WebDriverWait(driver, 1000); // wait for a maximum of 10 seconds
-    //    wait.until(ExpectedConditions.presenceOfElementLocated(By.id("login-name")));
-    //    driver.findElement(By.id("login-name")).sendKeys("someuser");
-    //    driver.findElement(By.id("login-pass")).sendKeys("somepasas");
-    //    driver.findElement(By.id("login-button")).click();
-    //    Thread.sleep(5000);
-
         driver.get("http://saucelabs.com/");
         WebDriverWait wait = new WebDriverWait(driver, 20); // wait for a maximum of 20 seconds
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".hamburger")));
@@ -212,10 +201,30 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.name("username")).sendKeys("kmeier2");
         driver.findElement(By.name("password")).sendKeys("saucelabs");
         driver.findElement(By.id("submit")).click();
-        Thread.sleep(5000);
-                 
-         
+        Thread.sleep(5000);       
     }  
+
+      /**
+     * Runs a simple test to sign up for a free trial.
+     * @throws Exception
+     */
+    
+    @Test
+    public void freeTrialTest() throws Exception {
+        driver.get("http://saucelabs.com/");
+        WebDriverWait wait = new WebDriverWait(driver, 20); // wait for a maximum of 20 seconds
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='content']/article[1]/div[2]/div/div/div[2]/a[1]")));
+        driver.findElement(By.xpath("//*[@id='content']/article[1]/div[2]/div/div/div[2]/a[1]")).click();
+        Thread.sleep(5000);
+        driver.findElement(By.id("first_name")).sendKeys("FirstName");
+        driver.findElement(By.id("last_name")).sendKeys("LastName");
+        driver.findElement(By.id("email")).sendKeys("MyEmail@company.com");
+        driver.findElement(By.id("company")).sendKeys("My Company");
+        driver.findElement(By.id("company-size")).sendKeys("500");
+        driver.findElement(By.id("username")).sendKeys("myUsername");
+        driver.findElement(By.id("password")).sendKeys("thatsright");
+        driver.findElement(By.id("password_confirm")).sendKeys("thatsright");
+    } 
 
     /**
      * Closes the {@link WebDriver} session.
