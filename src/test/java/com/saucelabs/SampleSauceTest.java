@@ -123,7 +123,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     public static LinkedList browsersStrings() {
         LinkedList browsers = new LinkedList();
      //   browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "kristianTest2"});
-        browsers.add(new String[]{"Windows 8.1", "11", "internet explorer"});
+       browsers.add(new String[]{"Windows 8.1", "11", "internet explorer"});
         browsers.add(new String[]{"Windows 7", "10", "internet explorer", });   
         browsers.add(new String[]{"Windows XP", "42", "chrome"});   
         browsers.add(new String[]{"Windows XP", "36", "firefox"});      
@@ -138,6 +138,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 10", "11", "internet explorer"});
         browsers.add(new String[]{"Windows 10", "43", "Chrome"}); 
         browsers.add(new String[]{"OSX 10.10", "9.2", "iPhone"}); 
+        browsers.add(new String[]{"Windows 10", "13.10586", "MicrosoftEdge"}); 
 
 
    
