@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="48" failures="0" name="com.yourcompany.SampleSauceTest" time="1,901.641" errors="1" skipped="0">
+<testsuite tests="48" failures="0" name="com.yourcompany.SampleSauceTest" time="1,772.147" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
@@ -62,28 +62,38 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[3]" time="15.55"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[11]" time="20.365"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="48.186"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[10]" time="22.733"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="45.306"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[11]" time="26.331"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="38.412"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="30.11"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[1]" time="17.842"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[12]" time="45.426"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[5]" time="17.452"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[4]" time="22.803"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[13]" time="50.865"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="35.502"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[12]" time="47.369"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[2]" time="8.689"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="33.752"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[15]" time="65.834"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[7]" time="87.26"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[5]" time="26.22"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[14]" time="72.914"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[6]" time="0.004">
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[11]" time="17.276"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="34.015"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[5]" time="18.021"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[12]" time="13.452"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[9]" time="22.599"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[15]" time="27.147"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[14]" time="79.847"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="44.005"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[2]" time="10.27"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[6]" time="75.781"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[10]" time="10.186"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[13]" time="22.903"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[4]" time="29.43"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[0]" time="15.88"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[13]" time="31.582"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[3]" time="21.329"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[11]" time="36.224"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="36.451"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[14]" time="92.319"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[15]" time="22.293"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[10]" time="21.417"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="45.303"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[2]" time="20.848"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="104.557"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[3]" time="28.149"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[1]" time="20.77"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[1]" time="33.152"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="31.421"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[7]" time="92.509"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[12]" time="23.736"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[8]" time="24.466"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[6]" time="0.009">
     <error message="Element was not found.
 io.selendroid.exceptions.NoSuchElementException: Element was not found.
 	at io.selendroid.server.SafeRequestHandler.getIdOfKnownElement(SafeRequestHandler.java:42)
@@ -114,13 +124,13 @@ io.selendroid.exceptions.NoSuchElementException: Element was not found.
 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
 	at java.lang.Thread.run(Thread.java:818)
 
-Command duration or timeout: 5.24 seconds
+Command duration or timeout: 5.30 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
 System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.35.5.147&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{emulator=true, aut=android, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, webdriver.remote.sessionid=b248e15764c547d2961bcef3f0d3fdff, platformVersion=22, webdriver.remote.quietExceptions=true, browserName=android, hasMetadata=true, platform=ANY}]
-Session ID: b248e15764c547d2961bcef3f0d3fdff
+Capabilities [{emulator=true, aut=android, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, webdriver.remote.sessionid=839e789f9fb54d9dbef546217ec62a71, platformVersion=22, webdriver.remote.quietExceptions=true, browserName=android, hasMetadata=true, platform=ANY}]
+Session ID: 839e789f9fb54d9dbef546217ec62a71
 *** Element info: {Using=id, value=first_name}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Element was not found.
 io.selendroid.exceptions.NoSuchElementException: Element was not found.
 	at io.selendroid.server.SafeRequestHandler.getIdOfKnownElement(SafeRequestHandler.java:42)
@@ -151,13 +161,13 @@ io.selendroid.exceptions.NoSuchElementException: Element was not found.
 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
 	at java.lang.Thread.run(Thread.java:818)
 
-Command duration or timeout: 5.24 seconds
+Command duration or timeout: 5.30 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
 System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.35.5.147&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{emulator=true, aut=android, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, webdriver.remote.sessionid=b248e15764c547d2961bcef3f0d3fdff, platformVersion=22, webdriver.remote.quietExceptions=true, browserName=android, hasMetadata=true, platform=ANY}]
-Session ID: b248e15764c547d2961bcef3f0d3fdff
+Capabilities [{emulator=true, aut=android, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, webdriver.remote.sessionid=839e789f9fb54d9dbef546217ec62a71, platformVersion=22, webdriver.remote.quietExceptions=true, browserName=android, hasMetadata=true, platform=ANY}]
+Session ID: 839e789f9fb54d9dbef546217ec62a71
 *** Element info: {Using=id, value=first_name}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -228,35 +238,25 @@ Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc309
 System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.35.5.147&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
 Driver info: driver.version: unknown
 </error>
-    <system-out>SauceOnDemandSessionID=b248e15764c547d2961bcef3f0d3fdff job-name=freeTrialTest[6] : (Linux Android 5.1)
-SauceOnDemandSessionID=b248e15764c547d2961bcef3f0d3fdff job-name=com.yourcompany.SampleSauceTest.freeTrialTest[6]
-Job link: https://saucelabs.com/jobs/b248e15764c547d2961bcef3f0d3fdff?auth=8ea63868e1a70c8dec2b9d78eaca506a
+    <system-out>SauceOnDemandSessionID=839e789f9fb54d9dbef546217ec62a71 job-name=freeTrialTest[6] : (Linux Android 5.1)
+SauceOnDemandSessionID=839e789f9fb54d9dbef546217ec62a71 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[6]
+Job link: https://saucelabs.com/jobs/839e789f9fb54d9dbef546217ec62a71?auth=63803adec2c2a3830aadbab6c53ee4ca
 </system-out>
   </testcase>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[13]" time="46.477"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[8]" time="21.177"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[11]" time="40.48"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[9]" time="23.346"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[3]" time="27.734"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[14]" time="68.187"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[6]" time="56.494"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[13]" time="9.75"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[10]" time="8.684"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[1]" time="32.758"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[15]" time="77.898"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="115.228"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="28.794"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[10]" time="29.066"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[9]" time="36.649"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[15]" time="65.064"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[0]" time="22.88"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[12]" time="35.256"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[7]" time="89.966"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[2]" time="18.877"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[14]" time="92.254"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="39.306"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[0]" time="12.011"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[8]" time="29.643"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[4]" time="16.845"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="77.892"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="40.85"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[10]" time="30.47"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[0]" time="27.038"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="38.312"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[11]" time="24.414"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[14]" time="71.051"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[13]" time="11.851"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[15]" time="36.93"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[7]" time="89.579"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[4]" time="22.728"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="116.057"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="41.807"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[9]" time="36.417"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[8]" time="13.551"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[5]" time="31.577"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[12]" time="32.168"/>
 </testsuite>
