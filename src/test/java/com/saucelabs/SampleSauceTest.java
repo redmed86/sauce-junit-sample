@@ -2,7 +2,7 @@ package com.yourcompany;
 
 import com.saucelabs.common.SauceOnDemandAuthentication;
  
-import org.junit.After;
+import org.junit.After; 
 import org.junit.Before;
 import org.junit.Rule; 
 import org.junit.Test;
@@ -204,13 +204,13 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.name("username")).sendKeys("kmeier2");
         driver.findElement(By.name("password")).sendKeys("saucelabs");
         driver.findElement(By.id("submit")).click();
-        Thread.sleep(5000);       
+        Thread.sleep(5000);      
     }  
 
       /**
      * Runs a simple test to sign up for a free trial.
      * @throws Exception
-     */
+     */ 
     
     @Test
     public void freeTrialTest() throws Exception {
