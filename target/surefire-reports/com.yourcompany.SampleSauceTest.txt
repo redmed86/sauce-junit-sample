@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: com.yourcompany.SampleSauceTest
 -------------------------------------------------------------------------------
-Tests run: 48, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1,847.861 sec <<< FAILURE!
-freeTrialTest[14](com.yourcompany.SampleSauceTest)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 48, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1,688.581 sec <<< FAILURE!
+freeTrialTest[14](com.yourcompany.SampleSauceTest)  Time elapsed: 0.002 sec  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 388 milliseconds
+Command duration or timeout: 112 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Sauces-MacBook-Air-5.local', ip: '192.168.42.88', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_45'
+System info: host: 'Sauces-MacBook-Air-5.local', ip: '10.35.5.147', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_45'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{networkConnectionEnabled=false, safari=true, warnings={}, webdriver.remote.quietExceptions=true, hasMetadata=true, databaseEnabled=false, deviceName=iPhone Simulator, platform=MAC, desired={platformVersion=9.2, webdriver.remote.quietExceptions=true, browserName=safari, platformName=iOS, deviceName=iPhone Simulator}, webdriver.remote.sessionid=57046954ec0b42f2b4b6f3459c261fff, platformVersion=9.2, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
-Session ID: 57046954ec0b42f2b4b6f3459c261fff
+Capabilities [{networkConnectionEnabled=false, safari=true, warnings={}, webdriver.remote.quietExceptions=true, hasMetadata=true, databaseEnabled=false, deviceName=iPhone Simulator, platform=MAC, desired={platformVersion=9.2, webdriver.remote.quietExceptions=true, browserName=safari, platformName=iOS, deviceName=iPhone Simulator}, webdriver.remote.sessionid=fd9275413277452d8accc01b07f7b10b, platformVersion=9.2, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: fd9275413277452d8accc01b07f7b10b
 *** Element info: {Using=id, value=first_name}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -47,7 +47,7 @@ Session ID: 57046954ec0b42f2b4b6f3459c261fff
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 
-freeTrialTest[6](com.yourcompany.SampleSauceTest)  Time elapsed: 0.002 sec  <<< ERROR!
+freeTrialTest[6](com.yourcompany.SampleSauceTest)  Time elapsed: 0.001 sec  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: Element was not found.
 io.selendroid.exceptions.NoSuchElementException: Element was not found.
 	at io.selendroid.server.SafeRequestHandler.getIdOfKnownElement(SafeRequestHandler.java:42)
@@ -78,13 +78,13 @@ io.selendroid.exceptions.NoSuchElementException: Element was not found.
 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
 	at java.lang.Thread.run(Thread.java:818)
 
-Command duration or timeout: 5.34 seconds
+Command duration or timeout: 5.21 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Sauces-MacBook-Air-5.local', ip: '192.168.42.88', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_45'
+System info: host: 'Sauces-MacBook-Air-5.local', ip: '10.35.5.147', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_45'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{emulator=true, aut=android, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, webdriver.remote.sessionid=f12e4cee2c9444048f10892c8c3dec2c, platformVersion=22, webdriver.remote.quietExceptions=true, browserName=android, hasMetadata=true, platform=ANY}]
-Session ID: f12e4cee2c9444048f10892c8c3dec2c
+Capabilities [{emulator=true, aut=android, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, webdriver.remote.sessionid=26017a4f41034ea9b69e77776cbecbff, platformVersion=22, webdriver.remote.quietExceptions=true, browserName=android, hasMetadata=true, platform=ANY}]
+Session ID: 26017a4f41034ea9b69e77776cbecbff
 *** Element info: {Using=id, value=first_name}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -152,6 +152,6 @@ io.selendroid.exceptions.NoSuchElementException: Element was not found.
 
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Sauces-MacBook-Air-5.local', ip: '192.168.42.88', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_45'
+System info: host: 'Sauces-MacBook-Air-5.local', ip: '10.35.5.147', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_45'
 Driver info: driver.version: unknown
 

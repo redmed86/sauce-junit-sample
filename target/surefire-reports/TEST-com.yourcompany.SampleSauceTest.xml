@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="48" failures="0" name="com.yourcompany.SampleSauceTest" time="1,706.51" errors="2" skipped="0">
+<testsuite tests="48" failures="0" name="com.yourcompany.SampleSauceTest" time="1,541.188" errors="2" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
@@ -62,37 +62,44 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[12]" time="28.865"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[9]" time="33.921"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[2]" time="26.22"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[12]" time="14.095"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[11]" time="14.852"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[4]" time="29.556"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[5]" time="21.388"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[15]" time="29.188"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="52.353"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[6]" time="59.674"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[8]" time="14.092"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[14]" time="86.693"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[13]" time="34.207"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[1]" time="35.341"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[14]" time="0.001">
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[5]" time="19.466"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[2]" time="17.892"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[9]" time="21.814"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[15]" time="37.871"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[9]" time="31.817"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="33.365"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[12]" time="22.043"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[11]" time="22.009"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="37.702"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[1]" time="47.962"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="42.003"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[14]" time="65.552"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[7]" time="91.346"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[13]" time="29.136"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="32.649"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[13]" time="19.809"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="92.443"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[6]" time="53.146"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[15]" time="20.394"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[0]" time="24.573"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[14]" time="80.182"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[14]" time="0.002">
     <error message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 388 milliseconds
+Command duration or timeout: 112 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;192.168.42.88&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.35.5.147&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{networkConnectionEnabled=false, safari=true, warnings={}, webdriver.remote.quietExceptions=true, hasMetadata=true, databaseEnabled=false, deviceName=iPhone Simulator, platform=MAC, desired={platformVersion=9.2, webdriver.remote.quietExceptions=true, browserName=safari, platformName=iOS, deviceName=iPhone Simulator}, webdriver.remote.sessionid=57046954ec0b42f2b4b6f3459c261fff, platformVersion=9.2, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
-Session ID: 57046954ec0b42f2b4b6f3459c261fff
+Capabilities [{networkConnectionEnabled=false, safari=true, warnings={}, webdriver.remote.quietExceptions=true, hasMetadata=true, databaseEnabled=false, deviceName=iPhone Simulator, platform=MAC, desired={platformVersion=9.2, webdriver.remote.quietExceptions=true, browserName=safari, platformName=iOS, deviceName=iPhone Simulator}, webdriver.remote.sessionid=fd9275413277452d8accc01b07f7b10b, platformVersion=9.2, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: fd9275413277452d8accc01b07f7b10b
 *** Element info: {Using=id, value=first_name}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 388 milliseconds
+Command duration or timeout: 112 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;192.168.42.88&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.35.5.147&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{networkConnectionEnabled=false, safari=true, warnings={}, webdriver.remote.quietExceptions=true, hasMetadata=true, databaseEnabled=false, deviceName=iPhone Simulator, platform=MAC, desired={platformVersion=9.2, webdriver.remote.quietExceptions=true, browserName=safari, platformName=iOS, deviceName=iPhone Simulator}, webdriver.remote.sessionid=57046954ec0b42f2b4b6f3459c261fff, platformVersion=9.2, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
-Session ID: 57046954ec0b42f2b4b6f3459c261fff
+Capabilities [{networkConnectionEnabled=false, safari=true, warnings={}, webdriver.remote.quietExceptions=true, hasMetadata=true, databaseEnabled=false, deviceName=iPhone Simulator, platform=MAC, desired={platformVersion=9.2, webdriver.remote.quietExceptions=true, browserName=safari, platformName=iOS, deviceName=iPhone Simulator}, webdriver.remote.sessionid=fd9275413277452d8accc01b07f7b10b, platformVersion=9.2, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: fd9275413277452d8accc01b07f7b10b
 *** Element info: {Using=id, value=first_name}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -129,18 +136,27 @@ Session ID: 57046954ec0b42f2b4b6f3459c261fff
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 </error>
-    <system-out>SauceOnDemandSessionID=57046954ec0b42f2b4b6f3459c261fff job-name=freeTrialTest[14] : (OSX 10.10 iPhone 9.2)
-SauceOnDemandSessionID=57046954ec0b42f2b4b6f3459c261fff job-name=com.yourcompany.SampleSauceTest.freeTrialTest[14]
-Job link: https://saucelabs.com/jobs/57046954ec0b42f2b4b6f3459c261fff?auth=b103905bed9e702a5db6778e20535b89
+    <system-out>SauceOnDemandSessionID=fd9275413277452d8accc01b07f7b10b job-name=freeTrialTest[14] : (OSX 10.10 iPhone 9.2)
+SauceOnDemandSessionID=fd9275413277452d8accc01b07f7b10b job-name=com.yourcompany.SampleSauceTest.freeTrialTest[14]
+Job link: https://saucelabs.com/jobs/fd9275413277452d8accc01b07f7b10b?auth=16955caf0c432a4ab66362ba56a4ff01
 </system-out>
   </testcase>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[8]" time="28.298"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[15]" time="37.585"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[11]" time="24.956"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[4]" time="20.243"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[15]" time="19.662"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="39.794"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[6]" time="0.002">
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[1]" time="31.803"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[0]" time="36.121"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="79.719"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[2]" time="9.034"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[0]" time="13.54"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[7]" time="83.199"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[15]" time="25.304"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[4]" time="16.884"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[1]" time="17.835"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[11]" time="35.592"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[10]" time="10.287"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[12]" time="12.215"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[12]" time="43.479"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[4]" time="26.799"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[11]" time="13.752"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[6]" time="0.001">
     <error message="Element was not found.
 io.selendroid.exceptions.NoSuchElementException: Element was not found.
 	at io.selendroid.server.SafeRequestHandler.getIdOfKnownElement(SafeRequestHandler.java:42)
@@ -171,13 +187,13 @@ io.selendroid.exceptions.NoSuchElementException: Element was not found.
 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
 	at java.lang.Thread.run(Thread.java:818)
 
-Command duration or timeout: 5.34 seconds
+Command duration or timeout: 5.21 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;192.168.42.88&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.35.5.147&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{emulator=true, aut=android, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, webdriver.remote.sessionid=f12e4cee2c9444048f10892c8c3dec2c, platformVersion=22, webdriver.remote.quietExceptions=true, browserName=android, hasMetadata=true, platform=ANY}]
-Session ID: f12e4cee2c9444048f10892c8c3dec2c
+Capabilities [{emulator=true, aut=android, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, webdriver.remote.sessionid=26017a4f41034ea9b69e77776cbecbff, platformVersion=22, webdriver.remote.quietExceptions=true, browserName=android, hasMetadata=true, platform=ANY}]
+Session ID: 26017a4f41034ea9b69e77776cbecbff
 *** Element info: {Using=id, value=first_name}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Element was not found.
 io.selendroid.exceptions.NoSuchElementException: Element was not found.
 	at io.selendroid.server.SafeRequestHandler.getIdOfKnownElement(SafeRequestHandler.java:42)
@@ -208,13 +224,13 @@ io.selendroid.exceptions.NoSuchElementException: Element was not found.
 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
 	at java.lang.Thread.run(Thread.java:818)
 
-Command duration or timeout: 5.34 seconds
+Command duration or timeout: 5.21 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;192.168.42.88&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.35.5.147&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{emulator=true, aut=android, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, webdriver.remote.sessionid=f12e4cee2c9444048f10892c8c3dec2c, platformVersion=22, webdriver.remote.quietExceptions=true, browserName=android, hasMetadata=true, platform=ANY}]
-Session ID: f12e4cee2c9444048f10892c8c3dec2c
+Capabilities [{emulator=true, aut=android, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=PAC}, webdriver.remote.sessionid=26017a4f41034ea9b69e77776cbecbff, platformVersion=22, webdriver.remote.quietExceptions=true, browserName=android, hasMetadata=true, platform=ANY}]
+Session ID: 26017a4f41034ea9b69e77776cbecbff
 *** Element info: {Using=id, value=first_name}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -282,38 +298,22 @@ io.selendroid.exceptions.NoSuchElementException: Element was not found.
 
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;192.168.42.88&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+System info: host: &apos;Sauces-MacBook-Air-5.local&apos;, ip: &apos;10.35.5.147&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
 Driver info: driver.version: unknown
 </error>
-    <system-out>SauceOnDemandSessionID=f12e4cee2c9444048f10892c8c3dec2c job-name=freeTrialTest[6] : (Linux Android 5.1)
-SauceOnDemandSessionID=f12e4cee2c9444048f10892c8c3dec2c job-name=com.yourcompany.SampleSauceTest.freeTrialTest[6]
-Job link: https://saucelabs.com/jobs/f12e4cee2c9444048f10892c8c3dec2c?auth=e7d9c9acac28f4fb82d1551cad5f2be2
+    <system-out>SauceOnDemandSessionID=26017a4f41034ea9b69e77776cbecbff job-name=freeTrialTest[6] : (Linux Android 5.1)
+SauceOnDemandSessionID=26017a4f41034ea9b69e77776cbecbff job-name=com.yourcompany.SampleSauceTest.freeTrialTest[6]
+Job link: https://saucelabs.com/jobs/26017a4f41034ea9b69e77776cbecbff?auth=330c36f9e22cf14069978544b517f63f
 </system-out>
   </testcase>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[5]" time="31.956"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[10]" time="25.85"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[1]" time="22.774"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[5]" time="40.365"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[6]" time="80.062"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[13]" time="13.157"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[10]" time="36.337"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[7]" time="96.426"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[0]" time="18.412"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[0]" time="31.918"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[13]" time="25.253"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[11]" time="41.359"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[10]" time="13.352"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[7]" time="85.42"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[2]" time="13.233"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[14]" time="80.375"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[12]" time="34.264"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[9]" time="22.906"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[3]" time="28.457"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[3]" time="15.265"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[7]" time="100.626"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="37.803"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[9]" time="48.51"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[2]" time="36.675"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[8]" time="36.332"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="38.437"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[10]" time="21.798"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[8]" time="12.353"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[13]" time="10.31"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[4]" time="36.857"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[5]" time="28.933"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[3]" time="25.124"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[3]" time="41.836"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="verifyTitleTest[3]" time="13.583"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="freeTrialTest[8]" time="22.643"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="loginTest[10]" time="29.011"/>
 </testsuite>
