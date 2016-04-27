@@ -142,7 +142,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 10", "13.10586", "MicrosoftEdge"}); 
 
 
-   
+    
    
         return browsers;
     } 
