@@ -1,98 +1,98 @@
-SauceOnDemandSessionID=f5e1fedf6faf41938272e5b56ec31539 job-name=loginTest[10] : (Windows 7 internet explorer 9)
-SauceOnDemandSessionID=f5e1fedf6faf41938272e5b56ec31539 job-name=com.yourcompany.SampleSauceTest.loginTest[10]
-SauceOnDemandSessionID=96122c393abc4db3ad9c2bfe73694ef5 job-name=freeTrialTest[15] : (OSX 10.10 iPhone 9.2)
-SauceOnDemandSessionID=96122c393abc4db3ad9c2bfe73694ef5 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[15]
-Job link: https://saucelabs.com/jobs/96122c393abc4db3ad9c2bfe73694ef5?auth=5fe55096603ff587a450dad5097517b9
-SauceOnDemandSessionID=93f06b45222d49faa0fd570827ca166c job-name=loginTest[12] : (Windows 8 firefox 40)
-SauceOnDemandSessionID=93f06b45222d49faa0fd570827ca166c job-name=com.yourcompany.SampleSauceTest.loginTest[12]
-SauceOnDemandSessionID=cea7158c1f5644da8a07a74ac33c48d4 job-name=verifyTitleTest[8] : (OSX 10.10 iPhone 8.2)
-SauceOnDemandSessionID=cea7158c1f5644da8a07a74ac33c48d4 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[8]
-SauceOnDemandSessionID=f1c95c994eab4c1d9812852bfddc82c0 job-name=loginTest[6] : (OSX 10.11 safari 9)
-SauceOnDemandSessionID=f1c95c994eab4c1d9812852bfddc82c0 job-name=com.yourcompany.SampleSauceTest.loginTest[6]
-SauceOnDemandSessionID=23c5bbced9bc4c07b51e8b5c7b9a9a94 job-name=loginTest[8] : (OSX 10.10 iPhone 8.2)
-SauceOnDemandSessionID=23c5bbced9bc4c07b51e8b5c7b9a9a94 job-name=com.yourcompany.SampleSauceTest.loginTest[8]
-SauceOnDemandSessionID=9423eebd000d4ba0a97f1ff93b4ca356 job-name=freeTrialTest[0] : (Windows 8.1 internet explorer latest)
-SauceOnDemandSessionID=9423eebd000d4ba0a97f1ff93b4ca356 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[0]
-SauceOnDemandSessionID=779f7d7a8e3e420182ded91a39531999 job-name=freeTrialTest[2] : (Windows 7 internet explorer 10)
-SauceOnDemandSessionID=779f7d7a8e3e420182ded91a39531999 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[2]
-SauceOnDemandSessionID=43f41e1ef7bd44c8ae8af7a4b7376325 job-name=verifyTitleTest[14] : (Windows 10 Chrome 43)
-SauceOnDemandSessionID=43f41e1ef7bd44c8ae8af7a4b7376325 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[14]
-SauceOnDemandSessionID=ea7f6172d3b648269f91acb5983d1469 job-name=verifyTitleTest[4] : (Windows XP firefox 36)
-SauceOnDemandSessionID=ea7f6172d3b648269f91acb5983d1469 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[4]
-SauceOnDemandSessionID=99e29a42098b4bf18148347c11256980 job-name=loginTest[5] : (OSX 10.8 safari 6)
-SauceOnDemandSessionID=99e29a42098b4bf18148347c11256980 job-name=com.yourcompany.SampleSauceTest.loginTest[5]
-SauceOnDemandSessionID=8fcb6994830944c79c0b44b452b5243f job-name=verifyTitleTest[6] : (OSX 10.11 safari 9)
-SauceOnDemandSessionID=8fcb6994830944c79c0b44b452b5243f job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[6]
-SauceOnDemandSessionID=1119fc47d5f94970b50e3f0f90f9bb27 job-name=loginTest[4] : (Windows XP firefox 36)
-SauceOnDemandSessionID=1119fc47d5f94970b50e3f0f90f9bb27 job-name=com.yourcompany.SampleSauceTest.loginTest[4]
-SauceOnDemandSessionID=62f43de1772b4256a93e6e03df90747c job-name=loginTest[3] : (Windows XP chrome 42)
-SauceOnDemandSessionID=62f43de1772b4256a93e6e03df90747c job-name=com.yourcompany.SampleSauceTest.loginTest[3]
-SauceOnDemandSessionID=bc4c1ddb9c3744f0807245cf0f26d265 job-name=verifyTitleTest[9] : (Windows 8 internet explorer 10)
-SauceOnDemandSessionID=bc4c1ddb9c3744f0807245cf0f26d265 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[9]
-SauceOnDemandSessionID=aa22dd724f304ac2939678cd4a19ef27 job-name=freeTrialTest[12] : (Windows 8 firefox 40)
-SauceOnDemandSessionID=aa22dd724f304ac2939678cd4a19ef27 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[12]
-SauceOnDemandSessionID=246240d56fb841c6831ba525473cb214 job-name=verifyTitleTest[11] : (Windows XP chrome 39)
-SauceOnDemandSessionID=246240d56fb841c6831ba525473cb214 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[11]
-SauceOnDemandSessionID=89e27a17a98740da8ccdb716052f76ab job-name=verifyTitleTest[12] : (Windows 8 firefox 40)
-SauceOnDemandSessionID=89e27a17a98740da8ccdb716052f76ab job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[12]
-SauceOnDemandSessionID=b7411b4472e445dcaced21c09991de6c job-name=loginTest[15] : (OSX 10.10 iPhone 9.2)
-SauceOnDemandSessionID=b7411b4472e445dcaced21c09991de6c job-name=com.yourcompany.SampleSauceTest.loginTest[15]
-SauceOnDemandSessionID=e16b0ef1fe2e46dbbbae007e2aea45da job-name=loginTest[7] : (Linux Android 5.1)
-SauceOnDemandSessionID=e16b0ef1fe2e46dbbbae007e2aea45da job-name=com.yourcompany.SampleSauceTest.loginTest[7]
-SauceOnDemandSessionID=56a2451013bd4ceb9f8fea6d75dfafcf job-name=verifyTitleTest[3] : (Windows XP chrome 42)
-SauceOnDemandSessionID=56a2451013bd4ceb9f8fea6d75dfafcf job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[3]
-SauceOnDemandSessionID=c79d94191cb44d8bb005b8a57d9425e2 job-name=loginTest[11] : (Windows XP chrome 39)
-SauceOnDemandSessionID=c79d94191cb44d8bb005b8a57d9425e2 job-name=com.yourcompany.SampleSauceTest.loginTest[11]
-SauceOnDemandSessionID=560ee20941c54b448ca2e8556a8e30b1 job-name=loginTest[14] : (Windows 10 Chrome 43)
-SauceOnDemandSessionID=560ee20941c54b448ca2e8556a8e30b1 job-name=com.yourcompany.SampleSauceTest.loginTest[14]
-SauceOnDemandSessionID=07e708fef05a4bec9c1533f66d837a4c job-name=loginTest[9] : (Windows 8 internet explorer 10)
-SauceOnDemandSessionID=07e708fef05a4bec9c1533f66d837a4c job-name=com.yourcompany.SampleSauceTest.loginTest[9]
-SauceOnDemandSessionID=1db914451cee43499df730f23c64636d job-name=freeTrialTest[13] : (Windows 10 internet explorer 11)
-SauceOnDemandSessionID=1db914451cee43499df730f23c64636d job-name=com.yourcompany.SampleSauceTest.freeTrialTest[13]
-SauceOnDemandSessionID=044d3724874f46298a9200844b4bef6a job-name=freeTrialTest[8] : (OSX 10.10 iPhone 8.2)
-SauceOnDemandSessionID=044d3724874f46298a9200844b4bef6a job-name=com.yourcompany.SampleSauceTest.freeTrialTest[8]
-SauceOnDemandSessionID=37f19405bab54e8c935acfce999097c3 job-name=freeTrialTest[11] : (Windows XP chrome 39)
-SauceOnDemandSessionID=37f19405bab54e8c935acfce999097c3 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[11]
-SauceOnDemandSessionID=42d94c7351244633b363781a6f5a863f job-name=freeTrialTest[6] : (OSX 10.11 safari 9)
-SauceOnDemandSessionID=42d94c7351244633b363781a6f5a863f job-name=com.yourcompany.SampleSauceTest.freeTrialTest[6]
-SauceOnDemandSessionID=8e13f969fdab41a5a70028829fc51bd7 job-name=freeTrialTest[7] : (Linux Android 5.1)
-SauceOnDemandSessionID=8e13f969fdab41a5a70028829fc51bd7 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[7]
-Job link: https://saucelabs.com/jobs/8e13f969fdab41a5a70028829fc51bd7?auth=0c80126e1e70d1898d84cfafa48575f4
-SauceOnDemandSessionID=dc2bac3368bb427090937405509888dd job-name=freeTrialTest[3] : (Windows XP chrome 42)
-SauceOnDemandSessionID=dc2bac3368bb427090937405509888dd job-name=com.yourcompany.SampleSauceTest.freeTrialTest[3]
-SauceOnDemandSessionID=30eb5c85ebe24f5d8eab648a78d38e16 job-name=freeTrialTest[5] : (OSX 10.8 safari 6)
-SauceOnDemandSessionID=30eb5c85ebe24f5d8eab648a78d38e16 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[5]
-SauceOnDemandSessionID=9f0adba6deb9463dbe59a29f2f4980bf job-name=loginTest[2] : (Windows 7 internet explorer 10)
-SauceOnDemandSessionID=9f0adba6deb9463dbe59a29f2f4980bf job-name=com.yourcompany.SampleSauceTest.loginTest[2]
-SauceOnDemandSessionID=25a0f17a171d4215a25606b83b219b59 job-name=verifyTitleTest[5] : (OSX 10.8 safari 6)
-SauceOnDemandSessionID=25a0f17a171d4215a25606b83b219b59 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[5]
-SauceOnDemandSessionID=121164e2e0464b598adca0d921bf1844 job-name=verifyTitleTest[15] : (OSX 10.10 iPhone 9.2)
-SauceOnDemandSessionID=121164e2e0464b598adca0d921bf1844 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[15]
-SauceOnDemandSessionID=db9d32710c874ae6956ceac570071ba2 job-name=freeTrialTest[4] : (Windows XP firefox 36)
-SauceOnDemandSessionID=db9d32710c874ae6956ceac570071ba2 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[4]
-SauceOnDemandSessionID=7891c62c134d43b4ac01b0aeb813e3a0 job-name=verifyTitleTest[2] : (Windows 7 internet explorer 10)
-SauceOnDemandSessionID=7891c62c134d43b4ac01b0aeb813e3a0 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[2]
-SauceOnDemandSessionID=51a0b61c81c54588bcf9c6f2b73d82c3 job-name=verifyTitleTest[0] : (Windows 8.1 internet explorer latest)
-SauceOnDemandSessionID=51a0b61c81c54588bcf9c6f2b73d82c3 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[0]
-SauceOnDemandSessionID=7bb7dc5d3690447ea27002c17029450c job-name=freeTrialTest[10] : (Windows 7 internet explorer 9)
-SauceOnDemandSessionID=7bb7dc5d3690447ea27002c17029450c job-name=com.yourcompany.SampleSauceTest.freeTrialTest[10]
-SauceOnDemandSessionID=117d49cfaaaa4b18b3838f7e222b960a job-name=loginTest[0] : (Windows 8.1 internet explorer latest)
-SauceOnDemandSessionID=117d49cfaaaa4b18b3838f7e222b960a job-name=com.yourcompany.SampleSauceTest.loginTest[0]
-SauceOnDemandSessionID=4cebceebb0824a06b2b67cf98be638fd job-name=loginTest[13] : (Windows 10 internet explorer 11)
-SauceOnDemandSessionID=4cebceebb0824a06b2b67cf98be638fd job-name=com.yourcompany.SampleSauceTest.loginTest[13]
-SauceOnDemandSessionID=dbb44db5ca77452ba7b17b5e6d03858e job-name=freeTrialTest[9] : (Windows 8 internet explorer 10)
-SauceOnDemandSessionID=dbb44db5ca77452ba7b17b5e6d03858e job-name=com.yourcompany.SampleSauceTest.freeTrialTest[9]
-SauceOnDemandSessionID=3ce415dd1e644f4f9c9b5915e474f491 job-name=verifyTitleTest[7] : (Linux Android 5.1)
-SauceOnDemandSessionID=3ce415dd1e644f4f9c9b5915e474f491 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[7]
-SauceOnDemandSessionID=f095068d9be444b2908777fc156b5ed3 job-name=verifyTitleTest[10] : (Windows 7 internet explorer 9)
-SauceOnDemandSessionID=f095068d9be444b2908777fc156b5ed3 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[10]
-SauceOnDemandSessionID=3db5237437664c20bfa02a83aa17a846 job-name=verifyTitleTest[13] : (Windows 10 internet explorer 11)
-SauceOnDemandSessionID=3db5237437664c20bfa02a83aa17a846 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[13]
-SauceOnDemandSessionID=8d4472eb9fd944a18b33b21b7b13a006 job-name=freeTrialTest[14] : (Windows 10 Chrome 43)
-SauceOnDemandSessionID=8d4472eb9fd944a18b33b21b7b13a006 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[14]
-SauceOnDemandSessionID=f2a35cfbcb8a466598864744fe741482 job-name=loginTest[16] : (Windows 10 MicrosoftEdge 13.10586)
-SauceOnDemandSessionID=f2a35cfbcb8a466598864744fe741482 job-name=com.yourcompany.SampleSauceTest.loginTest[16]
-SauceOnDemandSessionID=8b1de867c58446bca0f135497df82fc1 job-name=verifyTitleTest[16] : (Windows 10 MicrosoftEdge 13.10586)
-SauceOnDemandSessionID=8b1de867c58446bca0f135497df82fc1 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[16]
-SauceOnDemandSessionID=7cf0d08e013c4145801b8717adfa4174 job-name=freeTrialTest[16] : (Windows 10 MicrosoftEdge 13.10586)
-SauceOnDemandSessionID=7cf0d08e013c4145801b8717adfa4174 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[16]
+SauceOnDemandSessionID=e57ccb26291540c38d9f9b7db81bc5ce job-name=loginTest[14] : (Windows 10 Chrome 43)
+SauceOnDemandSessionID=e57ccb26291540c38d9f9b7db81bc5ce job-name=com.yourcompany.SampleSauceTest.loginTest[14]
+SauceOnDemandSessionID=b42f0a537e904950b2a7d2486fd9ab6f job-name=freeTrialTest[9] : (Windows 8 internet explorer 10)
+SauceOnDemandSessionID=b42f0a537e904950b2a7d2486fd9ab6f job-name=com.yourcompany.SampleSauceTest.freeTrialTest[9]
+SauceOnDemandSessionID=79f85bba1a08449ba3cc9c623dfb10d2 job-name=verifyTitleTest[7] : (Linux Android 5.1)
+SauceOnDemandSessionID=79f85bba1a08449ba3cc9c623dfb10d2 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[7]
+SauceOnDemandSessionID=7d4ea684005042398b19d6447874d1b5 job-name=loginTest[2] : (Windows 7 internet explorer 10)
+SauceOnDemandSessionID=7d4ea684005042398b19d6447874d1b5 job-name=com.yourcompany.SampleSauceTest.loginTest[2]
+SauceOnDemandSessionID=e86aca7769a44cbfaa5d0620e5971780 job-name=verifyTitleTest[9] : (Windows 8 internet explorer 10)
+SauceOnDemandSessionID=e86aca7769a44cbfaa5d0620e5971780 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[9]
+SauceOnDemandSessionID=eaf8d34533634b77836a4739fe309262 job-name=freeTrialTest[0] : (Windows 8.1 internet explorer latest)
+SauceOnDemandSessionID=eaf8d34533634b77836a4739fe309262 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[0]
+SauceOnDemandSessionID=842a342f6aa44e948d98c45d57b45c66 job-name=verifyTitleTest[12] : (Windows 8 firefox 40)
+SauceOnDemandSessionID=842a342f6aa44e948d98c45d57b45c66 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[12]
+SauceOnDemandSessionID=c384de3ddda648b2bedcd99214df3567 job-name=freeTrialTest[7] : (Linux Android 5.1)
+SauceOnDemandSessionID=c384de3ddda648b2bedcd99214df3567 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[7]
+Job link: https://saucelabs.com/jobs/c384de3ddda648b2bedcd99214df3567?auth=385f52e5c421e1c8adff540b99a41003
+SauceOnDemandSessionID=a93bd6a4e4464a70ba442b90980d36d1 job-name=freeTrialTest[10] : (Windows 7 internet explorer 9)
+SauceOnDemandSessionID=a93bd6a4e4464a70ba442b90980d36d1 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[10]
+SauceOnDemandSessionID=c02a8defe76c4b77b24252def8492cf7 job-name=freeTrialTest[5] : (OSX 10.8 safari 6)
+SauceOnDemandSessionID=c02a8defe76c4b77b24252def8492cf7 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[5]
+SauceOnDemandSessionID=4bd3891d95fb45b0952871963e876486 job-name=loginTest[11] : (Windows XP chrome 39)
+SauceOnDemandSessionID=4bd3891d95fb45b0952871963e876486 job-name=com.yourcompany.SampleSauceTest.loginTest[11]
+SauceOnDemandSessionID=7a76d63696c540e3890a1f305151632d job-name=freeTrialTest[8] : (OSX 10.10 iPhone 8.2)
+SauceOnDemandSessionID=7a76d63696c540e3890a1f305151632d job-name=com.yourcompany.SampleSauceTest.freeTrialTest[8]
+SauceOnDemandSessionID=c850934575364c5bba71d9da74588f6d job-name=loginTest[7] : (Linux Android 5.1)
+SauceOnDemandSessionID=c850934575364c5bba71d9da74588f6d job-name=com.yourcompany.SampleSauceTest.loginTest[7]
+SauceOnDemandSessionID=ce489a43a63b492a918d3ccd1ec70469 job-name=freeTrialTest[3] : (Windows XP chrome 42)
+SauceOnDemandSessionID=ce489a43a63b492a918d3ccd1ec70469 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[3]
+SauceOnDemandSessionID=eecddc5ce74c46ef8b0bda1ed61a8a6c job-name=loginTest[6] : (OSX 10.11 safari 9)
+SauceOnDemandSessionID=eecddc5ce74c46ef8b0bda1ed61a8a6c job-name=com.yourcompany.SampleSauceTest.loginTest[6]
+SauceOnDemandSessionID=a2c1b565d1ad40f4b454cf54ea952d72 job-name=loginTest[8] : (OSX 10.10 iPhone 8.2)
+SauceOnDemandSessionID=a2c1b565d1ad40f4b454cf54ea952d72 job-name=com.yourcompany.SampleSauceTest.loginTest[8]
+SauceOnDemandSessionID=7544ac20a47c4ce0bc8cdca00892259d job-name=verifyTitleTest[8] : (OSX 10.10 iPhone 8.2)
+SauceOnDemandSessionID=7544ac20a47c4ce0bc8cdca00892259d job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[8]
+SauceOnDemandSessionID=9dbcb10b8baf4073bad9ead0730aa9c4 job-name=verifyTitleTest[13] : (Windows 10 internet explorer 11)
+SauceOnDemandSessionID=9dbcb10b8baf4073bad9ead0730aa9c4 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[13]
+SauceOnDemandSessionID=da1cfcc762bc49b5b4b4cc9564b4fea6 job-name=verifyTitleTest[4] : (Windows XP firefox 36)
+SauceOnDemandSessionID=da1cfcc762bc49b5b4b4cc9564b4fea6 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[4]
+SauceOnDemandSessionID=e33718266f214b77883a1e776d2b30ff job-name=freeTrialTest[15] : (OSX 10.10 iPhone 9.2)
+SauceOnDemandSessionID=e33718266f214b77883a1e776d2b30ff job-name=com.yourcompany.SampleSauceTest.freeTrialTest[15]
+Job link: https://saucelabs.com/jobs/e33718266f214b77883a1e776d2b30ff?auth=b08a96de90b1487d98928246aed51374
+SauceOnDemandSessionID=a9e9241b77df4da58c52bf729aee4a6b job-name=verifyTitleTest[11] : (Windows XP chrome 39)
+SauceOnDemandSessionID=a9e9241b77df4da58c52bf729aee4a6b job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[11]
+SauceOnDemandSessionID=97149ef8b15646c6a90c45f1d65f3638 job-name=loginTest[5] : (OSX 10.8 safari 6)
+SauceOnDemandSessionID=97149ef8b15646c6a90c45f1d65f3638 job-name=com.yourcompany.SampleSauceTest.loginTest[5]
+SauceOnDemandSessionID=123eebab88e547d2be2a0a0ed081b134 job-name=loginTest[0] : (Windows 8.1 internet explorer latest)
+SauceOnDemandSessionID=123eebab88e547d2be2a0a0ed081b134 job-name=com.yourcompany.SampleSauceTest.loginTest[0]
+SauceOnDemandSessionID=081dfbd45eba4c15ae2d879371b15288 job-name=loginTest[3] : (Windows XP chrome 42)
+SauceOnDemandSessionID=081dfbd45eba4c15ae2d879371b15288 job-name=com.yourcompany.SampleSauceTest.loginTest[3]
+SauceOnDemandSessionID=55f702a7b3e340a19bb5543f96d1ce11 job-name=verifyTitleTest[3] : (Windows XP chrome 42)
+SauceOnDemandSessionID=55f702a7b3e340a19bb5543f96d1ce11 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[3]
+SauceOnDemandSessionID=5c6192fa6657495e89c5a27676780fc1 job-name=freeTrialTest[11] : (Windows XP chrome 39)
+SauceOnDemandSessionID=5c6192fa6657495e89c5a27676780fc1 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[11]
+SauceOnDemandSessionID=2ac204cc57754edf952008004fd3c588 job-name=verifyTitleTest[0] : (Windows 8.1 internet explorer latest)
+SauceOnDemandSessionID=2ac204cc57754edf952008004fd3c588 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[0]
+SauceOnDemandSessionID=98aabe8bd692430e8ba82a4f66a107ee job-name=verifyTitleTest[14] : (Windows 10 Chrome 43)
+SauceOnDemandSessionID=98aabe8bd692430e8ba82a4f66a107ee job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[14]
+SauceOnDemandSessionID=bd00cf04d1614beea0c21d848290579f job-name=loginTest[10] : (Windows 7 internet explorer 9)
+SauceOnDemandSessionID=bd00cf04d1614beea0c21d848290579f job-name=com.yourcompany.SampleSauceTest.loginTest[10]
+SauceOnDemandSessionID=d90e10b867ce44d4bae815816b3c539d job-name=verifyTitleTest[6] : (OSX 10.11 safari 9)
+SauceOnDemandSessionID=d90e10b867ce44d4bae815816b3c539d job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[6]
+SauceOnDemandSessionID=ae38b8e56830488a863f0d039fee4edd job-name=freeTrialTest[13] : (Windows 10 internet explorer 11)
+SauceOnDemandSessionID=ae38b8e56830488a863f0d039fee4edd job-name=com.yourcompany.SampleSauceTest.freeTrialTest[13]
+SauceOnDemandSessionID=61477beaec844b63bb392736eea7ff73 job-name=loginTest[13] : (Windows 10 internet explorer 11)
+SauceOnDemandSessionID=61477beaec844b63bb392736eea7ff73 job-name=com.yourcompany.SampleSauceTest.loginTest[13]
+SauceOnDemandSessionID=b2d348a4fc1d4da69954d3485012364f job-name=loginTest[4] : (Windows XP firefox 36)
+SauceOnDemandSessionID=b2d348a4fc1d4da69954d3485012364f job-name=com.yourcompany.SampleSauceTest.loginTest[4]
+SauceOnDemandSessionID=a2373b91950c4f05a5ae7944fce5239a job-name=loginTest[15] : (OSX 10.10 iPhone 9.2)
+SauceOnDemandSessionID=a2373b91950c4f05a5ae7944fce5239a job-name=com.yourcompany.SampleSauceTest.loginTest[15]
+SauceOnDemandSessionID=c7bcedfa0b9e4e4ab14ed30813abd4a5 job-name=loginTest[12] : (Windows 8 firefox 40)
+SauceOnDemandSessionID=c7bcedfa0b9e4e4ab14ed30813abd4a5 job-name=com.yourcompany.SampleSauceTest.loginTest[12]
+SauceOnDemandSessionID=dea0da473e724e8c8e8b152719b19fa2 job-name=freeTrialTest[2] : (Windows 7 internet explorer 10)
+SauceOnDemandSessionID=dea0da473e724e8c8e8b152719b19fa2 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[2]
+SauceOnDemandSessionID=975100b67d874ba28774c07f789f0742 job-name=freeTrialTest[6] : (OSX 10.11 safari 9)
+SauceOnDemandSessionID=975100b67d874ba28774c07f789f0742 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[6]
+SauceOnDemandSessionID=99e71c535fbe41ab9a6b51f8a5d2c888 job-name=verifyTitleTest[10] : (Windows 7 internet explorer 9)
+SauceOnDemandSessionID=99e71c535fbe41ab9a6b51f8a5d2c888 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[10]
+SauceOnDemandSessionID=fc113a0b0ecd42aebbf096b103260f27 job-name=verifyTitleTest[2] : (Windows 7 internet explorer 10)
+SauceOnDemandSessionID=fc113a0b0ecd42aebbf096b103260f27 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[2]
+SauceOnDemandSessionID=077d78dd546c4dc7a9a80c5da5758b5c job-name=verifyTitleTest[5] : (OSX 10.8 safari 6)
+SauceOnDemandSessionID=077d78dd546c4dc7a9a80c5da5758b5c job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[5]
+SauceOnDemandSessionID=5871f00ddb334c2485db8bb528da5868 job-name=verifyTitleTest[15] : (OSX 10.10 iPhone 9.2)
+SauceOnDemandSessionID=5871f00ddb334c2485db8bb528da5868 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[15]
+SauceOnDemandSessionID=442b6eb2c6e844a2bdf5164ff339717d job-name=freeTrialTest[12] : (Windows 8 firefox 40)
+SauceOnDemandSessionID=442b6eb2c6e844a2bdf5164ff339717d job-name=com.yourcompany.SampleSauceTest.freeTrialTest[12]
+SauceOnDemandSessionID=67245685b4184f5e955d68a4d08cb753 job-name=loginTest[9] : (Windows 8 internet explorer 10)
+SauceOnDemandSessionID=67245685b4184f5e955d68a4d08cb753 job-name=com.yourcompany.SampleSauceTest.loginTest[9]
+SauceOnDemandSessionID=26c873808669491d98e8914cd5563f34 job-name=freeTrialTest[14] : (Windows 10 Chrome 43)
+SauceOnDemandSessionID=26c873808669491d98e8914cd5563f34 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[14]
+SauceOnDemandSessionID=b1eecc7e04a14bd3a2dd745663f53925 job-name=freeTrialTest[4] : (Windows XP firefox 36)
+SauceOnDemandSessionID=b1eecc7e04a14bd3a2dd745663f53925 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[4]
+SauceOnDemandSessionID=36f5261a55e045f1b8c08e5b8da1c88f job-name=loginTest[16] : (Windows 10 MicrosoftEdge 13.10586)
+SauceOnDemandSessionID=36f5261a55e045f1b8c08e5b8da1c88f job-name=com.yourcompany.SampleSauceTest.loginTest[16]
+SauceOnDemandSessionID=2a6bada59b5244788784ede95809ad4e job-name=verifyTitleTest[16] : (Windows 10 MicrosoftEdge 13.10586)
+SauceOnDemandSessionID=2a6bada59b5244788784ede95809ad4e job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[16]
+SauceOnDemandSessionID=d4203084853042668affd3a9010b91a3 job-name=freeTrialTest[16] : (Windows 10 MicrosoftEdge 13.10586)
+SauceOnDemandSessionID=d4203084853042668affd3a9010b91a3 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[16]
