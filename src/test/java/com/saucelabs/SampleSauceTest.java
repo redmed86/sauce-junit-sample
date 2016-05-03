@@ -142,7 +142,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 10", "13.10586", "MicrosoftEdge"}); 
 
 
-    
+   
    
         return browsers;
     } 
@@ -167,7 +167,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         String methodName = name.getMethodName();
         capabilities.setCapability("name", methodName);
         //capabilities.setCapability("prerun", "Path_to_executable.sh");
-       // capabilities.setCapability("tunnel-identifier", tunnelIdentifier);
+      //capabilities.setCapability("tunnel-identifier", tunnelIdentifier);
 
         this.driver = new RemoteWebDriver(
                     new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
