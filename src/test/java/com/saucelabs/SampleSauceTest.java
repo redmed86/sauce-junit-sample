@@ -122,7 +122,6 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @ConcurrentParameterized.Parameters
     public static LinkedList browsersStrings() {
         LinkedList browsers = new LinkedList();
-     // browsers.add(new String[]{"Windows 8.1", "11", "internet explorer", "kristianTest2"});
         browsers.add(new String[]{"Windows 8.1", "latest", "internet explorer"});
         browsers.add(new String[]{"Windows 8.1", "latest-1", "internet explorer"});
         browsers.add(new String[]{"Windows 7", "10", "internet explorer", });   
@@ -140,9 +139,6 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 10", "43", "Chrome"}); 
         browsers.add(new String[]{"OSX 10.10", "9.2", "iPhone"}); 
         browsers.add(new String[]{"Windows 10", "13.10586", "MicrosoftEdge"}); 
-
-
-   
    
         return browsers;
     } 
@@ -166,8 +162,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         capabilities.setCapability(CapabilityType.PLATFORM, os);
         String methodName = name.getMethodName();
         capabilities.setCapability("name", methodName);
-        //capabilities.setCapability("prerun", "Path_to_executable.sh");
-      //capabilities.setCapability("tunnel-identifier", tunnelIdentifier);
+        //capabilities.setCapability("prerun", "https://dev.thom/kristianmeier/hosts-w2k8-dev.sh");
+        //capabilities.setCapability("tunnel-identifier", tunnelIdentifier);
 
         this.driver = new RemoteWebDriver(
                     new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
