@@ -128,16 +128,16 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows XP", "42", "chrome"});   
         browsers.add(new String[]{"Windows XP", "36", "firefox"});      
         browsers.add(new String[]{"OSX 10.8", "6", "safari"});
-        browsers.add(new String[]{"OSX 10.11", "9", "safari"});
+        browsers.add(new String[]{"OSX 10.11", "43", "Chrome"});
         browsers.add(new String[]{"Linux", "5.1", "Android"}); 
-        browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone"});
+        browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone 6"});
+        browsers.add(new String[]{"OSX 10.10", "9.2", "iPhone"}); 
         browsers.add(new String[]{"Windows 8", "10", "internet explorer"}); 
         browsers.add(new String[]{"Windows 7", "9", "internet explorer"});   
         browsers.add(new String[]{"Windows XP", "39", "chrome"});   
         browsers.add(new String[]{"Windows 8", "40", "firefox"});
         browsers.add(new String[]{"Windows 10", "11", "internet explorer"});
         browsers.add(new String[]{"Windows 10", "43", "Chrome"}); 
-        browsers.add(new String[]{"OSX 10.10", "9.2", "iPhone"}); 
         browsers.add(new String[]{"Windows 10", "13.10586", "MicrosoftEdge"}); 
    
         return browsers;
@@ -162,6 +162,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         capabilities.setCapability(CapabilityType.PLATFORM, os);
         String methodName = name.getMethodName();
         capabilities.setCapability("name", methodName);
+        capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/dir.bat");
         //capabilities.setCapability("prerun", "https://dev.thom/kristianmeier/hosts-w2k8-dev.sh");
         //capabilities.setCapability("tunnel-identifier", tunnelIdentifier);
 
