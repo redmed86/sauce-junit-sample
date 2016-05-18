@@ -164,7 +164,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         capabilities.setCapability("name", methodName);
         capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/dir.bat");
         //capabilities.setCapability("prerun", "https://dev.thom/kristianmeier/hosts-w2k8-dev.sh");
-        //capabilities.setCapability("tunnel-identifier", tunnelIdentifier);
+        //capabilities.setCapability("tunnel-identifier", "kristiantest");
 
         this.driver = new RemoteWebDriver(
                     new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
