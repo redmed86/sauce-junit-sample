@@ -125,7 +125,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 8.1", "latest", "internet explorer"});
         browsers.add(new String[]{"Windows 8.1", "latest-1", "internet explorer"});
         browsers.add(new String[]{"Windows 7", "10", "internet explorer", });   
-        browsers.add(new String[]{"Windows XP", "42", "chrome"});   
+        browsers.add(new String[]{"Windows XP", "latest", "chrome"});   
         browsers.add(new String[]{"Windows XP", "36", "firefox"});      
         browsers.add(new String[]{"OSX 10.8", "6", "safari"});
         browsers.add(new String[]{"OSX 10.11", "43", "Chrome"});
@@ -164,7 +164,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         capabilities.setCapability("name", methodName);
         capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/dir.bat");
         //capabilities.setCapability("prerun", "https://dev.thom/kristianmeier/hosts-w2k8-dev.sh");
-        //capabilities.setCapability("tunnel-identifier", "kristiantest");
+        //capabilities.setCapability("tunnel-identifier", "nativeapptest");
 
         this.driver = new RemoteWebDriver(
                     new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
