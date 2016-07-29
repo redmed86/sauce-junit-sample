@@ -135,7 +135,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 8", "10", "internet explorer"}); 
         browsers.add(new String[]{"Windows 7", "9", "internet explorer"});   
         browsers.add(new String[]{"Windows XP", "39", "chrome"});   
-        browsers.add(new String[]{"Windows 8", "40", "firefox"});
+        browsers.add(new String[]{"Windows 8", "45", "firefox"});
         browsers.add(new String[]{"Windows 10", "11", "internet explorer"});
         browsers.add(new String[]{"Windows 10", "43", "Chrome"}); 
         browsers.add(new String[]{"Windows 10", "13.10586", "MicrosoftEdge"}); 
@@ -164,11 +164,11 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         capabilities.setCapability("name", methodName);
         capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/dir.bat");
         //capabilities.setCapability("prerun", "https://dev.thom/kristianmeier/hosts-w2k8-dev.sh");
-        //capabilities.setCapability("tunnel-identifier", "nativeapptest");
+        //capabilities.setCapability("tunnel-identifier", "amextwotunneltest");
 
         this.driver = new RemoteWebDriver(
-                    new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
-                      "@ondemand.saucelabs.com:80/wd/hub"),
+                    new URL("https://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
+                      "@ondemand.saucelabs.com:443/wd/hub"),
                 capabilities);
         this.sessionId = (((RemoteWebDriver) driver).getSessionId()).toString();
 
@@ -201,7 +201,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         Thread.sleep(5000);
         driver.findElement(By.name("username")).sendKeys("kmeier2");
         driver.findElement(By.name("password")).sendKeys("saucelabs");
-        driver.findElement(By.id("submit")).click();
+        //driver.findElement(By.id("submit")).click();
         Thread.sleep(5000);      
     }  
 
