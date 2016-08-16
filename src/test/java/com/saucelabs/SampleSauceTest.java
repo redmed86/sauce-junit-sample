@@ -130,15 +130,16 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"OSX 10.8", "6", "safari"});
         browsers.add(new String[]{"OSX 10.11", "43", "Chrome"});
         browsers.add(new String[]{"Linux", "5.1", "Android"}); 
-        browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone 6"});
+        browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone"});
         browsers.add(new String[]{"OSX 10.10", "9.2", "iPhone"}); 
         browsers.add(new String[]{"Windows 8", "10", "internet explorer"}); 
         browsers.add(new String[]{"Windows 7", "9", "internet explorer"});   
-        browsers.add(new String[]{"Windows XP", "39", "chrome"});   
+        browsers.add(new String[]{"Windows XP", "38", "chrome"});   
         browsers.add(new String[]{"Windows 8", "45", "firefox"});
         browsers.add(new String[]{"Windows 10", "11", "internet explorer"});
-        browsers.add(new String[]{"Windows 10", "43", "Chrome"}); 
-        browsers.add(new String[]{"Windows 10", "13.10586", "MicrosoftEdge"}); 
+        browsers.add(new String[]{"Windows 10", "51", "Chrome"}); 
+        browsers.add(new String[]{"Windows 10", "13.10586", "MicrosoftEdge"});
+        //browsers.add(new String[]{"OSX 10.10", "9.3", "iPad"});
    
         return browsers;
     } 
@@ -183,25 +184,22 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @Test
     public void verifyTitleTest() throws Exception {
     driver.get("http://saucelabs.com/");
-    assertEquals("Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing", driver.getTitle());
+    assertEquals("Welcome | Sauce Labs", driver.getTitle());
     } 
          
     /**
      * Runs a simple Authentication test 
      * @throws Exception
      */
+    
     @Test
     public void loginTest() throws Exception {
-        driver.get("http://saucelabs.com/");
+        driver.get("https://saucelabs.com/beta/login");
         WebDriverWait wait = new WebDriverWait(driver, 20); // wait for a maximum of 20 seconds
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".hamburger")));
-        driver.findElement(By.cssSelector(".hamburger")).click();
-        Thread.sleep(5000);
-        driver.findElement(By.xpath("//a[@title = 'Log in']")).click();
-        Thread.sleep(5000);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.name("username")));
         driver.findElement(By.name("username")).sendKeys("kmeier2");
         driver.findElement(By.name("password")).sendKeys("saucelabs");
-        //driver.findElement(By.id("submit")).click();
+        driver.findElement(By.id("submit")).click();
         Thread.sleep(5000);      
     }  
 
@@ -214,8 +212,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     public void freeTrialTest() throws Exception {
         driver.get("http://saucelabs.com/");
         WebDriverWait wait = new WebDriverWait(driver, 20); // wait for a maximum of 20 seconds
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='content']/article[1]/div[2]/div/div/div[2]/a[1]")));
-        driver.findElement(By.xpath("//*[@id='content']/article[1]/div[2]/div/div/div[2]/a[1]")).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='site-header']/div[3]/div/div/div[3]/div/a[3]")));
+        driver.findElement(By.xpath("//*[@id='site-header']/div[3]/div/div/div[3]/div/a[3]")).click();
         Thread.sleep(5000);
         driver.findElement(By.id("first_name")).sendKeys("FirstName");
         driver.findElement(By.id("last_name")).sendKeys("LastName");
