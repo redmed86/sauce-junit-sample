@@ -184,7 +184,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @Test
     public void verifyTitleTest() throws Exception {
     driver.get("http://saucelabs.com/");
-    assertEquals("Welcome | Sauce Labs", driver.getTitle());
+    assertEquals("Selenium Testing, Mobile Testing, JS Unit Testing | Sauce Labs", driver.getTitle());
     } 
          
     /**
@@ -195,7 +195,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @Test
     public void loginTest() throws Exception {
         driver.get("https://saucelabs.com/beta/login");
-        WebDriverWait wait = new WebDriverWait(driver, 20); // wait for a maximum of 20 seconds
+        WebDriverWait wait = new WebDriverWait(driver, 30); // wait for a maximum of 20 seconds
         wait.until(ExpectedConditions.presenceOfElementLocated(By.name("username")));
         driver.findElement(By.name("username")).sendKeys("kmeier2");
         driver.findElement(By.name("password")).sendKeys("saucelabs");
@@ -211,19 +211,17 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @Test
     public void freeTrialTest() throws Exception {
         driver.get("http://saucelabs.com/");
-        WebDriverWait wait = new WebDriverWait(driver, 20); // wait for a maximum of 20 seconds
+        WebDriverWait wait = new WebDriverWait(driver, 30); // wait for a maximum of 20 seconds
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='site-header']/div[3]/div/div/div[3]/div/a[3]")));
         driver.findElement(By.xpath("//*[@id='site-header']/div[3]/div/div/div[3]/div/a[3]")).click();
         Thread.sleep(5000);
-        driver.findElement(By.id("first_name")).sendKeys("FirstName");
-        driver.findElement(By.id("last_name")).sendKeys("LastName");
-        driver.findElement(By.id("email")).sendKeys("MyEmail@company.com");
-        driver.findElement(By.id("company")).sendKeys("My Company");
-        driver.findElement(By.id("company-size")).sendKeys("500");
-        driver.findElement(By.id("username")).sendKeys("myUsername");
-        driver.findElement(By.id("password")).sendKeys("thatsright");
-        driver.findElement(By.id("password_confirm")).sendKeys("thatsright");
-    } 
+        driver.findElement(By.name("first_name")).sendKeys("FirstName");
+        driver.findElement(By.name("last_name")).sendKeys("LastName");
+        driver.findElement(By.name("email")).sendKeys("MyEmail@company.com");
+        driver.findElement(By.name("company")).sendKeys("My Company");
+        driver.findElement(By.name("username")).sendKeys("myUsername");
+        driver.findElement(By.name("password")).sendKeys("thatsright");
+        } 
 
     /**
      * Closes the {@link WebDriver} session.
