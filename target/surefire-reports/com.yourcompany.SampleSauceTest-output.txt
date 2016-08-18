@@ -1,320 +1,278 @@
-SauceOnDemandSessionID=d448022f156f4ebaa7e64f73176830fd job-name=verifyTitleTest[5] : (OSX 10.8 safari 6)
-SauceOnDemandSessionID=d448022f156f4ebaa7e64f73176830fd job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[5]
-Job link: https://saucelabs.com/jobs/d448022f156f4ebaa7e64f73176830fd?auth=7b32128bcf79365c4c4274d0864ca5e1
-SauceOnDemandSessionID=668465cc7c934f83972caeba6eee7f08 job-name=loginTest[6] : (OSX 10.11 Chrome 43)
-SauceOnDemandSessionID=668465cc7c934f83972caeba6eee7f08 job-name=com.yourcompany.SampleSauceTest.loginTest[6]
-SauceOnDemandSessionID=b276a3f24d8845b39cedfe9330ded5f9 job-name=freeTrialTest[15] : (Windows 10 Chrome 51)
-SauceOnDemandSessionID=b276a3f24d8845b39cedfe9330ded5f9 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[15]
-Job link: https://saucelabs.com/jobs/b276a3f24d8845b39cedfe9330ded5f9?auth=7d073b69fa9365fe2f8dead75a6eafc4
-Aug 15, 2016 12:17:07 PM org.apache.http.impl.execchain.RetryExec execute
+SauceOnDemandSessionID=0924eaa05f8d4f6ba838f8bf838dd33a job-name=freeTrialTest[15] : (Windows 10 Chrome 51)
+SauceOnDemandSessionID=0924eaa05f8d4f6ba838f8bf838dd33a job-name=com.yourcompany.SampleSauceTest.freeTrialTest[15]
+Job link: https://saucelabs.com/jobs/0924eaa05f8d4f6ba838f8bf838dd33a?auth=353d0d85bd3b683f50342da8ed5cd046
+SauceOnDemandSessionID=e5f0258e9c384dcd846030a4b450ab4e job-name=loginTest[5] : (OSX 10.8 safari 6)
+SauceOnDemandSessionID=e5f0258e9c384dcd846030a4b450ab4e job-name=com.yourcompany.SampleSauceTest.loginTest[5]
+SauceOnDemandSessionID=a101e937377a4ebbb5a8020fd74a5a9f job-name=freeTrialTest[6] : (OSX 10.11 Chrome 43)
+SauceOnDemandSessionID=a101e937377a4ebbb5a8020fd74a5a9f job-name=com.yourcompany.SampleSauceTest.freeTrialTest[6]
+Job link: https://saucelabs.com/jobs/a101e937377a4ebbb5a8020fd74a5a9f?auth=416057195dfa5d72740947149cea5b66
+SauceOnDemandSessionID=a25eb3ac1b2f40f9b8fcef68b7b5b0e6 job-name=verifyTitleTest[12] : (Windows XP chrome 38)
+SauceOnDemandSessionID=a25eb3ac1b2f40f9b8fcef68b7b5b0e6 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[12]
+Job link: https://saucelabs.com/jobs/a25eb3ac1b2f40f9b8fcef68b7b5b0e6?auth=51d4507078ed874be9a970d93a1da2e7
+SauceOnDemandSessionID=0b5a2b7b2785401aac2a7da08d6f7d4e job-name=loginTest[10] : (Windows 8 internet explorer 10)
+SauceOnDemandSessionID=0b5a2b7b2785401aac2a7da08d6f7d4e job-name=com.yourcompany.SampleSauceTest.loginTest[10]
+SauceOnDemandSessionID=2965566a24fa46d09bfb16cd43956482 job-name=verifyTitleTest[15] : (Windows 10 Chrome 51)
+SauceOnDemandSessionID=2965566a24fa46d09bfb16cd43956482 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[15]
+Job link: https://saucelabs.com/jobs/2965566a24fa46d09bfb16cd43956482?auth=eb472e2bf3c6deb089996a9555250390
+SauceOnDemandSessionID=0d296e442b4046649a5642bb71e233e8 job-name=loginTest[6] : (OSX 10.11 Chrome 43)
+SauceOnDemandSessionID=0d296e442b4046649a5642bb71e233e8 job-name=com.yourcompany.SampleSauceTest.loginTest[6]
+SauceOnDemandSessionID=f2101bd91ed34f7da486135782f83934 job-name=freeTrialTest[13] : (Windows 8 firefox 44)
+SauceOnDemandSessionID=f2101bd91ed34f7da486135782f83934 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[13]
+Job link: https://saucelabs.com/jobs/f2101bd91ed34f7da486135782f83934?auth=a0cc09c64bedc554b6a5ff4bd8e8b14c
+SauceOnDemandSessionID=737b06b7f6b94b22842716a0e28393e4 job-name=freeTrialTest[11] : (Windows 7 internet explorer 9)
+SauceOnDemandSessionID=737b06b7f6b94b22842716a0e28393e4 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[11]
+Job link: https://saucelabs.com/jobs/737b06b7f6b94b22842716a0e28393e4?auth=f863918af5db51c9fd6a7d3bfe2506d7
+SauceOnDemandSessionID=a88f32e870c24cf88874ea7afcd27357 job-name=freeTrialTest[5] : (OSX 10.8 safari 6)
+SauceOnDemandSessionID=a88f32e870c24cf88874ea7afcd27357 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[5]
+Job link: https://saucelabs.com/jobs/a88f32e870c24cf88874ea7afcd27357?auth=cd02d3cf182d7496aef5750c9972f1b1
+SauceOnDemandSessionID=e9415b21df2144b5959f36541b23755c job-name=verifyTitleTest[10] : (Windows 8 internet explorer 10)
+SauceOnDemandSessionID=e9415b21df2144b5959f36541b23755c job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[10]
+Job link: https://saucelabs.com/jobs/e9415b21df2144b5959f36541b23755c?auth=9fd5d037b92c475e5123afe3f5998c4a
+SauceOnDemandSessionID=2d24056cd1b54b429dfbf5595c7e2b4c job-name=freeTrialTest[14] : (Windows 10 internet explorer 11)
+SauceOnDemandSessionID=2d24056cd1b54b429dfbf5595c7e2b4c job-name=com.yourcompany.SampleSauceTest.freeTrialTest[14]
+Job link: https://saucelabs.com/jobs/2d24056cd1b54b429dfbf5595c7e2b4c?auth=edf0c6c8830da23c86c042015f4e0565
+Aug 18, 2016 10:35:45 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:07 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:45 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:07 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:45 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:07 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:45 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:07 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:45 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:07 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:45 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:59 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:41 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:59 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:41 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:59 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:41 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:59 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:41 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:59 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:41 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:59 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:41 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:08 PM org.apache.http.impl.execchain.RetryExec execute
+SauceOnDemandSessionID=eac20202129246f3911acdb880b78cf5 job-name=verifyTitleTest[6] : (OSX 10.11 Chrome 43)
+SauceOnDemandSessionID=eac20202129246f3911acdb880b78cf5 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[6]
+Job link: https://saucelabs.com/jobs/eac20202129246f3911acdb880b78cf5?auth=8e7d6babd423721edfcde008872f4640
+SauceOnDemandSessionID=d6a70b956ec74f888a337c06c8864ce8 job-name=loginTest[13] : (Windows 8 firefox 44)
+SauceOnDemandSessionID=d6a70b956ec74f888a337c06c8864ce8 job-name=com.yourcompany.SampleSauceTest.loginTest[13]
+SauceOnDemandSessionID=3044143730e740a0b3db536ec51c6132 job-name=freeTrialTest[3] : (Windows XP chrome latest)
+SauceOnDemandSessionID=3044143730e740a0b3db536ec51c6132 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[3]
+Job link: https://saucelabs.com/jobs/3044143730e740a0b3db536ec51c6132?auth=c1c9437354d3f2f2bff9bf1b33e06666
+SauceOnDemandSessionID=242679445c2c40788a11d60bb895a261 job-name=verifyTitleTest[13] : (Windows 8 firefox 44)
+SauceOnDemandSessionID=242679445c2c40788a11d60bb895a261 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[13]
+Job link: https://saucelabs.com/jobs/242679445c2c40788a11d60bb895a261?auth=887c898a7862dd6b30c65ab5d9ae9f90
+Aug 18, 2016 10:36:09 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:08 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:09 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:08 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:09 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:08 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:09 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:08 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:09 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:08 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:09 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:02 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:19 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:02 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:19 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:02 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:19 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:02 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:19 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:02 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:19 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:02 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:19 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-SauceOnDemandSessionID=50a91025eca9420f92d431523058cc60 job-name=loginTest[11] : (Windows 7 internet explorer 9)
-SauceOnDemandSessionID=50a91025eca9420f92d431523058cc60 job-name=com.yourcompany.SampleSauceTest.loginTest[11]
-Aug 15, 2016 12:17:20 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:18 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:20 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:18 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:20 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:18 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:20 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:18 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:20 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:18 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:20 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:18 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:23 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:36 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:23 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:36 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:23 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:36 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:23 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:36 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:23 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:36 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:23 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:36 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-SauceOnDemandSessionID=8b91b2cc5cc54f6896c36c0455bb2d58 job-name=verifyTitleTest[13] : (Windows 8 firefox 45)
-SauceOnDemandSessionID=8b91b2cc5cc54f6896c36c0455bb2d58 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[13]
-Job link: https://saucelabs.com/jobs/8b91b2cc5cc54f6896c36c0455bb2d58?auth=aca66685ea7a38d059e70e0a2cbda1c4
-Aug 15, 2016 12:17:20 PM org.apache.http.impl.execchain.RetryExec execute
+SauceOnDemandSessionID=14ab2b6afeee42049b460d8034f750af job-name=freeTrialTest[2] : (Windows 7 internet explorer 10)
+SauceOnDemandSessionID=14ab2b6afeee42049b460d8034f750af job-name=com.yourcompany.SampleSauceTest.freeTrialTest[2]
+Job link: https://saucelabs.com/jobs/14ab2b6afeee42049b460d8034f750af?auth=ed21a27705a765c69bea3e9d12a251ff
+SauceOnDemandSessionID=9150895cf65e471b8f85502372490b92 job-name=verifyTitleTest[7] : (Linux Android 5.1)
+SauceOnDemandSessionID=9150895cf65e471b8f85502372490b92 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[7]
+Job link: https://saucelabs.com/jobs/9150895cf65e471b8f85502372490b92?auth=7b15e62a221ea78a84e59706b73fe66d
+SauceOnDemandSessionID=fd8a53581e504d1485a7ab88ae851900 job-name=verifyTitleTest[11] : (Windows 7 internet explorer 9)
+SauceOnDemandSessionID=fd8a53581e504d1485a7ab88ae851900 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[11]
+Job link: https://saucelabs.com/jobs/fd8a53581e504d1485a7ab88ae851900?auth=bbdf89b40aea0a640a9ddf080f0dfbdb
+SauceOnDemandSessionID=cd4a1489396a4bcda7332bf93e073628 job-name=verifyTitleTest[0] : (Windows 8.1 internet explorer latest)
+SauceOnDemandSessionID=cd4a1489396a4bcda7332bf93e073628 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[0]
+Job link: https://saucelabs.com/jobs/cd4a1489396a4bcda7332bf93e073628?auth=34db2ddf08f34e9b3de4a0da8e781d5c
+SauceOnDemandSessionID=85f27e7d33b74ccdb72b7cdb5ed0204c job-name=freeTrialTest[10] : (Windows 8 internet explorer 10)
+SauceOnDemandSessionID=85f27e7d33b74ccdb72b7cdb5ed0204c job-name=com.yourcompany.SampleSauceTest.freeTrialTest[10]
+Job link: https://saucelabs.com/jobs/85f27e7d33b74ccdb72b7cdb5ed0204c?auth=860c3530bc1db8aa9d3a50e9127f1a5a
+SauceOnDemandSessionID=9d2f73043eeb4a10b73dfcdccd999019 job-name=verifyTitleTest[3] : (Windows XP chrome latest)
+SauceOnDemandSessionID=9d2f73043eeb4a10b73dfcdccd999019 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[3]
+Job link: https://saucelabs.com/jobs/9d2f73043eeb4a10b73dfcdccd999019?auth=21a7a44a9ec4dbbf0e2480ade614347f
+SauceOnDemandSessionID=26f415e3f77740d99c12e0c7ce7b3528 job-name=loginTest[7] : (Linux Android 5.1)
+SauceOnDemandSessionID=26f415e3f77740d99c12e0c7ce7b3528 job-name=com.yourcompany.SampleSauceTest.loginTest[7]
+SauceOnDemandSessionID=43078a06832b423c87aaa7f52a9cf3a5 job-name=verifyTitleTest[14] : (Windows 10 internet explorer 11)
+SauceOnDemandSessionID=43078a06832b423c87aaa7f52a9cf3a5 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[14]
+Job link: https://saucelabs.com/jobs/43078a06832b423c87aaa7f52a9cf3a5?auth=6bc158a5c5ffd98afd8b359389146024
+SauceOnDemandSessionID=7825c97ac4a54694b98a76e93d060260 job-name=loginTest[0] : (Windows 8.1 internet explorer latest)
+SauceOnDemandSessionID=7825c97ac4a54694b98a76e93d060260 job-name=com.yourcompany.SampleSauceTest.loginTest[0]
+SauceOnDemandSessionID=eeede89b32f94ac8b0179f30c4af2019 job-name=loginTest[15] : (Windows 10 Chrome 51)
+SauceOnDemandSessionID=eeede89b32f94ac8b0179f30c4af2019 job-name=com.yourcompany.SampleSauceTest.loginTest[15]
+SauceOnDemandSessionID=d1438c2885cb4ef69f2c971979531d53 job-name=verifyTitleTest[4] : (Windows XP firefox 36)
+SauceOnDemandSessionID=d1438c2885cb4ef69f2c971979531d53 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[4]
+Job link: https://saucelabs.com/jobs/d1438c2885cb4ef69f2c971979531d53?auth=c37a4f3d6828009814461a62ef4e487c
+SauceOnDemandSessionID=b5b1ec9eb650433987194622ebf16c54 job-name=freeTrialTest[0] : (Windows 8.1 internet explorer latest)
+SauceOnDemandSessionID=b5b1ec9eb650433987194622ebf16c54 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[0]
+Job link: https://saucelabs.com/jobs/b5b1ec9eb650433987194622ebf16c54?auth=e331fbdfbb6fc9954bbb614de7c73b46
+SauceOnDemandSessionID=3d1841430641419f9c3180eec4512245 job-name=loginTest[11] : (Windows 7 internet explorer 9)
+SauceOnDemandSessionID=3d1841430641419f9c3180eec4512245 job-name=com.yourcompany.SampleSauceTest.loginTest[11]
+Aug 18, 2016 10:36:01 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:20 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:01 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:20 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:01 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:20 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:01 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:20 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:01 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:20 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:01 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:22 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:15 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:22 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:15 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:22 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:15 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:22 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:15 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:22 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:15 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:22 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:37:15 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-SauceOnDemandSessionID=e22f2220b1424bd6908e192d7747d722 job-name=freeTrialTest[3] : (Windows XP chrome latest)
-SauceOnDemandSessionID=e22f2220b1424bd6908e192d7747d722 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[3]
-Job link: https://saucelabs.com/jobs/e22f2220b1424bd6908e192d7747d722?auth=0208018bbcdd966cfa235359e37cc65d
-SauceOnDemandSessionID=6e4b1e87c3ad4d579ef222fa66393aa1 job-name=freeTrialTest[10] : (Windows 8 internet explorer 10)
-SauceOnDemandSessionID=6e4b1e87c3ad4d579ef222fa66393aa1 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[10]
-Job link: https://saucelabs.com/jobs/6e4b1e87c3ad4d579ef222fa66393aa1?auth=82742ba3ecde728710a94364a3f046d2
-Aug 15, 2016 12:17:39 PM org.apache.http.impl.execchain.RetryExec execute
+SauceOnDemandSessionID=32e76d96f3bb4255a50bba12df7f91d2 job-name=loginTest[2] : (Windows 7 internet explorer 10)
+SauceOnDemandSessionID=32e76d96f3bb4255a50bba12df7f91d2 job-name=com.yourcompany.SampleSauceTest.loginTest[2]
+Aug 18, 2016 10:35:38 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:39 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:38 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:40 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:38 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:40 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:38 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:40 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:38 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:40 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:38 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:19:12 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:29 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:19:12 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:29 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:19:12 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:29 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:19:12 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:29 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:19:12 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:29 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:19:12 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:29 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:38 PM org.apache.http.impl.execchain.RetryExec execute
+SauceOnDemandSessionID=7a0eac1169e4465f9c06a97ba0d43a38 job-name=freeTrialTest[12] : (Windows XP chrome 38)
+SauceOnDemandSessionID=7a0eac1169e4465f9c06a97ba0d43a38 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[12]
+Job link: https://saucelabs.com/jobs/7a0eac1169e4465f9c06a97ba0d43a38?auth=aef0c24c5de0c2da388ab00919798136
+SauceOnDemandSessionID=37729a77d48c44038cdf90d6a52851a2 job-name=loginTest[14] : (Windows 10 internet explorer 11)
+SauceOnDemandSessionID=37729a77d48c44038cdf90d6a52851a2 job-name=com.yourcompany.SampleSauceTest.loginTest[14]
+SauceOnDemandSessionID=2363f8c7ea854419ad9bcd48600beeab job-name=loginTest[4] : (Windows XP firefox 36)
+SauceOnDemandSessionID=2363f8c7ea854419ad9bcd48600beeab job-name=com.yourcompany.SampleSauceTest.loginTest[4]
+Aug 18, 2016 10:35:46 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:38 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:46 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:38 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:46 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:38 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:46 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:38 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:46 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:38 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:46 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:34 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:43 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:34 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:43 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:34 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:43 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:34 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:43 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:34 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:43 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:34 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:43 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:06 PM org.apache.http.impl.execchain.RetryExec execute
+SauceOnDemandSessionID=8c8a5624c5b7454fb1e219b6f769472c job-name=loginTest[12] : (Windows XP chrome 38)
+SauceOnDemandSessionID=8c8a5624c5b7454fb1e219b6f769472c job-name=com.yourcompany.SampleSauceTest.loginTest[12]
+Job link: https://saucelabs.com/jobs/8c8a5624c5b7454fb1e219b6f769472c?auth=42a57368cd016f6ede1906f6efa6c797
+SauceOnDemandSessionID=34459868bf654a10afeff5984cc6ad2b job-name=verifyTitleTest[5] : (OSX 10.8 safari 6)
+SauceOnDemandSessionID=34459868bf654a10afeff5984cc6ad2b job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[5]
+Job link: https://saucelabs.com/jobs/34459868bf654a10afeff5984cc6ad2b?auth=c2e0cc05437569de3226b87f2d74e759
+Aug 18, 2016 10:35:51 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:06 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:51 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:06 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:51 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:06 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:51 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:06 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:51 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:06 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:35:51 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:59 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:51 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:59 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:51 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:59 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:51 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:59 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:51 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:59 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:51 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:59 PM org.apache.http.impl.execchain.RetryExec execute
+Aug 18, 2016 10:36:51 AM org.apache.http.impl.execchain.RetryExec execute
 INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-SauceOnDemandSessionID=c23d234ad0494a00984a8da450c5ceba job-name=verifyTitleTest[3] : (Windows XP chrome latest)
-SauceOnDemandSessionID=c23d234ad0494a00984a8da450c5ceba job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[3]
-Job link: https://saucelabs.com/jobs/c23d234ad0494a00984a8da450c5ceba?auth=604f08288373b8167e425726a6bab0a8
-SauceOnDemandSessionID=430a638d367d41c0bbde5fb44a560b47 job-name=freeTrialTest[5] : (OSX 10.8 safari 6)
-SauceOnDemandSessionID=430a638d367d41c0bbde5fb44a560b47 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[5]
-Job link: https://saucelabs.com/jobs/430a638d367d41c0bbde5fb44a560b47?auth=de193f6caf882c093fa1c91b597b5504
-SauceOnDemandSessionID=fa7b526c24c040eea06e6168af65ed38 job-name=loginTest[13] : (Windows 8 firefox 45)
-SauceOnDemandSessionID=fa7b526c24c040eea06e6168af65ed38 job-name=com.yourcompany.SampleSauceTest.loginTest[13]
-SauceOnDemandSessionID=476ae49b820647e48cb0ba4557901484 job-name=loginTest[4] : (Windows XP firefox 36)
-SauceOnDemandSessionID=476ae49b820647e48cb0ba4557901484 job-name=com.yourcompany.SampleSauceTest.loginTest[4]
-SauceOnDemandSessionID=8c97b1c203f94b2a89c525f57ccda6e6 job-name=freeTrialTest[0] : (Windows 8.1 internet explorer latest)
-SauceOnDemandSessionID=8c97b1c203f94b2a89c525f57ccda6e6 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[0]
-Job link: https://saucelabs.com/jobs/8c97b1c203f94b2a89c525f57ccda6e6?auth=696ae4301ba8a3f799d50557160a2f1a
-SauceOnDemandSessionID=0b6988d2616c4210aa65f438669300b5 job-name=verifyTitleTest[10] : (Windows 8 internet explorer 10)
-SauceOnDemandSessionID=0b6988d2616c4210aa65f438669300b5 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[10]
-Job link: https://saucelabs.com/jobs/0b6988d2616c4210aa65f438669300b5?auth=0ad1de59533f9aa6beb3191ae09eecfb
-SauceOnDemandSessionID=fd134deb99224902a583bf631be32ee9 job-name=verifyTitleTest[0] : (Windows 8.1 internet explorer latest)
-SauceOnDemandSessionID=fd134deb99224902a583bf631be32ee9 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[0]
-Job link: https://saucelabs.com/jobs/fd134deb99224902a583bf631be32ee9?auth=9b28661ec3c970486e594fd887ca1a2f
-SauceOnDemandSessionID=fe1d225b0fac4c89a046a6214d27bc20 job-name=loginTest[0] : (Windows 8.1 internet explorer latest)
-SauceOnDemandSessionID=fe1d225b0fac4c89a046a6214d27bc20 job-name=com.yourcompany.SampleSauceTest.loginTest[0]
-SauceOnDemandSessionID=e97605f0d6dd4446a4118ad3330665e2 job-name=loginTest[3] : (Windows XP chrome latest)
-SauceOnDemandSessionID=e97605f0d6dd4446a4118ad3330665e2 job-name=com.yourcompany.SampleSauceTest.loginTest[3]
-SauceOnDemandSessionID=73edd0e500ba4e9b8d2c1f68f5ce6b41 job-name=freeTrialTest[2] : (Windows 7 internet explorer 10)
-SauceOnDemandSessionID=73edd0e500ba4e9b8d2c1f68f5ce6b41 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[2]
-Job link: https://saucelabs.com/jobs/73edd0e500ba4e9b8d2c1f68f5ce6b41?auth=55b5338b03bb9eccf3fdfe53c7a4fd61
-SauceOnDemandSessionID=c2b6aa9770ef4595bceb4b933b1863da job-name=loginTest[2] : (Windows 7 internet explorer 10)
-SauceOnDemandSessionID=c2b6aa9770ef4595bceb4b933b1863da job-name=com.yourcompany.SampleSauceTest.loginTest[2]
-SauceOnDemandSessionID=a1da5a5386f94e2194f0b6c660533113 job-name=freeTrialTest[12] : (Windows XP chrome 38)
-SauceOnDemandSessionID=a1da5a5386f94e2194f0b6c660533113 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[12]
-Job link: https://saucelabs.com/jobs/a1da5a5386f94e2194f0b6c660533113?auth=36dc7d822cea02edbe30bb3f48428a8c
-SauceOnDemandSessionID=34f6cef4ef314847951ed27a95080f04 job-name=verifyTitleTest[12] : (Windows XP chrome 38)
-SauceOnDemandSessionID=34f6cef4ef314847951ed27a95080f04 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[12]
-Job link: https://saucelabs.com/jobs/34f6cef4ef314847951ed27a95080f04?auth=3f5aae28861627bf3c5a1c972dcb3a45
-SauceOnDemandSessionID=6103459afb004bbfb67b02e3f85dd86f job-name=verifyTitleTest[2] : (Windows 7 internet explorer 10)
-SauceOnDemandSessionID=6103459afb004bbfb67b02e3f85dd86f job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[2]
-Job link: https://saucelabs.com/jobs/6103459afb004bbfb67b02e3f85dd86f?auth=7afa6a8c65773d891817e583980914b8
-SauceOnDemandSessionID=4df67b56962141c7bd06fda644aad5df job-name=loginTest[10] : (Windows 8 internet explorer 10)
-SauceOnDemandSessionID=4df67b56962141c7bd06fda644aad5df job-name=com.yourcompany.SampleSauceTest.loginTest[10]
-SauceOnDemandSessionID=4c1527f0238e4a55a5ecb7198b8a44fc job-name=verifyTitleTest[6] : (OSX 10.11 Chrome 43)
-SauceOnDemandSessionID=4c1527f0238e4a55a5ecb7198b8a44fc job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[6]
-Job link: https://saucelabs.com/jobs/4c1527f0238e4a55a5ecb7198b8a44fc?auth=a41b2bd03161be56f8838ba085bba41e
-SauceOnDemandSessionID=03e2986dd0a0470a9a1942f8f4d7927e job-name=verifyTitleTest[11] : (Windows 7 internet explorer 9)
-SauceOnDemandSessionID=03e2986dd0a0470a9a1942f8f4d7927e job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[11]
-Job link: https://saucelabs.com/jobs/03e2986dd0a0470a9a1942f8f4d7927e?auth=ec9ff9e3d49ef18eb7a088ea052f6abb
-SauceOnDemandSessionID=3c84b1fa73f844d8a3549736e0365c8a job-name=loginTest[15] : (Windows 10 Chrome 51)
-SauceOnDemandSessionID=3c84b1fa73f844d8a3549736e0365c8a job-name=com.yourcompany.SampleSauceTest.loginTest[15]
-Aug 15, 2016 12:17:25 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:25 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:25 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:25 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:25 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:25 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:53 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:53 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:53 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:53 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:53 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:53 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-SauceOnDemandSessionID=aa2182407f4b47acabb782258bbf322d job-name=freeTrialTest[14] : (Windows 10 internet explorer 11)
-SauceOnDemandSessionID=aa2182407f4b47acabb782258bbf322d job-name=com.yourcompany.SampleSauceTest.freeTrialTest[14]
-Job link: https://saucelabs.com/jobs/aa2182407f4b47acabb782258bbf322d?auth=f299025cfcccd0f59bccc4ce95c5be30
-SauceOnDemandSessionID=ea08d6fd46cf49c881b7bc2c4409172d job-name=loginTest[5] : (OSX 10.8 safari 6)
-SauceOnDemandSessionID=ea08d6fd46cf49c881b7bc2c4409172d job-name=com.yourcompany.SampleSauceTest.loginTest[5]
-SauceOnDemandSessionID=811646a0017f4b5b971c2e1245934b10 job-name=freeTrialTest[6] : (OSX 10.11 Chrome 43)
-SauceOnDemandSessionID=811646a0017f4b5b971c2e1245934b10 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[6]
-Job link: https://saucelabs.com/jobs/811646a0017f4b5b971c2e1245934b10?auth=30af29ee3ae2f62b9426fe3daef5a8e8
-SauceOnDemandSessionID=04acd4b2fc854ec6a2dbac30e750c093 job-name=freeTrialTest[13] : (Windows 8 firefox 45)
-SauceOnDemandSessionID=04acd4b2fc854ec6a2dbac30e750c093 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[13]
-Job link: https://saucelabs.com/jobs/04acd4b2fc854ec6a2dbac30e750c093?auth=dfadb052d901b63f8897b09314abe361
-SauceOnDemandSessionID=fc3cfa2d14b94b5ab714ade4d02642f8 job-name=freeTrialTest[11] : (Windows 7 internet explorer 9)
-SauceOnDemandSessionID=fc3cfa2d14b94b5ab714ade4d02642f8 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[11]
-Job link: https://saucelabs.com/jobs/fc3cfa2d14b94b5ab714ade4d02642f8?auth=d77d351a03066592cad8a87cca71412a
-SauceOnDemandSessionID=638f021b9cbd4697a94bf91e169dcfbd job-name=verifyTitleTest[14] : (Windows 10 internet explorer 11)
-SauceOnDemandSessionID=638f021b9cbd4697a94bf91e169dcfbd job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[14]
-Job link: https://saucelabs.com/jobs/638f021b9cbd4697a94bf91e169dcfbd?auth=73abfadfefd6709bb97d087f8be81e2a
-SauceOnDemandSessionID=a14dd38e1aaa4950a7567773be310e60 job-name=freeTrialTest[4] : (Windows XP firefox 36)
-SauceOnDemandSessionID=a14dd38e1aaa4950a7567773be310e60 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[4]
-Job link: https://saucelabs.com/jobs/a14dd38e1aaa4950a7567773be310e60?auth=18006e21f2dfbe42f12102075d9a83bc
-SauceOnDemandSessionID=6992582681e3456493ff0275c7fcbe63 job-name=verifyTitleTest[4] : (Windows XP firefox 36)
-SauceOnDemandSessionID=6992582681e3456493ff0275c7fcbe63 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[4]
-Job link: https://saucelabs.com/jobs/6992582681e3456493ff0275c7fcbe63?auth=08dfd4f9b8aa9945b427a93ef42f403f
-Aug 15, 2016 12:17:23 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:23 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:23 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:23 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:17:23 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:17:23 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:40 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:40 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:40 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:40 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-Aug 15, 2016 12:18:40 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://ondemand.saucelabs.com:443: The target server failed to respond
-Aug 15, 2016 12:18:40 PM org.apache.http.impl.execchain.RetryExec execute
-INFO: Retrying request to {}->http://ondemand.saucelabs.com:443
-SauceOnDemandSessionID=c99d508449a8479887489174397f86f0 job-name=verifyTitleTest[15] : (Windows 10 Chrome 51)
-SauceOnDemandSessionID=c99d508449a8479887489174397f86f0 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[15]
-Job link: https://saucelabs.com/jobs/c99d508449a8479887489174397f86f0?auth=78e8bb5f7bdd024a834f8b8eea2a2419
-SauceOnDemandSessionID=e218c2754b9542ac9afc6039a4c281f7 job-name=loginTest[14] : (Windows 10 internet explorer 11)
-SauceOnDemandSessionID=e218c2754b9542ac9afc6039a4c281f7 job-name=com.yourcompany.SampleSauceTest.loginTest[14]
-SauceOnDemandSessionID=11c43853cb3b4f74ba6837ad6ad21ea7 job-name=loginTest[12] : (Windows XP chrome 38)
-SauceOnDemandSessionID=11c43853cb3b4f74ba6837ad6ad21ea7 job-name=com.yourcompany.SampleSauceTest.loginTest[12]
-SauceOnDemandSessionID=4720644f270744f8954e70b5f6e8b988 job-name=loginTest[16] : (Windows 10 MicrosoftEdge 13.10586)
-SauceOnDemandSessionID=4720644f270744f8954e70b5f6e8b988 job-name=com.yourcompany.SampleSauceTest.loginTest[16]
-SauceOnDemandSessionID=9c63e7bac2264d28b3ee6e041f3b8e15 job-name=verifyTitleTest[16] : (Windows 10 MicrosoftEdge 13.10586)
-SauceOnDemandSessionID=9c63e7bac2264d28b3ee6e041f3b8e15 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[16]
-Job link: https://saucelabs.com/jobs/9c63e7bac2264d28b3ee6e041f3b8e15?auth=0098d4703dab06adb53307403e22be31
-SauceOnDemandSessionID=6fc43aa69d7148ff965a4685916092cd job-name=freeTrialTest[16] : (Windows 10 MicrosoftEdge 13.10586)
-SauceOnDemandSessionID=6fc43aa69d7148ff965a4685916092cd job-name=com.yourcompany.SampleSauceTest.freeTrialTest[16]
-Job link: https://saucelabs.com/jobs/6fc43aa69d7148ff965a4685916092cd?auth=bdfa9c3e89a2000bf53ff1b5e290810d
+SauceOnDemandSessionID=4ff68e0b1dac48aa8458cb0a94e5d19f job-name=freeTrialTest[4] : (Windows XP firefox 36)
+SauceOnDemandSessionID=4ff68e0b1dac48aa8458cb0a94e5d19f job-name=com.yourcompany.SampleSauceTest.freeTrialTest[4]
+Job link: https://saucelabs.com/jobs/4ff68e0b1dac48aa8458cb0a94e5d19f?auth=471eae7d211b63c55606ea30bc3b6d41
+SauceOnDemandSessionID=1c688c67f6174c08bd91bdb1781d9277 job-name=verifyTitleTest[2] : (Windows 7 internet explorer 10)
+SauceOnDemandSessionID=1c688c67f6174c08bd91bdb1781d9277 job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[2]
+Job link: https://saucelabs.com/jobs/1c688c67f6174c08bd91bdb1781d9277?auth=49643053c8a942f7c2d393ad87fe4b16
+SauceOnDemandSessionID=1bc265724ffd4fa38eaea8f2796d32bd job-name=loginTest[3] : (Windows XP chrome latest)
+SauceOnDemandSessionID=1bc265724ffd4fa38eaea8f2796d32bd job-name=com.yourcompany.SampleSauceTest.loginTest[3]
+SauceOnDemandSessionID=7b264b64dcee40638f445bec1bedbac9 job-name=loginTest[16] : (Windows 10 MicrosoftEdge 13.10586)
+SauceOnDemandSessionID=7b264b64dcee40638f445bec1bedbac9 job-name=com.yourcompany.SampleSauceTest.loginTest[16]
+SauceOnDemandSessionID=495ff2ad9ba24452afb15d7c1fa8246f job-name=verifyTitleTest[16] : (Windows 10 MicrosoftEdge 13.10586)
+SauceOnDemandSessionID=495ff2ad9ba24452afb15d7c1fa8246f job-name=com.yourcompany.SampleSauceTest.verifyTitleTest[16]
+Job link: https://saucelabs.com/jobs/495ff2ad9ba24452afb15d7c1fa8246f?auth=6751b0f5b4e8bbe7a74c617131e2102e
+SauceOnDemandSessionID=eb3fab7cc31c49c7a0e1b127727297c7 job-name=freeTrialTest[16] : (Windows 10 MicrosoftEdge 13.10586)
+SauceOnDemandSessionID=eb3fab7cc31c49c7a0e1b127727297c7 job-name=com.yourcompany.SampleSauceTest.freeTrialTest[16]
+Job link: https://saucelabs.com/jobs/eb3fab7cc31c49c7a0e1b127727297c7?auth=0c26f22675d63183ed7cc9389614dfa2
