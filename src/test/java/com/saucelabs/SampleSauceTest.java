@@ -1,4 +1,4 @@
-package com.yourcompany;
+package com.saucelabs;
 
 import com.saucelabs.common.SauceOnDemandAuthentication;
  
@@ -130,16 +130,15 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"OSX 10.8", "6", "safari"});
         browsers.add(new String[]{"OSX 10.11", "43", "Chrome"});
         browsers.add(new String[]{"Linux", "5.1", "Android"}); 
-        browsers.add(new String[]{"OSX 10.10", "8.2", "iPhone"});
-        browsers.add(new String[]{"OSX 10.10", "9.2", "iPhone"}); 
+        browsers.add(new String[]{"OSX 10.10", "9.3", "iPhone"}); 
         browsers.add(new String[]{"Windows 8", "10", "internet explorer"}); 
         browsers.add(new String[]{"Windows 7", "9", "internet explorer"});   
         browsers.add(new String[]{"Windows XP", "38", "chrome"});   
         browsers.add(new String[]{"Windows 8", "44", "firefox"});
         browsers.add(new String[]{"Windows 10", "11", "internet explorer"});
-        browsers.add(new String[]{"Windows 10", "51", "Chrome"}); 
+        browsers.add(new String[]{"Windows 10", "50", "Chrome"}); 
         browsers.add(new String[]{"Windows 10", "13.10586", "MicrosoftEdge"});
-       // browsers.add(new String[]{"Linux", "47", "firefox"});
+        //browsers.add(new String[]{"Linux", "47", "firefox"});
    
         return browsers;
     } 
@@ -184,7 +183,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @Test
     public void verifyTitleTest() throws Exception {
     driver.get("http://saucelabs.com/");
-    assertEquals("Selenium Testing, Mobile Testing, JS Unit Testing | Sauce Labs", driver.getTitle());
+    assertEquals("Cross Browser Testing, Selenium Testing, and Mobile Testing | Sauce Labs", driver.getTitle());
     } 
          
     /**
@@ -195,14 +194,12 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @Test
     public void loginTest() throws Exception {
         driver.get("https://saucelabs.com/beta/login");
-        WebDriverWait wait = new WebDriverWait(driver, 30); // wait for a maximum of 20 seconds
+        WebDriverWait wait = new WebDriverWait(driver, 60); // wait for a maximum of 60 seconds
         wait.until(ExpectedConditions.presenceOfElementLocated(By.name("username")));
         driver.findElement(By.name("username")).sendKeys("kmeier2");
         driver.findElement(By.name("password")).sendKeys("saucelabs");
         driver.findElement(By.id("submit")).click();
-        Thread.sleep(5000);      
-    }  
-
+    }
       /**
      * Runs a simple test to sign up for a free trial.
      * @throws Exception
