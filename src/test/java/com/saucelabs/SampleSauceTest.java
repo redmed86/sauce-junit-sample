@@ -122,7 +122,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @ConcurrentParameterized.Parameters
     public static LinkedList browsersStrings() {
         LinkedList browsers = new LinkedList();
-        browsers.add(new String[]{"Windows 8.1", "latest", "internet explorer"});
+        browsers.add(new String[]{"Windows 10", "latest", "internet explorer"});
         browsers.add(new String[]{"Windows 8.1", "latest-1", "internet explorer"});
         browsers.add(new String[]{"Windows 7", "10", "internet explorer", });   
         browsers.add(new String[]{"Windows XP", "latest", "chrome"});   
@@ -133,7 +133,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"OSX 10.10", "9.3", "iPhone"}); 
         browsers.add(new String[]{"Windows 8", "10", "internet explorer"}); 
         browsers.add(new String[]{"Windows 7", "9", "internet explorer"});   
-        browsers.add(new String[]{"Windows XP", "38", "chrome"});   
+        browsers.add(new String[]{"Windows XP", "39", "chrome"});   
         browsers.add(new String[]{"Windows 8", "44", "firefox"});
         browsers.add(new String[]{"Windows 10", "11", "internet explorer"});
         browsers.add(new String[]{"Windows 10", "50", "Chrome"}); 
@@ -208,7 +208,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @Test
     public void freeTrialTest() throws Exception {
         driver.get("http://saucelabs.com/");
-        WebDriverWait wait = new WebDriverWait(driver, 30); // wait for a maximum of 20 seconds
+        WebDriverWait wait = new WebDriverWait(driver, 30); // wait for a maximum of 30 seconds
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='site-header']/div[3]/div/div/div[3]/div/a[3]")));
         driver.findElement(By.xpath("//*[@id='site-header']/div[3]/div/div/div[3]/div/a[3]")).click();
         Thread.sleep(5000);
