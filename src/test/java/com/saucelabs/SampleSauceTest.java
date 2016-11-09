@@ -180,7 +180,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
       /**
      * Runs a simple test verifying the title of the home page.
      * @throws Exception
-     */
+     */ 
+      
     
     @Test
     public void verifyTitleTest() throws Exception {
