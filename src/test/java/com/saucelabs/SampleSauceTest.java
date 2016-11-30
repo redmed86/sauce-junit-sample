@@ -162,8 +162,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         capabilities.setCapability(CapabilityType.PLATFORM, os);
         String methodName = name.getMethodName();
         capabilities.setCapability("name", methodName);
-        //capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/dir.bat");
-        //capabilities.setCapabili "https://dev.thom/kristianmeier/hosts-w2k8-dev.sh");
+        //capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/intuit_test.bat");
+        //capabilities.setCapability("https://dev.thom/kristianmeier/hosts-w2k8-dev.sh");
         //capabilities.setCapability("tunnelIdentifier", "kristian-tunnel");
 
         this.driver = new RemoteWebDriver(
@@ -185,7 +185,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     
     @Test
     public void verifyTitleTest() throws Exception {
-    driver.get("http://saucelabs.com/");
+    driver.get("http://www.suacelabs.com/");
     assertEquals("Cross Browser Testing, Selenium Testing, and Mobile Testing | Sauce Labs", driver.getTitle());
     } 
          
