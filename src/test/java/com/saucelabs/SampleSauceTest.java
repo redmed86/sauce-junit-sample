@@ -135,7 +135,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 7", "9", "internet explorer"});   
         browsers.add(new String[]{"Windows XP", "39", "chrome"});   
         browsers.add(new String[]{"Windows 8", "46", "firefox"});
-        browsers.add(new String[]{"Windows 10", "11", "internet explorer"});
+        browsers.add(new String[]{"Windows 10", "50", "firefox"});
         browsers.add(new String[]{"Windows 10", "50", "Chrome"}); 
         browsers.add(new String[]{"Windows 10", "13.10586", "MicrosoftEdge"});
         //browsers.add(new String[]{"Linux", "47", "firefox"});
@@ -185,7 +185,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     
     @Test
     public void verifyTitleTest() throws Exception {
-    driver.get("http://www.suacelabs.com/");
+    driver.get("http://www.saucelabs.com/");
     assertEquals("Cross Browser Testing, Selenium Testing, and Mobile Testing | Sauce Labs", driver.getTitle());
     } 
          
