@@ -163,7 +163,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         String methodName = name.getMethodName();
         capabilities.setCapability("name", methodName);
         //capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/intuit_test.bat");
-        capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/netflix.bat");
+        //capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/netflix.bat");
         //capabilities.setCapability("tunnelIdentifier", "kristian-tunnel");
         //capabilities.setCapability("seleniumVersion", "3.0.1");
 
