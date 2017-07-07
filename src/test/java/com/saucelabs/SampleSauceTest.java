@@ -125,7 +125,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 10", "latest", "internet explorer"});
         browsers.add(new String[]{"Windows 8.1", "latest-1", "internet explorer"});
         browsers.add(new String[]{"Windows 7", "10", "internet explorer", });   
-        browsers.add(new String[]{"Windows XP", "latest", "chrome"});   
+        browsers.add(new String[]{"Windows XP", "latest-1", "chrome"});   
         browsers.add(new String[]{"Windows XP", "36", "firefox"});      
         browsers.add(new String[]{"OSX 10.8", "6", "safari"});
         browsers.add(new String[]{"OSX 10.11", "43", "Chrome"});
@@ -166,6 +166,9 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         //capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/netflix.bat");
         //capabilities.setCapability("tunnelIdentifier", "kristian-tunnel");
         //capabilities.setCapability("seleniumVersion", "3.0.1");
+        //capabilities.setCapability("parentTunnel", "kristianmeiersl")
+        //capabilities.setCapability("app", "sauce:storage:myapp.apk")
+        //capabilities.setCapability("app", "https:internal.disney.com/apprepo/myp", "myapp.apk")
 
         this.driver = new RemoteWebDriver(
                     new URL("https://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
