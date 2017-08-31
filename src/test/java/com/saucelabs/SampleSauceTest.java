@@ -91,6 +91,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      */
     private WebDriver driver;
     private String tunnelIdentifier; 
+    //private String extendedDebugging;
 
     /**
      * Constructs a new instance of the test.  The constructor requires three string parameters, which represent the operating
@@ -111,8 +112,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         this.version = version;
         this.browser = browser;
         this.deviceName = deviceName;
-         //this.tunnelIdentifier = tunnelIdentifier;
-       // this.name = name;
+
     } 
 
     /**
@@ -161,18 +161,19 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
 
         capabilities.setCapability(CapabilityType.PLATFORM, os);
         String methodName = name.getMethodName();
-        capabilities.setCapability("name", methodName);
+        //capabilities.setCapability("name", methodName);
+        //capabilities.setCapability("extendedDebugging", "true");
         //capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/intuit_test.bat");
         //capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/netflix.bat");
         //capabilities.setCapability("tunnelIdentifier", "kristian-tunnel");
         //capabilities.setCapability("seleniumVersion", "3.0.1");
         //capabilities.setCapability("parentTunnel", "kristianmeiersl")
         //capabilities.setCapability("app", "sauce:storage:myapp.apk")
-        //capabilities.setCapability("app", "https:internal.disney.com/apprepo/myp", "myapp.apk")
+        //capabilities.setCapability("app", "https://internal.ebay.com/apprepo/myapp.apk")
 
         this.driver = new RemoteWebDriver(
-                    new URL("https://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
-                      "@ondemand.saucelabs.com:443/wd/hub"),
+                        new URL("https://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
+                          "@ondemand.saucelabs.com:443/wd/hub"),
                     //new URL("https://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
                       //"@localhost:4445/wd/hub"),
                 capabilities);
