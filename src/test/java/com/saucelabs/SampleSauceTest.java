@@ -168,8 +168,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         //capabilities.setCapability("tunnelIdentifier", "kristian-tunnel");
         //capabilities.setCapability("seleniumVersion", "3.0.1");
         //capabilities.setCapability("parentTunnel", "kristianmeiersl")
-        //capabilities.setCapability("app", "sauce:storage:myapp.apk")
-        //capabilities.setCapability("app", "https://internal.ebay.com/apprepo/myapp.apk")
+        //capabilities.setCapability("app", "sauce-storage:myapp.apk")
+        //capabilities.setCapability("app", "https://internal.ebay.com/apprepo/myapp.apprepok")
 
         this.driver = new RemoteWebDriver(
                         new URL("https://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
