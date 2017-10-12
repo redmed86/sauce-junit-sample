@@ -126,7 +126,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 8.1", "latest-1", "internet explorer"});
         browsers.add(new String[]{"Windows 7", "10", "internet explorer", });   
         browsers.add(new String[]{"Windows XP", "latest-1", "chrome"});   
-        browsers.add(new String[]{"Windows XP", "36", "firefox"});      
+        browsers.add(new String[]{"Windows XP", "46", "firefox"});      
         browsers.add(new String[]{"OSX 10.9", "32", "firefox"});
         browsers.add(new String[]{"OSX 10.11", "43", "Chrome"});
         browsers.add(new String[]{"Linux", "5.1", "Android"}); 
@@ -161,7 +161,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
 
         capabilities.setCapability(CapabilityType.PLATFORM, os);
         String methodName = name.getMethodName();
-        //capabilities.setCapability("name", methodName);
+        capabilities.setCapability("name", methodName);
         //capabilities.setCapability("extendedDebugging", "true");
         //capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/intuit_test.bat");
         //capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/netflix.bat");
