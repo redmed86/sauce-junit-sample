@@ -42,10 +42,11 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      * Constructs a {@link SauceOnDemandAuthentication} instance using the supplied user name/access key.  To use the authentication
      * supplied by environment variables or from an external file, use the no-arg {@link SauceOnDemandAuthentication} constructor.
      */
- public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication("kristianmeiersl", "a9aa7674-09ce-4eb0-8435-f15efff8262c");
+ 
+    public String username = System.getenv("SAUCE_USERNAME");
+    public String accesskey = System.getenv("SAUCE_ACCESS_KEY");
 
-   // public String username = System.getenv("SAUCE_USERNAME");
-   // public String accesskey = System.getenv("SAUCE_ACCESS_KEY");
+ public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication(username, accesskey);
 
    // public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication(username, accesskey);
 
@@ -201,12 +202,12 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     
     @Test
     public void loginTest() throws Exception {
-        driver.get("https://saucelabs.com/beta/login");
-        WebDriverWait wait = new WebDriverWait(driver, 60); // wait for a maximum of 60 seconds
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.name("username")));
-        driver.findElement(By.name("username")).sendKeys("kmeier2");
-        driver.findElement(By.name("password")).sendKeys("saucelabs");
-        driver.findElement(By.id("submit")).click();
+            driver.get("https://saucelabs.com/beta/login");
+            WebDriverWait wait = new WebDriverWait(driver, 60); // wait for a maximum of 60 seconds
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.name("username")));
+            driver.findElement(By.name("username")).sendKeys("kmeier2");
+            driver.findElement(By.name("password")).sendKeys("saucelabs");
+            driver.findElement(By.id("submit")).click();
     }
       /**
      * Runs a simple test to sign up for a free trial.
