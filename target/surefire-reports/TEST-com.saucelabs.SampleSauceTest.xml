@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="48" failures="0" name="com.saucelabs.SampleSauceTest" time="3,109.495" errors="11" skipped="0">
+<testsuite tests="48" failures="0" name="com.saucelabs.SampleSauceTest" time="3,063.339" errors="10" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -62,23 +62,78 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[5]" time="71.582"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[10]" time="71.598"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[8]" time="30.021">
+  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[3]" time="0.003">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.saucelabs.SampleSauceTest.tearDown(SampleSauceTest.java:239)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[10]" time="81.664"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[1]" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.saucelabs.SampleSauceTest.tearDown(SampleSauceTest.java:239)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[4]" time="81.66"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[14]" time="81.666"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[12]" time="81.682"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[12]" time="81.667"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[2]" time="81.677"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[10]" time="81.671"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[8]" time="30.028">
     <error message="Timed out after 60 seconds waiting for presence of element located by: By.name: username
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;10.35.5.94&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
+System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;192.168.225.164&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{orientation=PORTRAIT, networkConnectionEnabled=false, noReset=true, webdriver.remote.quietExceptions=true, hasMetadata=true, keepKeyChains=true, databaseEnabled=false, deviceName=iPhone Simulator, launchTimeout=180000, platform=MAC, backendRetries=4, showIOSLog=true, desired={showIOSLog=true, orientation=PORTRAIT, noReset=true, newCommandTimeout=0, platformVersion=9.3, webdriver.remote.quietExceptions=true, browserName=safari, keepKeyChains=true, platformName=iOS, deviceName=iPhone Simulator, launchTimeout=180000, backendRetries=4}, webdriver.remote.sessionid=3ed5a9dda82141a2a37fb621d7464c8f, newCommandTimeout=0, platformVersion=9.3, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
-Session ID: 3ed5a9dda82141a2a37fb621d7464c8f" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for presence of element located by: By.name: username
+Capabilities [{orientation=PORTRAIT, networkConnectionEnabled=false, noReset=true, webdriver.remote.quietExceptions=false, hasMetadata=true, keepKeyChains=true, databaseEnabled=false, deviceName=iPhone Simulator, launchTimeout=180000, platform=MAC, backendRetries=4, showIOSLog=true, desired={showIOSLog=true, orientation=PORTRAIT, noReset=true, newCommandTimeout=0, platformVersion=9.3, webdriver.remote.quietExceptions=false, browserName=safari, keepKeyChains=true, platformName=iOS, deviceName=iPhone Simulator, launchTimeout=180000, backendRetries=4}, webdriver.remote.sessionid=e42f45de6a3d4ef898d51f31e4b20f79, newCommandTimeout=0, platformVersion=9.3, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: e42f45de6a3d4ef898d51f31e4b20f79" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for presence of element located by: By.name: username
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;10.35.5.94&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
+System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;192.168.225.164&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{orientation=PORTRAIT, networkConnectionEnabled=false, noReset=true, webdriver.remote.quietExceptions=true, hasMetadata=true, keepKeyChains=true, databaseEnabled=false, deviceName=iPhone Simulator, launchTimeout=180000, platform=MAC, backendRetries=4, showIOSLog=true, desired={showIOSLog=true, orientation=PORTRAIT, noReset=true, newCommandTimeout=0, platformVersion=9.3, webdriver.remote.quietExceptions=true, browserName=safari, keepKeyChains=true, platformName=iOS, deviceName=iPhone Simulator, launchTimeout=180000, backendRetries=4}, webdriver.remote.sessionid=3ed5a9dda82141a2a37fb621d7464c8f, newCommandTimeout=0, platformVersion=9.3, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
-Session ID: 3ed5a9dda82141a2a37fb621d7464c8f
+Capabilities [{orientation=PORTRAIT, networkConnectionEnabled=false, noReset=true, webdriver.remote.quietExceptions=false, hasMetadata=true, keepKeyChains=true, databaseEnabled=false, deviceName=iPhone Simulator, launchTimeout=180000, platform=MAC, backendRetries=4, showIOSLog=true, desired={showIOSLog=true, orientation=PORTRAIT, noReset=true, newCommandTimeout=0, platformVersion=9.3, webdriver.remote.quietExceptions=false, browserName=safari, keepKeyChains=true, platformName=iOS, deviceName=iPhone Simulator, launchTimeout=180000, backendRetries=4}, webdriver.remote.sessionid=e42f45de6a3d4ef898d51f31e4b20f79, newCommandTimeout=0, platformVersion=9.3, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: e42f45de6a3d4ef898d51f31e4b20f79
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.saucelabs.SampleSauceTest.loginTest(SampleSauceTest.java:206)
+	at com.saucelabs.SampleSauceTest.loginTest(SampleSauceTest.java:207)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -102,15 +157,15 @@ Session ID: 3ed5a9dda82141a2a37fb621d7464c8f
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 Caused by: org.openqa.selenium.InvalidSelectorException: Locator Strategy &apos;name&apos; is not supported for this session (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 99 milliseconds
+Command duration or timeout: 90 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;10.35.5.94&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
+System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;192.168.225.164&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{orientation=PORTRAIT, networkConnectionEnabled=false, noReset=true, webdriver.remote.quietExceptions=true, hasMetadata=true, keepKeyChains=true, databaseEnabled=false, deviceName=iPhone Simulator, launchTimeout=180000, platform=MAC, backendRetries=4, showIOSLog=true, desired={showIOSLog=true, orientation=PORTRAIT, noReset=true, newCommandTimeout=0, platformVersion=9.3, webdriver.remote.quietExceptions=true, browserName=safari, keepKeyChains=true, platformName=iOS, deviceName=iPhone Simulator, launchTimeout=180000, backendRetries=4}, webdriver.remote.sessionid=3ed5a9dda82141a2a37fb621d7464c8f, newCommandTimeout=0, platformVersion=9.3, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
-Session ID: 3ed5a9dda82141a2a37fb621d7464c8f
+Capabilities [{orientation=PORTRAIT, networkConnectionEnabled=false, noReset=true, webdriver.remote.quietExceptions=false, hasMetadata=true, keepKeyChains=true, databaseEnabled=false, deviceName=iPhone Simulator, launchTimeout=180000, platform=MAC, backendRetries=4, showIOSLog=true, desired={showIOSLog=true, orientation=PORTRAIT, noReset=true, newCommandTimeout=0, platformVersion=9.3, webdriver.remote.quietExceptions=false, browserName=safari, keepKeyChains=true, platformName=iOS, deviceName=iPhone Simulator, launchTimeout=180000, backendRetries=4}, webdriver.remote.sessionid=e42f45de6a3d4ef898d51f31e4b20f79, newCommandTimeout=0, platformVersion=9.3, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: e42f45de6a3d4ef898d51f31e4b20f79
 *** Element info: {Using=name, value=username}
-	at sun.reflect.GeneratedConstructorAccessor157.newInstance(Unknown Source)
+	at sun.reflect.GeneratedConstructorAccessor92.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
@@ -127,322 +182,14 @@ Session ID: 3ed5a9dda82141a2a37fb621d7464c8f
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
 	... 23 more
 </error>
-    <system-out>SauceOnDemandSessionID=3ed5a9dda82141a2a37fb621d7464c8f job-name=loginTest[8] : (OSX 10.10 iPhone 9.3)
-SauceOnDemandSessionID=3ed5a9dda82141a2a37fb621d7464c8f job-name=com.saucelabs.SampleSauceTest.loginTest[8]
-Job link: https://saucelabs.com/jobs/3ed5a9dda82141a2a37fb621d7464c8f?auth=a37325a97c0b3ec2eb6aaf8022475f3e
-</system-out>
-  </testcase>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[1]" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.saucelabs.SampleSauceTest.tearDown(SampleSauceTest.java:238)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
-	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
-	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
-	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-</error>
-  </testcase>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[6]" time="71.593"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[7]" time="61.565"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[2]" time="81.616"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[3]" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.saucelabs.SampleSauceTest.tearDown(SampleSauceTest.java:238)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
-	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
-	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
-	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-</error>
-  </testcase>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[6]" time="91.627"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[4]" time="30.017">
-    <error message="
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;itako20443.prod.miso&apos;, ip: &apos;fe80:0:0:0:db:7b65:f353:c3a3%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.1&apos;, java.version: &apos;1.8.0_112&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/tmp/rust_mozprofile.xo22S4YdkoSC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0, platformVersion=16.1.0, moz:processID=4013.0, browserName=firefox, javascriptEnabled=true, platformName=darwin}]
-Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX66307e3c
-Command duration or timeout: 398 milliseconds
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;10.35.5.94&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{moz:profile=/tmp/rust_mozprofile.xo22S4YdkoSC, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, hasMetadata=true, moz:headless=false, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, webdriver.remote.sessionid=34c776ae81d94e76a07786b85be1f2e9, browserVersion=56.0, acceptInsecureCerts=false, platformVersion=16.1.0, moz:processID=4013, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, platformName=darwin, cssSelectorsEnabled=true}]
-Session ID: 34c776ae81d94e76a07786b85be1f2e9" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;itako20443.prod.miso&apos;, ip: &apos;fe80:0:0:0:db:7b65:f353:c3a3%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.1&apos;, java.version: &apos;1.8.0_112&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/tmp/rust_mozprofile.xo22S4YdkoSC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0, platformVersion=16.1.0, moz:processID=4013.0, browserName=firefox, javascriptEnabled=true, platformName=darwin}]
-Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX66307e3c
-Command duration or timeout: 398 milliseconds
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;10.35.5.94&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{moz:profile=/tmp/rust_mozprofile.xo22S4YdkoSC, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, hasMetadata=true, moz:headless=false, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, webdriver.remote.sessionid=34c776ae81d94e76a07786b85be1f2e9, browserVersion=56.0, acceptInsecureCerts=false, platformVersion=16.1.0, moz:processID=4013, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, platformName=darwin, cssSelectorsEnabled=true}]
-Session ID: 34c776ae81d94e76a07786b85be1f2e9
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at com.saucelabs.SampleSauceTest.freeTrialTest(SampleSauceTest.java:221)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
-	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
-	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
-	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.openqa.selenium.WebDriverException: 
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;itako20443.prod.miso&apos;, ip: &apos;fe80:0:0:0:db:7b65:f353:c3a3%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.1&apos;, java.version: &apos;1.8.0_112&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/tmp/rust_mozprofile.xo22S4YdkoSC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0, platformVersion=16.1.0, moz:processID=4013.0, browserName=firefox, javascriptEnabled=true, platformName=darwin}]
-Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX66307e3c
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;10.35.5.94&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: driver.version: RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)
-	at com.sun.proxy.$Proxy5.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:345)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
-	at com.sun.proxy.$Proxy6.click(Unknown Source)
-	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
-	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	... 3 more
-</error>
-    <system-out>SauceOnDemandSessionID=34c776ae81d94e76a07786b85be1f2e9 job-name=freeTrialTest[4] : (OSX 10.12 firefox 56)
-SauceOnDemandSessionID=34c776ae81d94e76a07786b85be1f2e9 job-name=com.saucelabs.SampleSauceTest.freeTrialTest[4]
-Job link: https://saucelabs.com/jobs/34c776ae81d94e76a07786b85be1f2e9?auth=1996fba33d4e05eb5b54dce01b87a0e5
-</system-out>
-  </testcase>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[11]" time="81.612"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[12]" time="71.59"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[2]" time="71.593"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[9]" time="81.607"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[11]" time="91.632"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[14]" time="91.625"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[7]" time="91.634"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[13]" time="91.627"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[15]" time="71.581"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[5]" time="71.59"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[4]" time="71.578"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[14]" time="81.607"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[6]" time="91.63"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[13]" time="91.625"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[9]" time="81.614"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[12]" time="91.626"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[3]" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.saucelabs.SampleSauceTest.tearDown(SampleSauceTest.java:238)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
-	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
-	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
-	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-</error>
-  </testcase>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[8]" time="20.011">
-    <error message="Element is not currently visible and may not be manipulated (status: 11) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 591 milliseconds
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;10.35.5.94&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{orientation=PORTRAIT, networkConnectionEnabled=false, noReset=true, webdriver.remote.quietExceptions=true, hasMetadata=true, keepKeyChains=true, databaseEnabled=false, deviceName=iPhone Simulator, launchTimeout=180000, platform=MAC, backendRetries=4, showIOSLog=true, desired={showIOSLog=true, orientation=PORTRAIT, noReset=true, newCommandTimeout=0, platformVersion=9.3, webdriver.remote.quietExceptions=true, browserName=safari, keepKeyChains=true, platformName=iOS, deviceName=iPhone Simulator, launchTimeout=180000, backendRetries=4}, webdriver.remote.sessionid=378aceff449a4e39b714a6f598178697, newCommandTimeout=0, platformVersion=9.3, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
-Session ID: 378aceff449a4e39b714a6f598178697" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Element is not currently visible and may not be manipulated (status: 11) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 591 milliseconds
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;10.35.5.94&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{orientation=PORTRAIT, networkConnectionEnabled=false, noReset=true, webdriver.remote.quietExceptions=true, hasMetadata=true, keepKeyChains=true, databaseEnabled=false, deviceName=iPhone Simulator, launchTimeout=180000, platform=MAC, backendRetries=4, showIOSLog=true, desired={showIOSLog=true, orientation=PORTRAIT, noReset=true, newCommandTimeout=0, platformVersion=9.3, webdriver.remote.quietExceptions=true, browserName=safari, keepKeyChains=true, platformName=iOS, deviceName=iPhone Simulator, launchTimeout=180000, backendRetries=4}, webdriver.remote.sessionid=378aceff449a4e39b714a6f598178697, newCommandTimeout=0, platformVersion=9.3, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
-Session ID: 378aceff449a4e39b714a6f598178697
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at com.saucelabs.SampleSauceTest.freeTrialTest(SampleSauceTest.java:221)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
-	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
-	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
-	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-</error>
-    <system-out>SauceOnDemandSessionID=378aceff449a4e39b714a6f598178697 job-name=freeTrialTest[8] : (OSX 10.10 iPhone 9.3)
-SauceOnDemandSessionID=378aceff449a4e39b714a6f598178697 job-name=com.saucelabs.SampleSauceTest.freeTrialTest[8]
-Job link: https://saucelabs.com/jobs/378aceff449a4e39b714a6f598178697?auth=8bcc42b12b19b06f4799565c164c4482
-</system-out>
-  </testcase>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[11]" time="91.628"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[15]" time="81.608"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[0]" time="91.627"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[15]" time="71.586"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[7]" time="20.009">
-    <error message="element not visible
-  (Session info: webview=39.0.0.0)
-  (Driver info: chromedriver=2.20.353326 (387014af133a8257dc698960b225254e857711b4),platform=Linux 4.4.0-59-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 411 milliseconds
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;10.35.5.94&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={}, takesHeapSnapshot=true, hasMetadata=true, databaseEnabled=false, hasTouchScreen=false, handlesAlerts=true, version=39.0.0.0, platform=ANDROID, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=e4c519a80d06496bb4b49ef3ad0ba431, webStorageEnabled=true, locationContextEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: e4c519a80d06496bb4b49ef3ad0ba431" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: webview=39.0.0.0)
-  (Driver info: chromedriver=2.20.353326 (387014af133a8257dc698960b225254e857711b4),platform=Linux 4.4.0-59-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 411 milliseconds
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;10.35.5.94&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={}, takesHeapSnapshot=true, hasMetadata=true, databaseEnabled=false, hasTouchScreen=false, handlesAlerts=true, version=39.0.0.0, platform=ANDROID, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=e4c519a80d06496bb4b49ef3ad0ba431, webStorageEnabled=true, locationContextEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: e4c519a80d06496bb4b49ef3ad0ba431
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at com.saucelabs.SampleSauceTest.freeTrialTest(SampleSauceTest.java:221)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
-	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
-	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
-	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-</error>
-    <system-out>SauceOnDemandSessionID=e4c519a80d06496bb4b49ef3ad0ba431 job-name=freeTrialTest[7] : (Linux Android 5.1)
-SauceOnDemandSessionID=e4c519a80d06496bb4b49ef3ad0ba431 job-name=com.saucelabs.SampleSauceTest.freeTrialTest[7]
-Job link: https://saucelabs.com/jobs/e4c519a80d06496bb4b49ef3ad0ba431?auth=6c48b19a055d19122600a0fb13bc0401
+    <system-out>SauceOnDemandSessionID=e42f45de6a3d4ef898d51f31e4b20f79 job-name=loginTest[8] : (OSX 10.10 iPhone 9.3)
+SauceOnDemandSessionID=e42f45de6a3d4ef898d51f31e4b20f79 job-name=com.saucelabs.SampleSauceTest.loginTest[8]
+Job link: https://saucelabs.com/jobs/e42f45de6a3d4ef898d51f31e4b20f79?auth=2c5d24b09526f3a058c843115ac95274
 </system-out>
   </testcase>
   <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[1]" time="0">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.saucelabs.SampleSauceTest.tearDown(SampleSauceTest.java:238)
+	at com.saucelabs.SampleSauceTest.tearDown(SampleSauceTest.java:239)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -465,12 +212,21 @@ Job link: https://saucelabs.com/jobs/e4c519a80d06496bb4b49ef3ad0ba431?auth=6c48b
 	at java.lang.Thread.run(Thread.java:745)
 </error>
   </testcase>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[8]" time="61.565"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[0]" time="71.592"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[10]" time="71.581"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[1]" time="0">
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[15]" time="71.649"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[13]" time="71.642"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[14]" time="81.676"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[15]" time="71.646"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[2]" time="81.671"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[5]" time="81.667"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[11]" time="81.682"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[5]" time="81.66"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[11]" time="11.593"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[7]" time="81.684"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[0]" time="81.676"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[15]" time="81.667"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[3]" time="0.001">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.saucelabs.SampleSauceTest.tearDown(SampleSauceTest.java:238)
+	at com.saucelabs.SampleSauceTest.tearDown(SampleSauceTest.java:239)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -493,10 +249,10 @@ Job link: https://saucelabs.com/jobs/e4c519a80d06496bb4b49ef3ad0ba431?auth=6c48b
 	at java.lang.Thread.run(Thread.java:745)
 </error>
   </testcase>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[12]" time="81.61"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[3]" time="0">
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[12]" time="81.677"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[3]" time="0">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.saucelabs.SampleSauceTest.tearDown(SampleSauceTest.java:238)
+	at com.saucelabs.SampleSauceTest.tearDown(SampleSauceTest.java:239)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -519,36 +275,26 @@ Job link: https://saucelabs.com/jobs/e4c519a80d06496bb4b49ef3ad0ba431?auth=6c48b
 	at java.lang.Thread.run(Thread.java:745)
 </error>
   </testcase>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[13]" time="81.608"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[2]" time="71.583"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[9]" time="91.631"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[4]" time="71.582"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[10]" time="30.02">
-    <error message="Cannot click on element (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 64 milliseconds
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;Sauce-Win7&apos;, ip: &apos;172.20.43.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=9, platform=WINDOWS, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:28763/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX319bc7ec
-Command duration or timeout: 314 milliseconds
+  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[6]" time="81.681"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[6]" time="81.671"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[13]" time="71.642"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[9]" time="81.659"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[0]" time="81.661"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[14]" time="81.682"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[8]" time="20.014">
+    <error message="Element is not currently visible and may not be manipulated (status: 11) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 778 milliseconds
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;10.35.5.94&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
+System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;192.168.225.164&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{enablePersistentHover=true, ie.fileUploadDialogTimeout=3000, platform=WINDOWS, ie.ensureCleanSession=false, ie.browserCommandLineSwitches=, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, javascriptEnabled=true, unexpectedAlertBehaviour=dismiss, browserAttachTimeout=0, ie.enableFullPageScreenshot=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, hasMetadata=true, version=9, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, nativeEvents=true, elementScrollBehavior=0, webdriver.remote.sessionid=4b189f92d68548899e319a974dadae23, initialBrowserUrl=http://localhost:28763/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true}]
-Session ID: 4b189f92d68548899e319a974dadae23" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: Cannot click on element (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 64 milliseconds
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;Sauce-Win7&apos;, ip: &apos;172.20.43.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=9, platform=WINDOWS, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:28763/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX319bc7ec
-Command duration or timeout: 314 milliseconds
+Capabilities [{orientation=PORTRAIT, networkConnectionEnabled=false, noReset=true, webdriver.remote.quietExceptions=false, hasMetadata=true, keepKeyChains=true, databaseEnabled=false, deviceName=iPhone Simulator, launchTimeout=180000, platform=MAC, backendRetries=4, showIOSLog=true, desired={showIOSLog=true, orientation=PORTRAIT, noReset=true, newCommandTimeout=0, platformVersion=9.3, webdriver.remote.quietExceptions=false, browserName=safari, keepKeyChains=true, platformName=iOS, deviceName=iPhone Simulator, launchTimeout=180000, backendRetries=4}, webdriver.remote.sessionid=9ee81e5551904aca8d292d6aee663e5b, newCommandTimeout=0, platformVersion=9.3, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: 9ee81e5551904aca8d292d6aee663e5b" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Element is not currently visible and may not be manipulated (status: 11) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 778 milliseconds
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;10.35.5.94&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
+System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;192.168.225.164&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{enablePersistentHover=true, ie.fileUploadDialogTimeout=3000, platform=WINDOWS, ie.ensureCleanSession=false, ie.browserCommandLineSwitches=, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, javascriptEnabled=true, unexpectedAlertBehaviour=dismiss, browserAttachTimeout=0, ie.enableFullPageScreenshot=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, hasMetadata=true, version=9, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, nativeEvents=true, elementScrollBehavior=0, webdriver.remote.sessionid=4b189f92d68548899e319a974dadae23, initialBrowserUrl=http://localhost:28763/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true}]
-Session ID: 4b189f92d68548899e319a974dadae23
+Capabilities [{orientation=PORTRAIT, networkConnectionEnabled=false, noReset=true, webdriver.remote.quietExceptions=false, hasMetadata=true, keepKeyChains=true, databaseEnabled=false, deviceName=iPhone Simulator, launchTimeout=180000, platform=MAC, backendRetries=4, showIOSLog=true, desired={showIOSLog=true, orientation=PORTRAIT, noReset=true, newCommandTimeout=0, platformVersion=9.3, webdriver.remote.quietExceptions=false, browserName=safari, keepKeyChains=true, platformName=iOS, deviceName=iPhone Simulator, launchTimeout=180000, backendRetries=4}, webdriver.remote.sessionid=9ee81e5551904aca8d292d6aee663e5b, newCommandTimeout=0, platformVersion=9.3, locationContextEnabled=false, webStorageEnabled=false, takesScreenshot=true, browserName=safari, javascriptEnabled=true, platformName=iOS}]
+Session ID: 9ee81e5551904aca8d292d6aee663e5b
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -558,7 +304,75 @@ Session ID: 4b189f92d68548899e319a974dadae23
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at com.saucelabs.SampleSauceTest.freeTrialTest(SampleSauceTest.java:221)
+	at com.saucelabs.SampleSauceTest.freeTrialTest(SampleSauceTest.java:222)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+    <system-out>SauceOnDemandSessionID=9ee81e5551904aca8d292d6aee663e5b job-name=freeTrialTest[8] : (OSX 10.10 iPhone 9.3)
+SauceOnDemandSessionID=9ee81e5551904aca8d292d6aee663e5b job-name=com.saucelabs.SampleSauceTest.freeTrialTest[8]
+Job link: https://saucelabs.com/jobs/9ee81e5551904aca8d292d6aee663e5b?auth=35f8b414ff9ce56d84d119d370fabb5c
+</system-out>
+  </testcase>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[7]" time="81.683"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[5]" time="71.636"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[8]" time="71.634"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[4]" time="81.671"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[10]" time="30.025">
+    <error message="Cannot click on element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 53 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;Sauce-Win7&apos;, ip: &apos;172.20.33.130&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=9, platform=WINDOWS, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:36371/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX498bcd4e
+Command duration or timeout: 875 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;192.168.225.164&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{enablePersistentHover=true, ie.fileUploadDialogTimeout=3000, platform=WINDOWS, ie.ensureCleanSession=false, ie.browserCommandLineSwitches=, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, javascriptEnabled=true, unexpectedAlertBehaviour=dismiss, browserAttachTimeout=0, ie.enableFullPageScreenshot=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, hasMetadata=true, version=9, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, nativeEvents=true, elementScrollBehavior=0, webdriver.remote.sessionid=f99dbe1b95c14fb7b1a3ed1bb85c3591, initialBrowserUrl=http://localhost:36371/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true}]
+Session ID: f99dbe1b95c14fb7b1a3ed1bb85c3591" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: Cannot click on element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 53 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;Sauce-Win7&apos;, ip: &apos;172.20.33.130&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=9, platform=WINDOWS, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:36371/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX498bcd4e
+Command duration or timeout: 875 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;192.168.225.164&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{enablePersistentHover=true, ie.fileUploadDialogTimeout=3000, platform=WINDOWS, ie.ensureCleanSession=false, ie.browserCommandLineSwitches=, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, javascriptEnabled=true, unexpectedAlertBehaviour=dismiss, browserAttachTimeout=0, ie.enableFullPageScreenshot=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, hasMetadata=true, version=9, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, nativeEvents=true, elementScrollBehavior=0, webdriver.remote.sessionid=f99dbe1b95c14fb7b1a3ed1bb85c3591, initialBrowserUrl=http://localhost:36371/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true}]
+Session ID: f99dbe1b95c14fb7b1a3ed1bb85c3591
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.saucelabs.SampleSauceTest.freeTrialTest(SampleSauceTest.java:222)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -582,14 +396,14 @@ Session ID: 4b189f92d68548899e319a974dadae23
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 Caused by: org.openqa.selenium.ElementNotVisibleException: Cannot click on element (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 64 milliseconds
+Command duration or timeout: 53 milliseconds
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
-System info: host: &apos;Sauce-Win7&apos;, ip: &apos;172.20.43.158&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+System info: host: &apos;Sauce-Win7&apos;, ip: &apos;172.20.33.130&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=9, platform=WINDOWS, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:28763/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX319bc7ec
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=9, platform=WINDOWS, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:36371/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX498bcd4e
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;10.35.5.94&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
+System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;192.168.225.164&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: driver.version: RemoteWebDriver
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -621,12 +435,98 @@ Driver info: driver.version: RemoteWebDriver
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 </error>
-    <system-out>SauceOnDemandSessionID=4b189f92d68548899e319a974dadae23 job-name=freeTrialTest[10] : (Windows 7 internet explorer 9)
-SauceOnDemandSessionID=4b189f92d68548899e319a974dadae23 job-name=com.saucelabs.SampleSauceTest.freeTrialTest[10]
-Job link: https://saucelabs.com/jobs/4b189f92d68548899e319a974dadae23?auth=48789721417c8f9e8b2f1094110c5527
+    <system-out>SauceOnDemandSessionID=f99dbe1b95c14fb7b1a3ed1bb85c3591 job-name=freeTrialTest[10] : (Windows 7 internet explorer 9)
+SauceOnDemandSessionID=f99dbe1b95c14fb7b1a3ed1bb85c3591 job-name=com.saucelabs.SampleSauceTest.freeTrialTest[10]
+Job link: https://saucelabs.com/jobs/f99dbe1b95c14fb7b1a3ed1bb85c3591?auth=0193eb4291c814067f02826f831140a6
 </system-out>
   </testcase>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[5]" time="81.606"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[0]" time="91.628"/>
-  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[14]" time="91.63"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[13]" time="81.671"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[9]" time="81.676"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[11]" time="81.669"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[7]" time="20.015">
+    <error message="element not visible
+  (Session info: webview=39.0.0.0)
+  (Driver info: chromedriver=2.20.353326 (387014af133a8257dc698960b225254e857711b4),platform=Linux 4.4.0-59-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 433 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;192.168.225.164&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={}, takesHeapSnapshot=true, hasMetadata=true, databaseEnabled=false, hasTouchScreen=false, handlesAlerts=true, version=39.0.0.0, platform=ANDROID, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=29560fc1da6c40dd84496f53e0557f19, webStorageEnabled=true, locationContextEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 29560fc1da6c40dd84496f53e0557f19" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: webview=39.0.0.0)
+  (Driver info: chromedriver=2.20.353326 (387014af133a8257dc698960b225254e857711b4),platform=Linux 4.4.0-59-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 433 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Meier-Kristian-0228.local&apos;, ip: &apos;192.168.225.164&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={}, takesHeapSnapshot=true, hasMetadata=true, databaseEnabled=false, hasTouchScreen=false, handlesAlerts=true, version=39.0.0.0, platform=ANDROID, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=29560fc1da6c40dd84496f53e0557f19, webStorageEnabled=true, locationContextEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 29560fc1da6c40dd84496f53e0557f19
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.saucelabs.SampleSauceTest.freeTrialTest(SampleSauceTest.java:222)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+    <system-out>SauceOnDemandSessionID=29560fc1da6c40dd84496f53e0557f19 job-name=freeTrialTest[7] : (Linux Android 5.1)
+SauceOnDemandSessionID=29560fc1da6c40dd84496f53e0557f19 job-name=com.saucelabs.SampleSauceTest.freeTrialTest[7]
+Job link: https://saucelabs.com/jobs/29560fc1da6c40dd84496f53e0557f19?auth=f45c1eed5a031cdb23bca4e8f5cd0529
+</system-out>
+  </testcase>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[2]" time="71.644"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[4]" time="81.666"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[0]" time="81.676"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="loginTest[6]" time="81.674"/>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="freeTrialTest[1]" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.saucelabs.SampleSauceTest.tearDown(SampleSauceTest.java:239)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase classname="com.saucelabs.SampleSauceTest" name="verifyTitleTest[9]" time="81.679"/>
 </testsuite>
