@@ -21,6 +21,7 @@ import java.net.URL;
 import java.util.LinkedList;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import com.saucelabs.common.SauceOnDemandSessionIdProvider;
 
@@ -126,7 +127,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows 10", "latest", "internet explorer"});
         browsers.add(new String[]{"Windows 8.1", "latest-1", "internet explorer"});
         browsers.add(new String[]{"Windows 7", "10", "internet explorer", });   
-        browsers.add(new String[]{"Windows XP", "latest-1", "chrome"});   
+        browsers.add(new String[]{"Windows XP", "latest-2", "chrome"});   
         browsers.add(new String[]{"OSX 10.12", "11", "Safari"});      
         browsers.add(new String[]{"OSX 10.9", "32", "firefox"});
         browsers.add(new String[]{"OSX 10.11", "43", "Chrome"});
@@ -134,7 +135,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"OSX 10.10", "9.3", "iPhone"}); 
         browsers.add(new String[]{"Windows 8", "10", "internet explorer"}); 
         browsers.add(new String[]{"Windows 7", "9", "internet explorer"});   
-        browsers.add(new String[]{"Windows 8", "39", "chrome"});   
+        browsers.add(new String[]{"Windows 8", "42", "chrome"});   
         browsers.add(new String[]{"Windows 8", "46", "firefox"});
         browsers.add(new String[]{"Windows 10", "55", "firefox"});
         browsers.add(new String[]{"Windows 10", "50", "Chrome"}); 
@@ -163,14 +164,15 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         capabilities.setCapability(CapabilityType.PLATFORM, os);
         String methodName = name.getMethodName();
         capabilities.setCapability("name", methodName);
-        //capabilities.setCapability("extendedDebugging", "true");
+        capabilities.setCapability("extendedDebugging", "true");
         //capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/intuit_test.bat");
         //capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/netflix.bat");
         //capabilities.setCapability("tunnelIdentifier", "kristian-tunnel");
-        //capabilities.setCapability("seleniumVersion", "3.5.0");
-        //capabilities.setCapability("parentTunnel", "kristianmeiersl")
-        //capabilities.setCapability("app", "sauce-storage:myapp.apk")
-        //capabilities.setCapability("app", "https://internal.ebay.com/apprepo/myapp.apprepok")
+        //capabilities.setCapability("parentTunnel", "myParent-tunnel");
+        //capabilities.setCapability("seleniumVersion", "3.7.0");
+        //capabilities.setCapability("parentTunnel", "kristianmeiersl");
+        //capabilities.setCapability("app", "sauce-storage:myapp.apk");
+        //capabilities.setCapability("app", "http://internal.pacificlife.com/somepath/myapp.apk  
 
         this.driver = new RemoteWebDriver(
                         new URL("https://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
@@ -192,9 +194,11 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @Test
     public void verifyTitleTest() throws Exception {
     driver.get("http://www.saucelabs.com/");
+    WebDriverWait wait = new WebDriverWait(driver, 30); // wait for a maximum of 30 seconds
+    wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='site-header']/div[3]/div/div/div[3]/div/a[3]")));
     assertEquals("Cross Browser Testing, Selenium Testing, and Mobile Testing | Sauce Labs", driver.getTitle());
     } 
-         
+     
     /**
      * Runs a simple Authentication test 
      * @throws Exception
@@ -203,7 +207,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @Test
     public void loginTest() throws Exception {
             driver.get("https://saucelabs.com/beta/login");
-            WebDriverWait wait = new WebDriverWait(driver, 60); // wait for a maximum of 60 seconds
+            WebDriverWait wait = new WebDriverWait(driver, 30); // wait for a maximum of 30 seconds
             wait.until(ExpectedConditions.presenceOfElementLocated(By.name("username")));
             driver.findElement(By.name("username")).sendKeys("kmeier2");
             driver.findElement(By.name("password")).sendKeys("saucelabs");
@@ -228,7 +232,20 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.name("username")).sendKeys("myUsername");
         driver.findElement(By.name("password")).sendKeys("thatsright");
         } 
-
+//*
+/**
+*@Test
+*public void localHostCookieTest () throws Exception{
+*    driver.get("http://localhost");
+*    WebDriverWait wait = new WebDriverWait(driver, 30);
+*    wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div/form/input[3]")));
+*    driver.findElement(By.xpath("/html/body/div/form/input[3]")).click();
+*    WebDriverWait wait2 = new WebDriverWait(driver, 30);
+*    wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div/div/a[1]")));
+*    assertEquals("SauceTest=Cookie Test", driver.findElement(By.tagName("SauceTest=Cookie Test")).getText());
+*
+*}
+*/
     /**
      * Closes the {@link WebDriver} session.
      *
