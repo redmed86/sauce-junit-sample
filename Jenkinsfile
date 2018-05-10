@@ -5,7 +5,7 @@ node('master') {
     }
 
     stage('Test') {
-      sauce('saucelabs') {
+      sauce('derek_sauce_key') {
           sh "mvn clean test"
       }
     }
