@@ -48,9 +48,11 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.12.4</version>
                 <configuration>
-                    <parallel>classes</parallel>
-                    <threadCount>200</threadCount>
-                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
+                    <parallel>classesAndMethods</parallel>
+                    <useUnlimitedThreads>true</useUnlimitedThreads>
+                    <!-- <forkCount>2.5C</forkCount> -->
+                    <reuseForks>true</reuseForks>
+                    <redirectTestOutputToFile>false</redirectTestOutputToFile>
                 </configuration>
             </plugin>
         </plugins>

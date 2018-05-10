@@ -1,10 +1,10 @@
 package com.saucelabs;
 
 import com.saucelabs.common.SauceOnDemandAuthentication;
- 
-import org.junit.After; 
+
+import org.junit.After;
 import org.junit.Before;
-import org.junit.Rule; 
+import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestName;
 import org.junit.runner.RunWith;
@@ -17,7 +17,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import com.saucelabs.junit.ConcurrentParameterized;
 import com.saucelabs.junit.SauceOnDemandTestWatcher;
 
-import java.net.URL; 
+import java.net.URL;
 import java.util.LinkedList;
 
 import static org.junit.Assert.assertEquals;
@@ -27,8 +27,8 @@ import com.saucelabs.common.SauceOnDemandSessionIdProvider;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-  
-/** 
+
+/**
  * Demonstrates how to write a JUnit test that runs tests against Sauce Labs using multiple browsers in parallel.
  * <p/>
  * The test also includes the {@link SauceOnDemandTestWatcher} which will invoke the Sauce REST API to mark
@@ -43,7 +43,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      * Constructs a {@link SauceOnDemandAuthentication} instance using the supplied user name/access key.  To use the authentication
      * supplied by environment variables or from an external file, use the no-arg {@link SauceOnDemandAuthentication} constructor.
      */
- 
+
     public String username = System.getenv("SAUCE_USERNAME");
     public String accesskey = System.getenv("SAUCE_ACCESS_KEY");
 
@@ -92,7 +92,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      * The {@link WebDriver} instance which is used to perform browser interactions with.
      */
     private WebDriver driver;
-    private String tunnelIdentifier; 
+    private String tunnelIdentifier;
     //private String extendedDebugging;
 
     /**
@@ -115,7 +115,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         this.browser = browser;
         this.deviceName = deviceName;
 
-    } 
+    }
 
     /**
      * @return a LinkedList containing String arrays representing the browser combinations the test should be run against. The values
@@ -125,28 +125,47 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     public static LinkedList browsersStrings() {
         LinkedList browsers = new LinkedList();
         browsers.add(new String[]{"Windows 10", "latest", "internet explorer"});
+        browsers.add(new String[]{"Windows 8.1", "latest", "internet explorer"});
+        browsers.add(new String[]{"Windows 7", "latest", "internet explorer", });
+        browsers.add(new String[]{"OSX 10.13", "latest", "Safari"});
+        browsers.add(new String[]{"OSX 10.13", "latest", "Chrome"});
+        browsers.add(new String[]{"OSX 10.13", "latest", "firefox"});
+        browsers.add(new String[]{"OSX 10.12", "latest", "Safari"});
+        browsers.add(new String[]{"OSX 10.12", "latest", "Chrome"});
+        browsers.add(new String[]{"OSX 10.12", "latest", "firefox"});
+        browsers.add(new String[]{"OSX 10.11", "latest", "Safari"});
+        browsers.add(new String[]{"OSX 10.11", "latest", "Chrome"});
+        browsers.add(new String[]{"OSX 10.11", "latest", "firefox"});
+        browsers.add(new String[]{"Windows 10", "latest-1", "internet explorer"});
         browsers.add(new String[]{"Windows 8.1", "latest-1", "internet explorer"});
-        browsers.add(new String[]{"Windows 7", "10", "internet explorer", });   
-        browsers.add(new String[]{"Windows XP", "latest-2", "chrome"});   
-        browsers.add(new String[]{"OSX 10.12", "11", "Safari"});      
-        browsers.add(new String[]{"OSX 10.9", "32", "firefox"});
-        browsers.add(new String[]{"OSX 10.11", "43", "Chrome"});
-        browsers.add(new String[]{"Linux", "5.1", "Android"}); 
-        browsers.add(new String[]{"OSX 10.10", "9.3", "iPhone"}); 
-        browsers.add(new String[]{"Windows 8", "10", "internet explorer"}); 
-        browsers.add(new String[]{"Windows 7", "9", "internet explorer"});   
-        browsers.add(new String[]{"Windows 8", "42", "chrome"});   
-        browsers.add(new String[]{"Windows 8", "46", "firefox"});
-        browsers.add(new String[]{"Windows 10", "55", "firefox"});
-        browsers.add(new String[]{"Windows 10", "50", "Chrome"}); 
-        browsers.add(new String[]{"Windows 10", "13.10586", "MicrosoftEdge"});
-       //browsers.add(new String[]{"Linux", "47", "firefox"});
-   
+        browsers.add(new String[]{"Windows 7", "latest-1", "internet explorer", });
+        browsers.add(new String[]{"OSX 10.13", "latest-1", "Safari"});
+        browsers.add(new String[]{"OSX 10.13", "latest-1", "Chrome"});
+        browsers.add(new String[]{"OSX 10.13", "latest-1", "firefox"});
+        browsers.add(new String[]{"OSX 10.12", "latest-1", "Safari"});
+        browsers.add(new String[]{"OSX 10.12", "latest-1", "Chrome"});
+        browsers.add(new String[]{"OSX 10.12", "latest-1", "firefox"});
+        browsers.add(new String[]{"OSX 10.11", "latest-1", "Safari"});
+        browsers.add(new String[]{"OSX 10.11", "latest-1", "Chrome"});
+        browsers.add(new String[]{"OSX 10.11", "latest-1", "firefox"});
+        browsers.add(new String[]{"Windows 10", "latest-2", "internet explorer"});
+        browsers.add(new String[]{"Windows 8.1", "latest-2", "internet explorer"});
+        browsers.add(new String[]{"Windows 7", "latest-2", "internet explorer", });
+        browsers.add(new String[]{"OSX 10.13", "latest-2", "Safari"});
+        browsers.add(new String[]{"OSX 10.13", "latest-2", "Chrome"});
+        browsers.add(new String[]{"OSX 10.13", "latest-2", "firefox"});
+        browsers.add(new String[]{"OSX 10.12", "latest-2", "Safari"});
+        browsers.add(new String[]{"OSX 10.12", "latest-2", "Chrome"});
+        browsers.add(new String[]{"OSX 10.12", "latest-2", "firefox"});
+        browsers.add(new String[]{"OSX 10.11", "latest-2", "Safari"});
+        browsers.add(new String[]{"OSX 10.11", "latest-2", "Chrome"});
+        browsers.add(new String[]{"OSX 10.11", "latest-2", "firefox"});
+
         return browsers;
-    } 
-      
-     
-    /**  
+    }
+
+
+    /**
      * Constructs a new {@link RemoteWebDriver} instance which is configured to use the capabilities defined by the {@link #browser},
      * {@link #version} and {@link #os} instance variables, and which is configured to run against ondemand.saucelabs.com, using
      * the username and access key populated by the {@link #authentication} instance.
@@ -167,43 +186,41 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         capabilities.setCapability("extendedDebugging", "true");
         //capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/intuit_test.bat");
         //capabilities.setCapability("prerun", "https://s3-us-west-1.amazonaws.com/kristianmeier/netflix.bat");
-        //capabilities.setCapability("tunnelIdentifier", "kristian-tunnel");
+        //capabilities.setCapability("tunnelIdentifier", "derek-test-tunnel");
         //capabilities.setCapability("parentTunnel", "myParent-tunnel");
         //capabilities.setCapability("seleniumVersion", "3.7.0");
-        //capabilities.setCapability("parentTunnel", "kristianmeiersl");
         //capabilities.setCapability("app", "sauce-storage:myapp.apk");
-        //capabilities.setCapability("app", "http://internal.pacificlife.com/somepath/myapp.apk  
 
         this.driver = new RemoteWebDriver(
-                        new URL("https://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
-                          "@ondemand.saucelabs.com:443/wd/hub"),
-                    //new URL("https://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
-                      //"@localhost:4445/wd/hub"),
+                new URL("https://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
+                  "@ondemand.saucelabs.com:443/wd/hub"),
+                    // new URL("https://" + authentication.getUsername() + ":" + authentication.getAccessKey() +
+                    //   "@localhost:4444/wd/hub"),
                 capabilities);
         this.sessionId = (((RemoteWebDriver) driver).getSessionId()).toString();
 
         String message = String.format("SauceOnDemandSessionID=%1$s job-name=%2$s", this.sessionId, methodName);
-        System.out.println(message);    
-    } 
+        System.out.println(message);
+    }
       /**
      * Runs a simple test verifying the title of the home page.
      * @throws Exception
-     */ 
-      
-    
+     */
+
+
     @Test
     public void verifyTitleTest() throws Exception {
     driver.get("http://www.saucelabs.com/");
     WebDriverWait wait = new WebDriverWait(driver, 30); // wait for a maximum of 30 seconds
     wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='site-header']/div[3]/div/div/div[3]/div/a[3]")));
     assertEquals("Cross Browser Testing, Selenium Testing, and Mobile Testing | Sauce Labs", driver.getTitle());
-    } 
-     
+    }
+
     /**
-     * Runs a simple Authentication test 
+     * Runs a simple Authentication test
      * @throws Exception
      */
-    
+
     @Test
     public void loginTest() throws Exception {
             driver.get("https://saucelabs.com/beta/login");
@@ -216,8 +233,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
       /**
      * Runs a simple test to sign up for a free trial.
      * @throws Exception
-     */ 
-    
+     */
+
     @Test
     public void freeTrialTest() throws Exception {
         driver.get("http://saucelabs.com/");
@@ -231,21 +248,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.name("company")).sendKeys("My Company");
         driver.findElement(By.name("username")).sendKeys("myUsername");
         driver.findElement(By.name("password")).sendKeys("thatsright");
-        } 
-//*
-/**
-*@Test
-*public void localHostCookieTest () throws Exception{
-*    driver.get("http://localhost");
-*    WebDriverWait wait = new WebDriverWait(driver, 30);
-*    wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div/form/input[3]")));
-*    driver.findElement(By.xpath("/html/body/div/form/input[3]")).click();
-*    WebDriverWait wait2 = new WebDriverWait(driver, 30);
-*    wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div/div/a[1]")));
-*    assertEquals("SauceTest=Cookie Test", driver.findElement(By.tagName("SauceTest=Cookie Test")).getText());
-*
-*}
-*/
+        }
+
     /**
      * Closes the {@link WebDriver} session.
      *
