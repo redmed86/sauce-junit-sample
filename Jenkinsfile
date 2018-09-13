@@ -1,5 +1,5 @@
 node('master') {
-    tool name: 'Maven 3.2.2', type: 'maven'
+    tool name: 'Maven 3.5.4', type: 'maven'
 
     // Mark the code checkout 'stage'....
     stage ('Checkout'){
