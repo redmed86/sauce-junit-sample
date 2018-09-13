@@ -8,7 +8,7 @@ node('master') {
 
     stage('Test') {
       sauce('derek_sauce_key') {
-        def mvnHome = tool 'Maven 3.2.2'
+        def mvnHome = tool 'Maven 3.5.4'
         sh "${mvnHome}/bin/mvn clean test"
       }
     }
